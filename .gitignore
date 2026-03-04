@@ -1,0 +1,9 @@
+node_modules/
+extracted/
+*.dmg
+.DS_Store
+dist/
+out/
+.vscode-test/
+src/vscode/
+staging/
