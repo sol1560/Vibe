@@ -1,0 +1,168 @@
+{
+  "Disposable": {
+    "bundleName": "at",
+    "source": "convert-to-ts.js:addDisposableType()",
+    "description": "Added \"extends Disposable\" to classes with super.dispose() or this._register()",
+    "bug": "File-level check instead of class-level; only transforms first class without extends; introduces identifier not in bundle scope",
+    "occurrencesInBuild": 38,
+    "occurrencesInOriginal": 0,
+    "affectedFiles": [
+      {
+        "file": "vs/base/browser/dom.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/base/browser/ui/scrollbar/scrollableElement.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/base/browser/ui/table/tableWidget.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/base/browser/ui/tree/abstractTree.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/base/common/actions.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/base/common/async.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/base/common/scrollable.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/browser/config/editorConfiguration.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/browser/controller/mouseHandler.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/browser/editorDom.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/browser/view.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/browser/viewParts/minimap/minimap.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/browser/widget/diffEditor/diffEditorViewModel.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/browser/widget/diffEditor/utils.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/common/cursor/cursor.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/common/languages/languageConfigurationRegistry.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/common/model/bracketPairsTextModelPart/bracketPairsImpl.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/common/services/modelService.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/common/viewModel/viewModelImpl.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/common/viewModelEventDispatcher.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/contrib/cHintLine/browser/hintLineWidget.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/contrib/cHover/browser/hoverWidget.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/contrib/codeAction/browser/codeActionModel.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/contrib/codeAction/browser/lightBulbWidget.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/contrib/editorState/browser/editorState.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/contrib/gotoSymbol/browser/peek/referencesTree.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/contrib/inlineCompletions/browser/model/suggestWidgetAdapter.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/contrib/links/browser/links.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/editor/contrib/stickyScroll/browser/stickyScrollWidget.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/workbench/browser/parts/editor/sideBySideEditor.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/workbench/browser/parts/editor/textEditor.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/workbench/contrib/chat/browser/chatContentParts/chatTreeContentPart.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/workbench/contrib/composer/browser/composerCapabilities.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/workbench/contrib/composer/browser/composerDataHandle.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/workbench/contrib/files/browser/views/openEditorsView.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/workbench/contrib/files/common/files.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/workbench/contrib/notebook/browser/diff/notebookDiffEditor.ts",
+        "count": 1
+      },
+      {
+        "file": "vs/workbench/services/progress/browser/progressIndicator.ts",
+        "count": 1
+      }
+    ]
+  }
+}

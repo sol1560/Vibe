@@ -305,8 +305,14 @@ function buildRenameMap(code, tables) {
 		if (!regex.test(code)) continue;
 
 		if (shortVar.length > 2) {
-			// Safe to rename globally — long enough to be unambiguous
-			globalRenames.set(shortVar, info.interfaceName);
+			// 只重命名在当前模块中有定义的变量，不动跨模块引用
+			const defRegex = new RegExp(
+				`(?:var|let|const)\\s+${escapeRegex(shortVar)}\\b|` +
+				`\\b${escapeRegex(shortVar)}\\s*=\\s*(?:Bi|Ki|class\\s|function\\s|new\\s)`,
+			);
+			if (defRegex.test(code)) {
+				globalRenames.set(shortVar, info.interfaceName);
+			}
 		} else {
 			// Short name — ONLY rename if it appears as a Bi() definition site
 			const biDefRegex = new RegExp(
@@ -362,7 +368,14 @@ function buildRenameMap(code, tables) {
 	for (const [implVar, info] of Object.entries(singleton_map)) {
 		if (!info.implClassName) continue;
 		if (implVar.length <= 2) continue;
-		if (code.includes(implVar)) {
+		if (!code.includes(implVar)) continue;
+
+		// 只重命名在当前模块中有定义的变量，不动跨模块引用
+		const defRegex = new RegExp(
+			`(?:var|let|const)\\s+${escapeRegex(implVar)}\\b|` +
+			`\\b${escapeRegex(implVar)}\\s*=\\s*(?:Bi|Ki|class\\s|function\\s|new\\s)`,
+		);
+		if (defRegex.test(code)) {
 			if (!globalRenames.has(implVar)) {
 				globalRenames.set(implVar, info.implClassName);
 			}

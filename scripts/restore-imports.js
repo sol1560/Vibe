@@ -170,10 +170,25 @@ function extractLeadingDependencyCalls(body) {
 	if (formattedMatch) {
 		// Check if this is a formatted dependency chain: (Qt(),\n  Od(),\n ...
 		const afterParen = code.substring(formattedMatch[0].length);
-		const firstCallMatch = afterParen.match(/^(\w+)\(\)\s*,/);
+		// Fix: use [\w$]+ to match identifiers that may contain $ in the middle (e.g. O$e, M$)
+		const firstCallMatch = afterParen.match(/^([\w$]+)\(\)\s*,/);
 		if (firstCallMatch && moduleVarSet.has(firstCallMatch[1])) {
 			inFormattedWrapper = true;
 			code = afterParen;
+		}
+	}
+
+	// Handle if()/for() wrapped dependency chains:
+	// Some modules use: "use strict";if(Qt(),Od(),...actualCode)
+	// We detect and unwrap these by stripping the outer if/for wrapper.
+	const controlWrapMatch = code.match(/^(?:if|for)\(\s*/);
+	if (controlWrapMatch) {
+		const afterControl = code.substring(controlWrapMatch[0].length);
+		// Only treat as a dep chain if the first call is a known module variable
+		const firstCallInControl = afterControl.match(/^([\w$]+)\(\)\s*,/);
+		if (firstCallInControl && moduleVarSet.has(firstCallInControl[1])) {
+			// Strip "if(" or "for(" prefix; we'll consume calls until non-dep content
+			code = afterControl;
 		}
 	}
 
@@ -183,8 +198,8 @@ function extractLeadingDependencyCalls(body) {
 		// Skip whitespace
 		while (pos < code.length && /\s/.test(code[pos])) pos++;
 
-		// Try to match: identifier()
-		const callMatch = code.substring(pos).match(/^(\$?\w+)\(\)\s*/);
+		// Try to match: identifier() — fix: [\w$]+ to handle $ in middle of identifiers
+		const callMatch = code.substring(pos).match(/^([\w$]+)\(\)\s*/);
 		if (!callMatch) break;
 
 		const varName = callMatch[1];

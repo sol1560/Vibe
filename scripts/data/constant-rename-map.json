@@ -1,0 +1,2827 @@
+{
+  "IYd": {
+    "newName": "CAUSE",
+    "value": "cause",
+    "file": "external/sentry/core/integrations/linkederrors.js"
+  },
+  "BYd": {
+    "newName": "LINKEDERRORS",
+    "value": "LinkedErrors",
+    "file": "external/sentry/core/integrations/linkederrors.js"
+  },
+  "gwc": {
+    "newName": "CMD_MCP_METHOD_NAME",
+    "value": "mcp.method.name",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "kZd": {
+    "newName": "CMD_MCP_REQUEST_ID",
+    "value": "mcp.request.id",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "EZd": {
+    "newName": "CMD_MCP_SESSION_ID",
+    "value": "mcp.session.id",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "xZd": {
+    "newName": "CMD_MCP_TRANSPORT",
+    "value": "mcp.transport",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "TZd": {
+    "newName": "CMD_MCP_SERVER_NAME",
+    "value": "mcp.server.name",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "IZd": {
+    "newName": "CMD_MCP_SERVER_TITLE",
+    "value": "mcp.server.title",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "DZd": {
+    "newName": "CMD_MCP_SERVER_VERSION",
+    "value": "mcp.server.version",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "BZd": {
+    "newName": "CMD_MCP_PROTOCOL_VERSION",
+    "value": "mcp.protocol.version",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "RZd": {
+    "newName": "CMD_MCP_TOOL_NAME",
+    "value": "mcp.tool.name",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "aFt": {
+    "newName": "CMD_MCP_RESOURCE_URI",
+    "value": "mcp.resource.uri",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "PZd": {
+    "newName": "CMD_MCP_PROMPT_NAME",
+    "value": "mcp.prompt.name",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "LZd": {
+    "newName": "CMD_MCP_TOOL_RESULT_IS_ERROR",
+    "value": "mcp.tool.result.is_error",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "NZd": {
+    "newName": "CMD_MCP_TOOL_RESULT_CONTENT_COUNT",
+    "value": "mcp.tool.result.content_count",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "MZd": {
+    "newName": "CMD_MCP_TOOL_RESULT_CONTENT",
+    "value": "mcp.tool.result.content",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "FZd": {
+    "newName": "CMD_MCP_TOOL_RESULT",
+    "value": "mcp.tool.result",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "fwc": {
+    "newName": "CMD_MCP_PROMPT_RESULT_DESCRIPTION",
+    "value": "mcp.prompt.result.description",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "OZd": {
+    "newName": "CMD_MCP_PROMPT_RESULT_MESSAGE_COUNT",
+    "value": "mcp.prompt.result.message_count",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "UZd": {
+    "newName": "CMD_MCP_PROMPT_RESULT_MESSAGE_CONTENT",
+    "value": "mcp.prompt.result.message_content",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "$Zd": {
+    "newName": "CMD_MCP_PROMPT_RESULT",
+    "value": "mcp.prompt.result",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "n2n": {
+    "newName": "CMD_MCP_REQUEST_ARGUMENT",
+    "value": "mcp.request.argument",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "qZd": {
+    "newName": "CMD_MCP_LOGGING_LEVEL",
+    "value": "mcp.logging.level",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "HZd": {
+    "newName": "CMD_MCP_LOGGING_LOGGER",
+    "value": "mcp.logging.logger",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "JZd": {
+    "newName": "CMD_MCP_LOGGING_DATA_TYPE",
+    "value": "mcp.logging.data_type",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "INo": {
+    "newName": "CMD_MCP_LOGGING_MESSAGE",
+    "value": "mcp.logging.message",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "GZd": {
+    "newName": "CMD_NETWORK_TRANSPORT",
+    "value": "network.transport",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "WZd": {
+    "newName": "CMD_NETWORK_PROTOCOL_VERSION",
+    "value": "network.protocol.version",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "bwc": {
+    "newName": "CMD_CLIENT_ADDRESS",
+    "value": "client.address",
+    "file": "external/sentry/core/integrations/mcp-server/attributes.js"
+  },
+  "cze": {
+    "newName": "CMD_SENTRY_SAMPLE_RATE",
+    "value": "sentry.sample_rate",
+    "file": "external/sentry/core/semanticAttributes.js"
+  },
+  "TMn": {
+    "newName": "CMD_SENTRY_PREVIOUS_TRACE_SAMPLE_RATE",
+    "value": "sentry.previous_trace_sample_rate",
+    "file": "external/sentry/core/semanticAttributes.js"
+  },
+  "pBe": {
+    "newName": "CMD_SENTRY_IDLE_SPAN_FINISH_REASON",
+    "value": "sentry.idle_span_finish_reason",
+    "file": "external/sentry/core/semanticAttributes.js"
+  },
+  "wpt": {
+    "newName": "CMD_SENTRY_MEASUREMENT_UNIT",
+    "value": "sentry.measurement_unit",
+    "file": "external/sentry/core/semanticAttributes.js"
+  },
+  "_pt": {
+    "newName": "CMD_SENTRY_MEASUREMENT_VALUE",
+    "value": "sentry.measurement_value",
+    "file": "external/sentry/core/semanticAttributes.js"
+  },
+  "IMn": {
+    "newName": "CMD_SENTRY_CUSTOM_SPAN_NAME",
+    "value": "sentry.custom_span_name",
+    "file": "external/sentry/core/semanticAttributes.js"
+  },
+  "DMn": {
+    "newName": "CMD_SENTRY_PROFILE_ID",
+    "value": "sentry.profile_id",
+    "file": "external/sentry/core/semanticAttributes.js"
+  },
+  "lze": {
+    "newName": "CMD_SENTRY_EXCLUSIVE_TIME",
+    "value": "sentry.exclusive_time",
+    "file": "external/sentry/core/semanticAttributes.js"
+  },
+  "MVd": {
+    "newName": "CMD_CACHE_HIT",
+    "value": "cache.hit",
+    "file": "external/sentry/core/semanticAttributes.js"
+  },
+  "FVd": {
+    "newName": "CMD_CACHE_KEY",
+    "value": "cache.key",
+    "file": "external/sentry/core/semanticAttributes.js"
+  },
+  "gXd": {
+    "newName": "CMD_GEN_AI_PROMPT",
+    "value": "gen_ai.prompt",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "i2n": {
+    "newName": "CMD_GEN_AI_SYSTEM",
+    "value": "gen_ai.system",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "wte": {
+    "newName": "CMD_GEN_AI_REQUEST_MODEL",
+    "value": "gen_ai.request.model",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "NNo": {
+    "newName": "CMD_GEN_AI_REQUEST_STREAM",
+    "value": "gen_ai.request.stream",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "r2n": {
+    "newName": "CMD_GEN_AI_REQUEST_TEMPERATURE",
+    "value": "gen_ai.request.temperature",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "MNo": {
+    "newName": "CMD_GEN_AI_REQUEST_MAX_TOKENS",
+    "value": "gen_ai.request.max_tokens",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "s2n": {
+    "newName": "CMD_GEN_AI_REQUEST_FREQUENCY_PENALTY",
+    "value": "gen_ai.request.frequency_penalty",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "FNo": {
+    "newName": "CMD_GEN_AI_REQUEST_PRESENCE_PENALTY",
+    "value": "gen_ai.request.presence_penalty",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "o2n": {
+    "newName": "CMD_GEN_AI_REQUEST_TOP_P",
+    "value": "gen_ai.request.top_p",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "Dwc": {
+    "newName": "CMD_GEN_AI_REQUEST_TOP_K",
+    "value": "gen_ai.request.top_k",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "vze": {
+    "newName": "CMD_GEN_AI_RESPONSE_FINISH_REASONS",
+    "value": "gen_ai.response.finish_reasons",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "Opt": {
+    "newName": "CMD_GEN_AI_RESPONSE_MODEL",
+    "value": "gen_ai.response.model",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "Upt": {
+    "newName": "CMD_GEN_AI_RESPONSE_ID",
+    "value": "gen_ai.response.id",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "fXd": {
+    "newName": "CMD_GEN_AI_RESPONSE_STOP_REASON",
+    "value": "gen_ai.response.stop_reason",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "t5e": {
+    "newName": "CMD_GEN_AI_USAGE_INPUT_TOKENS",
+    "value": "gen_ai.usage.input_tokens",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "n5e": {
+    "newName": "CMD_GEN_AI_USAGE_OUTPUT_TOKENS",
+    "value": "gen_ai.usage.output_tokens",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "$pt": {
+    "newName": "CMD_GEN_AI_USAGE_TOTAL_TOKENS",
+    "value": "gen_ai.usage.total_tokens",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "qpt": {
+    "newName": "CMD_GEN_AI_OPERATION_NAME",
+    "value": "gen_ai.operation.name",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "ABe": {
+    "newName": "CMD_GEN_AI_REQUEST_MESSAGES",
+    "value": "gen_ai.request.messages",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "wbe": {
+    "newName": "CMD_GEN_AI_RESPONSE_TEXT",
+    "value": "gen_ai.response.text",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "ONo": {
+    "newName": "CMD_GEN_AI_REQUEST_AVAILABLE_TOOLS",
+    "value": "gen_ai.request.available_tools",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "a2n": {
+    "newName": "CMD_GEN_AI_RESPONSE_STREAMING",
+    "value": "gen_ai.response.streaming",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "yBe": {
+    "newName": "CMD_GEN_AI_RESPONSE_TOOL_CALLS",
+    "value": "gen_ai.response.tool_calls",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "bXd": {
+    "newName": "CMD_GEN_AI_USAGE_CACHE_CREATION_INPUT_TOKENS",
+    "value": "gen_ai.usage.cache_creation_input_tokens",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "vXd": {
+    "newName": "CMD_GEN_AI_USAGE_CACHE_READ_INPUT_TOKENS",
+    "value": "gen_ai.usage.cache_read_input_tokens",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "Bwc": {
+    "newName": "CMD_GEN_AI_USAGE_INPUT_TOKENS_CACHE_WRITE",
+    "value": "gen_ai.usage.input_tokens.cache_write",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "uFt": {
+    "newName": "CMD_GEN_AI_USAGE_INPUT_TOKENS_CACHED",
+    "value": "gen_ai.usage.input_tokens.cached",
+    "file": "external/sentry/core/utils/ai/gen-ai-attributes.js"
+  },
+  "Fwc": {
+    "newName": "CMD_AI_PROMPT",
+    "value": "ai.prompt",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "IXd": {
+    "newName": "CMD_AI_SCHEMA",
+    "value": "ai.schema",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "DXd": {
+    "newName": "CMD_AI_RESPONSE_OBJECT",
+    "value": "ai.response.object",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "BXd": {
+    "newName": "CMD_AI_RESPONSE_TEXT",
+    "value": "ai.response.text",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "RXd": {
+    "newName": "CMD_AI_RESPONSE_TOOL_CALLS",
+    "value": "ai.response.toolCalls",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "PXd": {
+    "newName": "CMD_AI_PROMPT_MESSAGES",
+    "value": "ai.prompt.messages",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "LXd": {
+    "newName": "CMD_AI_PROMPT_TOOLS",
+    "value": "ai.prompt.tools",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "wBe": {
+    "newName": "CMD_AI_MODEL_ID",
+    "value": "ai.model.id",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "NXd": {
+    "newName": "CMD_AI_MODEL_PROVIDER",
+    "value": "ai.model.provider",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "MXd": {
+    "newName": "CMD_AI_RESPONSE_PROVIDER_METADATA",
+    "value": "ai.response.providerMetadata",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "FXd": {
+    "newName": "CMD_AI_USAGE_CACHED_INPUT_TOKENS",
+    "value": "ai.usage.cachedInputTokens",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "OXd": {
+    "newName": "CMD_AI_TELEMETRY_FUNCTION_ID",
+    "value": "ai.telemetry.functionId",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "UXd": {
+    "newName": "CMD_AI_USAGE_COMPLETION_TOKENS",
+    "value": "ai.usage.completionTokens",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "$Xd": {
+    "newName": "CMD_AI_USAGE_PROMPT_TOKENS",
+    "value": "ai.usage.promptTokens",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "Owc": {
+    "newName": "CMD_GEN_AI_RESPONSE_MODEL",
+    "value": "gen_ai.response.model",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "qNo": {
+    "newName": "CMD_GEN_AI_USAGE_INPUT_TOKENS",
+    "value": "gen_ai.usage.input_tokens",
+    "file": "external/sentry/core/utils/vercel-ai/vercel-ai-attributes.js"
+  },
+  "fpa": {
+    "newName": "START",
+    "value": "start",
+    "file": "external/statsig/client-core/Diagnostics.js"
+  },
+  "bpa": {
+    "newName": "END",
+    "value": "end",
+    "file": "external/statsig/client-core/Diagnostics.js"
+  },
+  "Ipa": {
+    "newName": "FOREGROUND",
+    "value": "foreground",
+    "file": "external/statsig/client-core/VisibilityObserving.js"
+  },
+  "Dpa": {
+    "newName": "BACKGROUND",
+    "value": "background",
+    "file": "external/statsig/client-core/VisibilityObserving.js"
+  },
+  "dJf": {
+    "newName": "CAUSE",
+    "value": "cause",
+    "file": "node_modules/@sentry/browser/build/npm/esm/prod/integrations/linkederrors.js"
+  },
+  "mJf": {
+    "newName": "LINKEDERRORS",
+    "value": "LinkedErrors",
+    "file": "node_modules/@sentry/browser/build/npm/esm/prod/integrations/linkederrors.js"
+  },
+  "lifecycle": {
+    "newName": "TRACE",
+    "value": "trace",
+    "file": "node_modules/@sentry/browser/build/npm/esm/prod/profiling/lifecycleMode/traceLifecycleProfiler.js"
+  },
+  "ISc": {
+    "newName": "PARENTFLOWTOELEMENTID",
+    "value": "parentFlowToElementId",
+    "file": "vs/base/browser/dom.js"
+  },
+  "O0a": {
+    "newName": "DONE",
+    "value": "done",
+    "file": "vs/base/browser/ui/progressbar/progressbar.js"
+  },
+  "U0a": {
+    "newName": "ACTIVE",
+    "value": "active",
+    "file": "vs/base/browser/ui/progressbar/progressbar.js"
+  },
+  "p_i": {
+    "newName": "INFINITE",
+    "value": "infinite",
+    "file": "vs/base/browser/ui/progressbar/progressbar.js"
+  },
+  "g_i": {
+    "newName": "INFINITE_LONG_RUNNING",
+    "value": "infinite-long-running",
+    "file": "vs/base/browser/ui/progressbar/progressbar.js"
+  },
+  "$0a": {
+    "newName": "DISCRETE",
+    "value": "discrete",
+    "file": "vs/base/browser/ui/progressbar/progressbar.js"
+  },
+  "w3n": {
+    "newName": "POINTER_EVENTS_DISABLED",
+    "value": "pointer-events-disabled",
+    "file": "vs/base/browser/ui/sash/sash.js"
+  },
+  "YIc": {
+    "newName": "CMD_SELECT_OPTION_ENTRY_TEMPLATE",
+    "value": "selectOption.entry.template",
+    "file": "vs/base/browser/ui/selectBox/selectBoxCustom.js"
+  },
+  "krh": {
+    "newName": "CMD_EDITOR_ACTION_MARKER_NEXT",
+    "value": "editor.action.marker.next",
+    "file": "vs/base/common/constants.js"
+  },
+  "Erh": {
+    "newName": "CMD_EDITOR_ACTION_MARKER_THIS",
+    "value": "editor.action.marker.this",
+    "file": "vs/base/common/constants.js"
+  },
+  "dCc": {
+    "newName": "URL_DOCS_CONFIGURATION_WORKTREES",
+    "value": "https://cursor.com/docs/configuration/worktrees",
+    "file": "vs/base/common/constants.js"
+  },
+  "s4t": {
+    "newName": "CMD_WORKBENCH_VIEW_BACKGROUND_AGENT",
+    "value": "workbench.view.backgroundAgent",
+    "file": "vs/base/common/constants.js"
+  },
+  "xrh": {
+    "newName": "MARKER_DECORATION",
+    "value": "marker-decoration",
+    "file": "vs/base/common/constants.js"
+  },
+  "c2o": {
+    "newName": "CMD_GO_TO_DEFINITION_FROM_CHAT_RESPONSE",
+    "value": "aichat.action.goToDefinitionFromChatResponse",
+    "file": "vs/base/common/constants.js"
+  },
+  "Tgt": {
+    "newName": "CMD_COMPOSER_CREATE_NEW",
+    "value": "composer.createNew",
+    "file": "vs/base/common/constants.js"
+  },
+  "pCc": {
+    "newName": "CMD_TOGGLE_CONTROL_PANEL_EXPAND",
+    "value": "workbench.action.backgroundComposer.toggleControlPanelExpand",
+    "file": "vs/base/common/constants.js"
+  },
+  "o4t": {
+    "newName": "CMD_COMPOSER_CREATE_NEW_WITH_PREV_CONTEXT",
+    "value": "composer.createNewWithPrevContext",
+    "file": "vs/base/common/constants.js"
+  },
+  "gCc": {
+    "newName": "CMD_CURSORAI_ACTION_SET_QUERY_ONLY_INDEX",
+    "value": "cursorai.action.setQueryOnlyIndex",
+    "file": "vs/base/common/constants.js"
+  },
+  "Igt": {
+    "newName": "CMD_FIRSTTIME",
+    "value": "workbench.contrib.onboarding.browser.gettingStarted.contribution.ts.firsttime",
+    "file": "vs/base/common/constants.js"
+  },
+  "Jze": {
+    "newName": "CMD_APPLY_LAYOUT_ON_STARTUP",
+    "value": "workbench.contrib.onboardingAgentIntro.applyLayoutOnStartup",
+    "file": "vs/base/common/constants.js"
+  },
+  "Dgt": {
+    "newName": "CMD_TARGET_WORKSPACE_URI",
+    "value": "workbench.contrib.onboardingAgentIntro.targetWorkspaceUri",
+    "file": "vs/base/common/constants.js"
+  },
+  "Irh": {
+    "newName": "CMD_SHOWN",
+    "value": "workbench.contrib.onboarding.browser.changeManagement.03122025.shown",
+    "file": "vs/base/common/constants.js"
+  },
+  "Drh": {
+    "newName": "CMD_SHOWN_2",
+    "value": "workbench.contrib.onboarding.browser.changeManagement.03262025.shown",
+    "file": "vs/base/common/constants.js"
+  },
+  "gFn": {
+    "newName": "CMD_SHOWN_3",
+    "value": "workbench.contrib.onboarding.browser.changePopup.03292025.shown",
+    "file": "vs/base/common/constants.js"
+  },
+  "bCc": {
+    "newName": "CMD_CURSOR_SHOW_TOOLTIP_ACTION_ID",
+    "value": "cursor.showTooltipActionId",
+    "file": "vs/base/common/constants.js"
+  },
+  "vCc": {
+    "newName": "CMD_TOOLTIP_CLOSE_REGISTER",
+    "value": "tooltip.close.register",
+    "file": "vs/base/common/constants.js"
+  },
+  "ACc": {
+    "newName": "CMD_AI_SETTINGS_ACTION_FOCUS_SEARCH",
+    "value": "aiSettings.action.focusSearch",
+    "file": "vs/base/common/constants.js"
+  },
+  "Brh": {
+    "newName": "CMD_AI_SETTINGS_ACTION_OPENHIDDEN",
+    "value": "aiSettings.action.openhidden",
+    "file": "vs/base/common/constants.js"
+  },
+  "yCc": {
+    "newName": "CMD_CURSOR_SHOW_SUBSCRIPTION_TIERS_MODAL",
+    "value": "cursor.showSubscriptionTiersModal",
+    "file": "vs/base/common/constants.js"
+  },
+  "Bgt": {
+    "newName": "CMD_CURSOR_PREFER_NOTIFICATIONS_SAME_AS_CHAT",
+    "value": "cursor.preferNotificationsSameAsChat",
+    "file": "vs/base/common/constants.js"
+  },
+  "l2o": {
+    "newName": "CMD_SET_WINDOW_IN_WINDOW_EXPANDED",
+    "value": "cursorai.action.setWindowInWindowExpanded",
+    "file": "vs/base/common/constants.js"
+  },
+  "u2o": {
+    "newName": "CMD_SET_WINDOW_IN_WINDOW_COLLAPSED",
+    "value": "cursorai.action.setWindowInWindowCollapsed",
+    "file": "vs/base/common/constants.js"
+  },
+  "Rrh": {
+    "newName": "CMD_WORKBENCH_ACTION_APPLY_SETUP_ASYNC_VM_LAYOUT",
+    "value": "workbench.action.applySetupAsyncVMLayout",
+    "file": "vs/base/common/constants.js"
+  },
+  "d2o": {
+    "newName": "CMD_RUN_TERMINAL_COMMAND_IN_WINDOW",
+    "value": "workbench.action.runTerminalCommandInWindow",
+    "file": "vs/base/common/constants.js"
+  },
+  "a4t": {
+    "newName": "CMD_SHOW_SNAPSHOT_NOTIFICATION",
+    "value": "workbench.action.backgroundComposer.showSnapshotNotification",
+    "file": "vs/base/common/constants.js"
+  },
+  "CCc": {
+    "newName": "ALL_EXTENSIONS_",
+    "value": "all-extensions-",
+    "file": "vs/base/common/constants.js"
+  },
+  "fFn": {
+    "newName": "CMD_CURSORAI_ACTION_SWITCH_TO_MODEL",
+    "value": "cursorai.action.switchToModel",
+    "file": "vs/base/common/constants.js"
+  },
+  "kCc": {
+    "newName": "CMD_CURSORAI_ACTION_ADD_MODEL_TO_SWITCHER",
+    "value": "cursorai.action.addModelToSwitcher",
+    "file": "vs/base/common/constants.js"
+  },
+  "bFn": {
+    "newName": "CMD_CURSORAI_ACTION_GENERATE_IN_TERMINAL",
+    "value": "cursorai.action.generateInTerminal",
+    "file": "vs/base/common/constants.js"
+  },
+  "g2o": {
+    "newName": "CMD_CURSORAI_ACTION_HIDE_GENERATE_IN_TERMINAL",
+    "value": "cursorai.action.hideGenerateInTerminal",
+    "file": "vs/base/common/constants.js"
+  },
+  "c4t": {
+    "newName": "CMD_CURSORAI_ACTION_CANCEL_GENERATE_IN_TERMINAL",
+    "value": "cursorai.action.cancelGenerateInTerminal",
+    "file": "vs/base/common/constants.js"
+  },
+  "ECc": {
+    "newName": "CMD_CURSORAI_ACTION_ACCEPT_GENERATE_IN_TERMINAL",
+    "value": "cursorai.action.acceptGenerateInTerminal",
+    "file": "vs/base/common/constants.js"
+  },
+  "vFn": {
+    "newName": "CMD_ACCEPT_AND_RUN_GENERATE_IN_TERMINAL",
+    "value": "cursorai.action.acceptAndRunGenerateInTerminal",
+    "file": "vs/base/common/constants.js"
+  },
+  "AFn": {
+    "newName": "CMD_CURSORAI_ACTION_REJECT_GENERATE_IN_TERMINAL",
+    "value": "cursorai.action.rejectGenerateInTerminal",
+    "file": "vs/base/common/constants.js"
+  },
+  "Lrh": {
+    "newName": "CMD_CURSORAI_ACTION_WINDOW_IN_WINDOW_DID_SHOW",
+    "value": "cursorai.action.windowInWindowDidShow",
+    "file": "vs/base/common/constants.js"
+  },
+  "Nrh": {
+    "newName": "CMD_CURSORAI_ACTION_WINDOW_IN_WINDOW_DID_HIDE",
+    "value": "cursorai.action.windowInWindowDidHide",
+    "file": "vs/base/common/constants.js"
+  },
+  "xCc": {
+    "newName": "CMD_WINDOW_IN_WINDOW_SET_ZOOM_LEVEL",
+    "value": "cursorai.action.windowInWindowSetZoomLevel",
+    "file": "vs/base/common/constants.js"
+  },
+  "PBe": {
+    "newName": "CMD_AIPOPUP_ACTION_FOCUS_EDIT",
+    "value": "aipopup.action.focusEdit",
+    "file": "vs/base/common/constants.js"
+  },
+  "yFn": {
+    "newName": "CMD_AIPOPUP_ACTION_CMD_K_REMOVE_FOLLOWUP",
+    "value": "aipopup.action.cmdKRemoveFollowup",
+    "file": "vs/base/common/constants.js"
+  },
+  "Mrh": {
+    "newName": "CMD_CURSOR_CHAT_SMOOTH_STREAMING",
+    "value": "cursor.chat.smoothStreaming",
+    "file": "vs/base/common/constants.js"
+  },
+  "LBe": {
+    "newName": "CMD_CURSOR_CMDK_USE_THEMED_DIFF_BACKGROUND_2",
+    "value": "cursor.cmdk.useThemedDiffBackground2",
+    "file": "vs/base/common/constants.js"
+  },
+  "l4t": {
+    "newName": "CMD_ENABLE_PERFORMANCE_PROTECTION",
+    "value": "cursor.inlineDiff.enablePerformanceProtection",
+    "file": "vs/base/common/constants.js"
+  },
+  "_Fn": {
+    "newName": "CMD_CURSOR_TERMINAL_USE_PREVIEW_BOX",
+    "value": "cursor.terminal.usePreviewBox",
+    "file": "vs/base/common/constants.js"
+  },
+  "TCc": {
+    "newName": "CMD_CURSOR_TERMINAL_ENABLE_AI_CHECKS",
+    "value": "cursor.terminal.enableAiChecks",
+    "file": "vs/base/common/constants.js"
+  },
+  "CFn": {
+    "newName": "CMD_CURSOR_CPP_ENABLE_PARTIAL_ACCEPTS",
+    "value": "cursor.cpp.enablePartialAccepts",
+    "file": "vs/base/common/constants.js"
+  },
+  "Frh": {
+    "newName": "CMD_CURSOR_COMPOSER_CMD_P_FILE_PICKER_2",
+    "value": "cursor.composer.cmdPFilePicker2",
+    "file": "vs/base/common/constants.js"
+  },
+  "ICc": {
+    "newName": "CMD_SHOULD_SHOW_MARKDOWN_HOVER_PARTICIPANT_ACTIONS_2",
+    "value": "cursor.composer.shouldShowMarkdownHoverParticipantActions2",
+    "file": "vs/base/common/constants.js"
+  },
+  "Orh": {
+    "newName": "CMD_CURSOR_COMPOSER_SHOULD_AUTO_SAVE_NON_AGENT",
+    "value": "cursor.composer.shouldAutoSaveNonAgent",
+    "file": "vs/base/common/constants.js"
+  },
+  "SFn": {
+    "newName": "CMD_SHOULD_CHIME_AFTER_CHAT_FINISHES",
+    "value": "cursor.composer.shouldChimeAfterChatFinishes",
+    "file": "vs/base/common/constants.js"
+  },
+  "kFn": {
+    "newName": "CMD_CURSOR_COMPOSER_CUSTOM_CHIME_SOUND_PATH",
+    "value": "cursor.composer.customChimeSoundPath",
+    "file": "vs/base/common/constants.js"
+  },
+  "DCc": {
+    "newName": "CMD_CURSOR_COMPOSER_SUBAGENT_MODEL",
+    "value": "cursor.composer.subagentModel",
+    "file": "vs/base/common/constants.js"
+  },
+  "u4t": {
+    "newName": "CMD_QUEUE_MESSAGE_DEFAULT_BEHAVIOR",
+    "value": "cursor.composer.queueMessageDefaultBehavior",
+    "file": "vs/base/common/constants.js"
+  },
+  "EFn": {
+    "newName": "CMD_CURSOR_GENERAL_ENABLE_SHADOW_WORKSPACE",
+    "value": "cursor.general.enableShadowWorkspace",
+    "file": "vs/base/common/constants.js"
+  },
+  "f5e": {
+    "newName": "CMD_WORKBENCH_ACTIVITY_BAR_ORIENTATION",
+    "value": "workbench.activityBar.orientation",
+    "file": "vs/base/common/constants.js"
+  },
+  "b5e": {
+    "newName": "LEFT",
+    "value": "left",
+    "file": "vs/base/common/constants.js"
+  },
+  "RCc": {
+    "newName": "CMD_EDITOR_ACTION_UNDO_LEXICAL",
+    "value": "editor.action.undoLexical",
+    "file": "vs/base/common/constants.js"
+  },
+  "PCc": {
+    "newName": "CMD_EDITOR_ACTION_REDO_LEXICAL",
+    "value": "editor.action.redoLexical",
+    "file": "vs/base/common/constants.js"
+  },
+  "b2o": {
+    "newName": "CMD_EDITOR_ACTION_RENDER_VIEW_ZONE",
+    "value": "editor.action.renderViewZone",
+    "file": "vs/base/common/constants.js"
+  },
+  "v2o": {
+    "newName": "CMD_AIPOPUP_ACTION_CLOSE_PROMPT_BAR",
+    "value": "aipopup.action.closePromptBar",
+    "file": "vs/base/common/constants.js"
+  },
+  "Urh": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_DIFFS_SUBMIT_FIX",
+    "value": "editor.action.inlineDiffs.submitFix",
+    "file": "vs/base/common/constants.js"
+  },
+  "$rh": {
+    "newName": "CMD_CURSORAI_ACTION_REPORT_BAD_CMD_K",
+    "value": "cursorai.action.reportBadCmdK",
+    "file": "vs/base/common/constants.js"
+  },
+  "qrh": {
+    "newName": "CMD_CURSORAI_ACTION_REPORT_GOOD_CMD_K",
+    "value": "cursorai.action.reportGoodCmdK",
+    "file": "vs/base/common/constants.js"
+  },
+  "Hrh": {
+    "newName": "CMD_CURSORAI_ACTION_REPORT_BAD_AI_ACTION",
+    "value": "cursorai.action.reportBadAIAction",
+    "file": "vs/base/common/constants.js"
+  },
+  "Jrh": {
+    "newName": "CMD_CURSORAI_ACTION_REPORT_GOOD_AI_ACTION",
+    "value": "cursorai.action.reportGoodAIAction",
+    "file": "vs/base/common/constants.js"
+  },
+  "LCc": {
+    "newName": "CMD_CURSORAI_ACTION_SHOW_USAGE_PRICING_MODAL",
+    "value": "cursorai.action.showUsagePricingModal",
+    "file": "vs/base/common/constants.js"
+  },
+  "Grh": {
+    "newName": "CMD_CURSORAI_ACTION_OPEN_ACCOUNT_SETTINGS",
+    "value": "cursorai.action.openAccountSettings",
+    "file": "vs/base/common/constants.js"
+  },
+  "NCc": {
+    "newName": "CMD_AIPOPUP_ACTION_NEXT_PROMPT_BAR",
+    "value": "aipopup.action.nextPromptBar",
+    "file": "vs/base/common/constants.js"
+  },
+  "xFn": {
+    "newName": "CMD_CURSORAI_ACTION_IMPORTVSCODE",
+    "value": "cursorai.action.importvscode",
+    "file": "vs/base/common/constants.js"
+  },
+  "Wrh": {
+    "newName": "CMD_CURSORAI_ACTION_CPP_AFTER_ONBOARDING",
+    "value": "cursorai.action.cppAfterOnboarding",
+    "file": "vs/base/common/constants.js"
+  },
+  "Qrh": {
+    "newName": "CMD_CURSORAI_ACTION_REPO_INDEX_MAIN_REPOSITORY",
+    "value": "cursorai.action.repo.indexMainRepository",
+    "file": "vs/base/common/constants.js"
+  },
+  "jrh": {
+    "newName": "CMD_CURSORAI_ACTION_DISABLE_FALLBACK_MODELS",
+    "value": "cursorai.action.disableFallbackModels",
+    "file": "vs/base/common/constants.js"
+  },
+  "zrh": {
+    "newName": "CMD_INCREMENT_SHOWN_MODEL_FALLBACKS_WARNING_COUNT",
+    "value": "cursorai.action.incrementShownModelFallbacksWarningCount",
+    "file": "vs/base/common/constants.js"
+  },
+  "Vrh": {
+    "newName": "AICHAT_CONTAINER",
+    "value": "aichat-container",
+    "file": "vs/base/common/constants.js"
+  },
+  "MCc": {
+    "newName": "CMD_AICHAT_NEWCHATACTION",
+    "value": "aichat.newchataction",
+    "file": "vs/base/common/constants.js"
+  },
+  "A2o": {
+    "newName": "CMD_AI_FEEDBACK_ACTION_REPORT_BUGS",
+    "value": "aiFeedback.action.reportBugs",
+    "file": "vs/base/common/constants.js"
+  },
+  "OCc": {
+    "newName": "CMD_AI_FEEDBACK_ACTION_OPEN",
+    "value": "aiFeedback.action.open",
+    "file": "vs/base/common/constants.js"
+  },
+  "Krh": {
+    "newName": "CMD_CURSORAI_ACTION_TAKE_INTERPRETER_ACTION",
+    "value": "cursorai.action.takeInterpreterAction",
+    "file": "vs/base/common/constants.js"
+  },
+  "UCc": {
+    "newName": "CURSOR_UNIQUE_IDE_ACTION_IDENTIFIER_31972EE0D628",
+    "value": "cursor-unique-ide-action-identifier-31972ee0d628",
+    "file": "vs/base/common/constants.js"
+  },
+  "qCc": {
+    "newName": "CMD_WORKBENCH_PANEL_AICHAT_VIEW",
+    "value": "workbench.panel.aichat.view",
+    "file": "vs/base/common/constants.js"
+  },
+  "TFn": {
+    "newName": "CMD_COMPOSER_COMPOSER_DATA",
+    "value": "composer.composerData",
+    "file": "vs/base/common/constants.js"
+  },
+  "IFn": {
+    "newName": "CMD_PERSISTENT_DATA",
+    "value": "workbench.backgroundComposer.persistentData",
+    "file": "vs/base/common/constants.js"
+  },
+  "DFn": {
+    "newName": "CMD_WORKSPACE_PERSISTENT_DATA",
+    "value": "workbench.backgroundComposer.workspacePersistentData",
+    "file": "vs/base/common/constants.js"
+  },
+  "y2o": {
+    "newName": "CMD_AGENT_LAYOUT_SHARED_V_6",
+    "value": "agentLayout.shared.v6",
+    "file": "vs/base/common/constants.js"
+  },
+  "Fbe": {
+    "newName": "CMD_WORKBENCH_PANEL_AICHAT",
+    "value": "workbench.panel.aichat",
+    "file": "vs/base/common/constants.js"
+  },
+  "Yrh": {
+    "newName": "CMD_EDITOR_ACTION_UPDATE_GHOST_TEXT",
+    "value": "editor.action.updateGhostText",
+    "file": "vs/base/common/constants.js"
+  },
+  "Zrh": {
+    "newName": "CMD_EDITOR_ACTION_UPDATE_HINT_LINE",
+    "value": "editor.action.updateHintLine",
+    "file": "vs/base/common/constants.js"
+  },
+  "Xrh": {
+    "newName": "CMD_EDITOR_ACTION_ENABLE_CPP_GLOBALLY",
+    "value": "editor.action.enableCppGlobally",
+    "file": "vs/base/common/constants.js"
+  },
+  "NBe": {
+    "newName": "CMD_EDITOR_ACTION_ACCEPT_CURSOR_TAB_SUGGESTION",
+    "value": "editor.action.acceptCursorTabSuggestion",
+    "file": "vs/base/common/constants.js"
+  },
+  "esh": {
+    "newName": "CMD_WORKBENCH_ACTION_DISABLE_AUTOCOMPLETES",
+    "value": "workbench.action.disableAutocompletes",
+    "file": "vs/base/common/constants.js"
+  },
+  "C2o": {
+    "newName": "CMD_CURSORAI_ACTION_HIDE_NOTIFICATIONS_FOR_MS",
+    "value": "cursorai.action.hideNotificationsForMs",
+    "file": "vs/base/common/constants.js"
+  },
+  "BFn": {
+    "newName": "CURSORPREDICTION",
+    "value": "cursorPrediction",
+    "file": "vs/base/common/constants.js"
+  },
+  "JCc": {
+    "newName": "CMD_DO_NOT_IGNORE_MENU_SHORTCUTS",
+    "value": "workbench.action.webview.doNotIgnoreMenuShortcuts",
+    "file": "vs/base/common/constants.js"
+  },
+  "GCc": {
+    "newName": "CMD_DATA_PRIVACY_ONBOARDING",
+    "value": "cursor.featureStatus.dataPrivacyOnboarding",
+    "file": "vs/base/common/constants.js"
+  },
+  "RFn": {
+    "newName": "CMD_CURSOR_GENERAL_EMAIL_PRIVACY_ENABLED",
+    "value": "cursor.general.emailPrivacyEnabled",
+    "file": "vs/base/common/constants.js"
+  },
+  "k2o": {
+    "newName": "CMD_CURSOR_GENERAL_GLOBAL_CURSOR_IGNORE_LIST",
+    "value": "cursor.general.globalCursorIgnoreList",
+    "file": "vs/base/common/constants.js"
+  },
+  "Jih": {
+    "newName": "TKN",
+    "value": "tkn",
+    "file": "vs/base/common/network.js"
+  },
+  "j0c": {
+    "newName": "VSCODE_APP",
+    "value": "vscode-app",
+    "file": "vs/base/common/network.js"
+  },
+  "o5e": {
+    "newName": "EN",
+    "value": "en",
+    "file": "vs/base/common/platform.js"
+  },
+  "Mte": {
+    "newName": "INUNTRUSTEDWORKSPACE",
+    "value": "inUntrustedWorkspace",
+    "file": "vs/editor/common/config/editorOptions.js"
+  },
+  "fpe": {
+    "newName": "CMD_AIPOPUP_ACTION_MODAL_GENERATE",
+    "value": "aipopup.action.modal.generate",
+    "file": "vs/editor/contrib/cHintLine/browser/hintLineWidget.js"
+  },
+  "_0u": {
+    "newName": "CMD_EDITOR_LINE_HIGHLIGHT_BACKGROUND",
+    "value": "editor.lineHighlightBackground",
+    "file": "vs/editor/contrib/cHintLine/browser/hintLineWidget.js"
+  },
+  "H5o": {
+    "newName": "CMD_EDITOR_ACTION_CODE_ACTION",
+    "value": "editor.action.codeAction",
+    "file": "vs/editor/contrib/codeAction/browser/codeAction.js"
+  },
+  "J5o": {
+    "newName": "CMD_EDITOR_ACTION_QUICK_FIX",
+    "value": "editor.action.quickFix",
+    "file": "vs/editor/contrib/codeAction/browser/codeAction.js"
+  },
+  "vBc": {
+    "newName": "CMD_EDITOR_ACTION_AUTO_FIX",
+    "value": "editor.action.autoFix",
+    "file": "vs/editor/contrib/codeAction/browser/codeAction.js"
+  },
+  "G5o": {
+    "newName": "CMD_EDITOR_ACTION_REFACTOR",
+    "value": "editor.action.refactor",
+    "file": "vs/editor/contrib/codeAction/browser/codeAction.js"
+  },
+  "W5o": {
+    "newName": "CMD_EDITOR_ACTION_SOURCE_ACTION",
+    "value": "editor.action.sourceAction",
+    "file": "vs/editor/contrib/codeAction/browser/codeAction.js"
+  },
+  "Q5o": {
+    "newName": "CMD_EDITOR_ACTION_ORGANIZE_IMPORTS",
+    "value": "editor.action.organizeImports",
+    "file": "vs/editor/contrib/codeAction/browser/codeAction.js"
+  },
+  "j5o": {
+    "newName": "CMD_EDITOR_ACTION_FIX_ALL",
+    "value": "editor.action.fixAll",
+    "file": "vs/editor/contrib/codeAction/browser/codeAction.js"
+  },
+  "gBc": {
+    "newName": "CMD_EDITOR_CHANGE_PASTE_TYPE",
+    "value": "editor.changePasteType",
+    "file": "vs/editor/contrib/dropOrPasteInto/browser/copyPasteController.ts"
+  },
+  "U5o": {
+    "newName": "CMD_EDITOR_PASTE_AS_PREFERENCES",
+    "value": "editor.pasteAs.preferences",
+    "file": "vs/editor/contrib/dropOrPasteInto/browser/copyPasteController.ts"
+  },
+  "VWl": {
+    "newName": "CMD_CTRL_ENTER_REPLACE_ALL_WINDOWS_DONOTASK",
+    "value": "ctrlEnterReplaceAll.windows.donotask",
+    "file": "vs/editor/contrib/find/browser/findWidget.js"
+  },
+  "i5c": {
+    "newName": "CMD_EDITOR_ACTION_SHOW_HOVER",
+    "value": "editor.action.showHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "FHh": {
+    "newName": "CMD_EDITOR_ACTION_SHOW_DEFINITION_PREVIEW_HOVER",
+    "value": "editor.action.showDefinitionPreviewHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "OHh": {
+    "newName": "CMD_EDITOR_ACTION_HIDE_HOVER",
+    "value": "editor.action.hideHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "UHh": {
+    "newName": "CMD_EDITOR_ACTION_SCROLL_UP_HOVER",
+    "value": "editor.action.scrollUpHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "$Hh": {
+    "newName": "CMD_EDITOR_ACTION_SCROLL_DOWN_HOVER",
+    "value": "editor.action.scrollDownHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "qHh": {
+    "newName": "CMD_EDITOR_ACTION_SCROLL_LEFT_HOVER",
+    "value": "editor.action.scrollLeftHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "HHh": {
+    "newName": "CMD_EDITOR_ACTION_SCROLL_RIGHT_HOVER",
+    "value": "editor.action.scrollRightHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "JHh": {
+    "newName": "CMD_EDITOR_ACTION_PAGE_UP_HOVER",
+    "value": "editor.action.pageUpHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "GHh": {
+    "newName": "CMD_EDITOR_ACTION_PAGE_DOWN_HOVER",
+    "value": "editor.action.pageDownHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "WHh": {
+    "newName": "CMD_EDITOR_ACTION_GO_TO_TOP_HOVER",
+    "value": "editor.action.goToTopHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "QHh": {
+    "newName": "CMD_EDITOR_ACTION_GO_TO_BOTTOM_HOVER",
+    "value": "editor.action.goToBottomHover",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "Rvt": {
+    "newName": "CMD_INCREASE_HOVER_VERBOSITY_LEVEL",
+    "value": "editor.action.increaseHoverVerbosityLevel",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "jHh": {
+    "newName": "CMD_INCREASE_HOVER_VERBOSITY_LEVEL_FROM_ACCESSIBLE_VIEW",
+    "value": "editor.action.increaseHoverVerbosityLevelFromAccessibleView",
+    "file": "vs/editor/contrib/hover/browser/hoverActionIds.js"
+  },
+  "W9t": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_SUGGEST_COMMIT",
+    "value": "editor.action.inlineSuggest.commit",
+    "file": "vs/editor/contrib/inlineCompletions/browser/controller/commandIds.js"
+  },
+  "r5c": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_SUGGEST_SHOW_PREVIOUS",
+    "value": "editor.action.inlineSuggest.showPrevious",
+    "file": "vs/editor/contrib/inlineCompletions/browser/controller/commandIds.js"
+  },
+  "s5c": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_SUGGEST_SHOW_NEXT",
+    "value": "editor.action.inlineSuggest.showNext",
+    "file": "vs/editor/contrib/inlineCompletions/browser/controller/commandIds.js"
+  },
+  "o5c": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_SUGGEST_JUMP",
+    "value": "editor.action.inlineSuggest.jump",
+    "file": "vs/editor/contrib/inlineCompletions/browser/controller/commandIds.js"
+  },
+  "a5c": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_SUGGEST_HIDE",
+    "value": "editor.action.inlineSuggest.hide",
+    "file": "vs/editor/contrib/inlineCompletions/browser/controller/commandIds.js"
+  },
+  "cvn": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_DIFFS_ACCEPT_ALL",
+    "value": "editor.action.inlineDiffs.acceptAll",
+    "file": "vs/editor/contrib/inlineDiffs/browser/inlineDiffTypes.js"
+  },
+  "vDa": {
+    "newName": "CMD_ACCEPT_PARTIAL_EDIT",
+    "value": "editor.action.inlineDiffs.acceptPartialEdit",
+    "file": "vs/editor/contrib/inlineDiffs/browser/inlineDiffTypes.js"
+  },
+  "lvn": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_DIFFS_REJECT_ALL",
+    "value": "editor.action.inlineDiffs.rejectAll",
+    "file": "vs/editor/contrib/inlineDiffs/browser/inlineDiffTypes.js"
+  },
+  "LUf": {
+    "newName": "CMD_REJECT_ALL_ACROSS_ALL_EDITORS",
+    "value": "editor.action.inlineDiffs.rejectAllAcrossAllEditors",
+    "file": "vs/editor/contrib/inlineDiffs/browser/inlineDiffTypes.js"
+  },
+  "ADa": {
+    "newName": "CMD_REJECT_PARTIAL_EDIT",
+    "value": "editor.action.inlineDiffs.rejectPartialEdit",
+    "file": "vs/editor/contrib/inlineDiffs/browser/inlineDiffTypes.js"
+  },
+  "t1i": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_DIFFS_CANCEL_EDITS",
+    "value": "editor.action.inlineDiffs.cancelEdits",
+    "file": "vs/editor/contrib/inlineDiffs/browser/inlineDiffTypes.js"
+  },
+  "NUf": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_DIFFS_VIEW_ALL_CHANGES",
+    "value": "editor.action.inlineDiffs.viewAllChanges",
+    "file": "vs/editor/contrib/inlineDiffs/browser/inlineDiffTypes.js"
+  },
+  "yDa": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_DIFFS_NEXT_CHANGE",
+    "value": "editor.action.inlineDiffs.nextChange",
+    "file": "vs/editor/contrib/inlineDiffs/browser/inlineDiffTypes.js"
+  },
+  "wDa": {
+    "newName": "CMD_EDITOR_ACTION_INLINE_DIFFS_PREVIOUS_CHANGE",
+    "value": "editor.action.inlineDiffs.previousChange",
+    "file": "vs/editor/contrib/inlineDiffs/browser/inlineDiffTypes.js"
+  },
+  "Rla": {
+    "newName": "DATA_STICKY_LINE_INDEX",
+    "value": "data-sticky-line-index",
+    "file": "vs/editor/contrib/stickyScroll/browser/stickyScrollWidget.js"
+  },
+  "njl": {
+    "newName": "DATA_STICKY_IS_LINE",
+    "value": "data-sticky-is-line",
+    "file": "vs/editor/contrib/stickyScroll/browser/stickyScrollWidget.js"
+  },
+  "dyg": {
+    "newName": "DATA_STICKY_IS_LINE_NUMBER",
+    "value": "data-sticky-is-line-number",
+    "file": "vs/editor/contrib/stickyScroll/browser/stickyScrollWidget.js"
+  },
+  "ijl": {
+    "newName": "DATA_STICKY_IS_FOLDING_ICON",
+    "value": "data-sticky-is-folding-icon",
+    "file": "vs/editor/contrib/stickyScroll/browser/stickyScrollWidget.js"
+  },
+  "ybt": {
+    "newName": "DATA_COMMAND_ID",
+    "value": "data-command-id",
+    "file": "vs/platform/actions/browser/menuEntryActionViewItem.ts"
+  },
+  "qSt": {
+    "newName": "SKIPWALKTHROUGH",
+    "value": "skipWalkthrough",
+    "file": "vs/platform/extensionManagement/common/extensionManagement.js"
+  },
+  "UNe": {
+    "newName": "SKIPPUBLISHERTRUST",
+    "value": "skipPublisherTrust",
+    "file": "vs/platform/extensionManagement/common/extensionManagement.js"
+  },
+  "nnt": {
+    "newName": "EXTENSIONINSTALLSOURCE",
+    "value": "extensionInstallSource",
+    "file": "vs/platform/extensionManagement/common/extensionManagement.js"
+  },
+  "Qiu": {
+    "newName": "DEPENDECYORPACKEXTENSIONINSTALL",
+    "value": "dependecyOrPackExtensionInstall",
+    "file": "vs/platform/extensionManagement/common/extensionManagement.js"
+  },
+  "DHg": {
+    "newName": "CLIENTTARGETPLATFORM",
+    "value": "clientTargetPlatform",
+    "file": "vs/platform/extensionManagement/common/extensionManagement.js"
+  },
+  "Ovg": {
+    "newName": "CMD_EXTENSIONS_USER_CACHE",
+    "value": "extensions.user.cache",
+    "file": "vs/platform/extensions/common/extensions.js"
+  },
+  "Uvg": {
+    "newName": "CMD_EXTENSIONS_BUILTIN_CACHE",
+    "value": "extensions.builtin.cache",
+    "file": "vs/platform/extensions/common/extensions.js"
+  },
+  "hQl": {
+    "newName": "UNDEFINED_PUBLISHER",
+    "value": "undefined_publisher",
+    "file": "vs/platform/extensions/common/extensions.js"
+  },
+  "sla": {
+    "newName": "HISTORYNAVIGATIONWIDGETFOCUS",
+    "value": "historyNavigationWidgetFocus",
+    "file": "vs/platform/history/browser/contextScopedHistoryWidget.js"
+  },
+  "HWl": {
+    "newName": "HISTORYNAVIGATIONFORWARDSENABLED",
+    "value": "historyNavigationForwardsEnabled",
+    "file": "vs/platform/history/browser/contextScopedHistoryWidget.js"
+  },
+  "JWl": {
+    "newName": "HISTORYNAVIGATIONBACKWARDSENABLED",
+    "value": "historyNavigationBackwardsEnabled",
+    "file": "vs/platform/history/browser/contextScopedHistoryWidget.js"
+  },
+  "qGl": {
+    "newName": "LISTTYPENAVIGATIONMODE",
+    "value": "listTypeNavigationMode",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "HGl": {
+    "newName": "LISTAUTOMATICKEYBOARDNAVIGATION",
+    "value": "listAutomaticKeyboardNavigation",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "Pet": {
+    "newName": "CMD_WORKBENCH_LIST_MULTI_SELECT_MODIFIER",
+    "value": "workbench.list.multiSelectModifier",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "ypi": {
+    "newName": "CMD_WORKBENCH_LIST_OPEN_MODE",
+    "value": "workbench.list.openMode",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "Hae": {
+    "newName": "CMD_WORKBENCH_LIST_HORIZONTAL_SCROLLING",
+    "value": "workbench.list.horizontalScrolling",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "gca": {
+    "newName": "CMD_WORKBENCH_LIST_DEFAULT_FIND_MODE",
+    "value": "workbench.list.defaultFindMode",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "fca": {
+    "newName": "CMD_WORKBENCH_LIST_TYPE_NAVIGATION_MODE",
+    "value": "workbench.list.typeNavigationMode",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "wpi": {
+    "newName": "CMD_WORKBENCH_LIST_KEYBOARD_NAVIGATION",
+    "value": "workbench.list.keyboardNavigation",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "HAe": {
+    "newName": "CMD_WORKBENCH_LIST_SCROLL_BY_PAGE",
+    "value": "workbench.list.scrollByPage",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "bca": {
+    "newName": "CMD_WORKBENCH_LIST_DEFAULT_FIND_MATCH_TYPE",
+    "value": "workbench.list.defaultFindMatchType",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "Nun": {
+    "newName": "CMD_WORKBENCH_TREE_INDENT",
+    "value": "workbench.tree.indent",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "_pi": {
+    "newName": "CMD_WORKBENCH_TREE_RENDER_INDENT_GUIDES",
+    "value": "workbench.tree.renderIndentGuides",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "JAe": {
+    "newName": "CMD_WORKBENCH_LIST_SMOOTH_SCROLLING",
+    "value": "workbench.list.smoothScrolling",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "O1e": {
+    "newName": "CMD_MOUSE_WHEEL_SCROLL_SENSITIVITY",
+    "value": "workbench.list.mouseWheelScrollSensitivity",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "U1e": {
+    "newName": "CMD_WORKBENCH_LIST_FAST_SCROLL_SENSITIVITY",
+    "value": "workbench.list.fastScrollSensitivity",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "Cpi": {
+    "newName": "CMD_WORKBENCH_TREE_EXPAND_MODE",
+    "value": "workbench.tree.expandMode",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "Spi": {
+    "newName": "CMD_WORKBENCH_TREE_ENABLE_STICKY_SCROLL",
+    "value": "workbench.tree.enableStickyScroll",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "kpi": {
+    "newName": "CMD_WORKBENCH_TREE_STICKY_SCROLL_MAX_ITEM_COUNT",
+    "value": "workbench.tree.stickyScrollMaxItemCount",
+    "file": "vs/platform/list/browser/listService.js"
+  },
+  "JCa": {
+    "newName": "CMD_CHAT_PROMPT_FILES",
+    "value": "chat.promptFiles",
+    "file": "vs/platform/prompts/common/constants.js"
+  },
+  "egu": {
+    "newName": "CMD_CHAT_PROMPT_FILES_LOCATIONS",
+    "value": "chat.promptFilesLocations",
+    "file": "vs/platform/prompts/common/constants.js"
+  },
+  "Evt": {
+    "newName": "URL_HTTPS_CURSOR_COM",
+    "value": "https://cursor.com",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "ghe": {
+    "newName": "URL_HTTPS_API_2_CURSOR_SH",
+    "value": "https://api2.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "r8e": {
+    "newName": "URL_HTTPS_API_3_CURSOR_SH",
+    "value": "https://api3.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "NUo": {
+    "newName": "URL_HTTPS_API_4_CURSOR_SH",
+    "value": "https://api4.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "xvt": {
+    "newName": "URL_HTTPS_API_4_CURSOR_SH_2",
+    "value": "https://api4.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "F6n": {
+    "newName": "URL_HTTPS_API_3_CURSOR_SH_2",
+    "value": "https://api3.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "O6n": {
+    "newName": "URL_HTTPS_REPO_42_CURSOR_SH",
+    "value": "https://repo42.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "U6n": {
+    "newName": "URL_HTTPS_AGENT_API_5_CURSOR_SH",
+    "value": "https://agent.api5.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "$6n": {
+    "newName": "URL_HTTPS_AGENTN_API_5_CURSOR_SH",
+    "value": "https://agentn.api5.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "q6n": {
+    "newName": "URL_HTTPS_AGENT_GCPP_USWEST_API_5_CURSOR_SH",
+    "value": "https://agent-gcpp-uswest.api5.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "H6n": {
+    "newName": "URL_HTTPS_AGENTN_GCPP_USWEST_API_5_CURSOR_SH",
+    "value": "https://agentn-gcpp-uswest.api5.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "hHh": {
+    "newName": "URL_HTTPS_AGENT_GCPP_EUCENTRAL_API_5_CURSOR_SH",
+    "value": "https://agent-gcpp-eucentral.api5.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "mHh": {
+    "newName": "URL_HTTPS_AGENTN_GCPP_EUCENTRAL_API_5_CURSOR_SH",
+    "value": "https://agentn-gcpp-eucentral.api5.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "pHh": {
+    "newName": "URL_HTTPS_AGENT_GCPP_APSOUTHEAST_API_5_CURSOR_SH",
+    "value": "https://agent-gcpp-apsoutheast.api5.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "gHh": {
+    "newName": "URL_HTTPS_AGENTN_GCPP_APSOUTHEAST_API_5_CURSOR_SH",
+    "value": "https://agentn-gcpp-apsoutheast.api5.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "F9t": {
+    "newName": "KBZUR41CY7W6ZRSDPSUJ7I7MLYBKOCMB",
+    "value": "KbZUR41cY7W6zRSdpSUJ7I7mLYBKOCmB",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "O9t": {
+    "newName": "CMD_PROD_AUTHENTICATION_CURSOR_SH",
+    "value": "prod.authentication.cursor.sh",
+    "file": "vs/platform/reactivestorage/browser/reactiveStorageService.js"
+  },
+  "xNg": {
+    "newName": "X_CLIENT_KEY",
+    "value": "x-client-key",
+    "file": "vs/platform/reactivestorage/common/reactiveStorageTypes.js"
+  },
+  "uSt": {
+    "newName": "X_GHOST_MODE",
+    "value": "x-ghost-mode",
+    "file": "vs/platform/reactivestorage/common/reactiveStorageTypes.js"
+  },
+  "dSt": {
+    "newName": "X_NEW_ONBOARDING_COMPLETED",
+    "value": "x-new-onboarding-completed",
+    "file": "vs/platform/reactivestorage/common/reactiveStorageTypes.js"
+  },
+  "TNg": {
+    "newName": "X_SESSION_ID",
+    "value": "x-session-id",
+    "file": "vs/platform/reactivestorage/common/reactiveStorageTypes.js"
+  },
+  "Shn": {
+    "newName": "X_CURSOR_CLIENT_VERSION",
+    "value": "x-cursor-client-version",
+    "file": "vs/platform/reactivestorage/common/reactiveStorageTypes.js"
+  },
+  "fFo": {
+    "newName": "INLINEDIFFACCEPT",
+    "value": "inlineDiffAccept",
+    "file": "vs/platform/telemetry/common/telemetry.js"
+  },
+  "bFo": {
+    "newName": "INLINEDIFFREJECT",
+    "value": "inlineDiffReject",
+    "file": "vs/platform/telemetry/common/telemetry.js"
+  },
+  "vFo": {
+    "newName": "CMD_TELEMETRY_FIRST_SESSION_DATE",
+    "value": "telemetry.firstSessionDate",
+    "file": "vs/platform/telemetry/common/telemetry.js"
+  },
+  "nah": {
+    "newName": "CMD_TELEMETRY_LAST_SESSION_DATE",
+    "value": "telemetry.lastSessionDate",
+    "file": "vs/platform/telemetry/common/telemetry.js"
+  },
+  "iah": {
+    "newName": "CRASHREPORTING",
+    "value": "crashReporting",
+    "file": "vs/platform/telemetry/common/telemetry.js"
+  },
+  "Zze": {
+    "newName": "CMD_CRASH_REPORTING_ENABLED",
+    "value": "crashReporting.enabled",
+    "file": "vs/platform/telemetry/common/telemetry.js"
+  },
+  "ekc": {
+    "newName": "CMD_TELEMETRY_ENABLE_CRASH_REPORTER",
+    "value": "telemetry.enableCrashReporter",
+    "file": "vs/platform/telemetry/common/telemetry.js"
+  },
+  "KFn": {
+    "newName": "CMD_TELEMETRY_ENABLE_TELEMETRY",
+    "value": "telemetry.enableTelemetry",
+    "file": "vs/platform/telemetry/common/telemetry.js"
+  },
+  "E4o": {
+    "newName": "TOOLTIPSERVICEPIPELINES",
+    "value": "tooltipServicePipelines",
+    "file": "vs/platform/tooltipService/common/tooltipService.ts"
+  },
+  "R1c": {
+    "newName": "LASTSHOWNTOOLTIPTIME",
+    "value": "lastShownTooltipTime",
+    "file": "vs/platform/tooltipService/common/tooltipService.ts"
+  },
+  "POf": {
+    "newName": "SETTINGSSYNC",
+    "value": "settingsSync",
+    "file": "vs/platform/userDataSync/common/userDataSync.js"
+  },
+  "LOf": {
+    "newName": "CMD_SETTINGS_SYNC_KEYBINDINGS_PER_PLATFORM",
+    "value": "settingsSync.keybindingsPerPlatform",
+    "file": "vs/platform/userDataSync/common/userDataSync.js"
+  },
+  "e2e": {
+    "newName": "X_OPERATION_ID",
+    "value": "x-operation-id",
+    "file": "vs/platform/userDataSync/common/userDataSync.js"
+  },
+  "IAu": {
+    "newName": "X_EXECUTION_ID",
+    "value": "X-Execution-Id",
+    "file": "vs/platform/userDataSync/common/userDataSync.js"
+  },
+  "ibu": {
+    "newName": "INRECENTFILESPICKER",
+    "value": "inRecentFilesPicker",
+    "file": "vs/workbench/browser/actions/windowActions.js"
+  },
+  "v0i": {
+    "newName": "ADDROOTFOLDER",
+    "value": "addRootFolder",
+    "file": "vs/workbench/browser/actions/workspaceCommands.js"
+  },
+  "xfu": {
+    "newName": "SETROOTFOLDER",
+    "value": "setRootFolder",
+    "file": "vs/workbench/browser/actions/workspaceCommands.js"
+  },
+  "Zqe": {
+    "newName": "CMD_WORKBENCH_PICK_WORKSPACE_FOLDER",
+    "value": "_workbench.pickWorkspaceFolder",
+    "file": "vs/workbench/browser/actions/workspaceCommands.js"
+  },
+  "FSa": {
+    "newName": "CMD_TOGGLE_DIFF_RENDER_SIDE_BY_SIDE",
+    "value": "toggle.diff.renderSideBySide",
+    "file": "vs/workbench/browser/parts/editor/diffEditorCommands.js"
+  },
+  "OSa": {
+    "newName": "CMD_NEXT_CHANGE",
+    "value": "workbench.action.compareEditor.nextChange",
+    "file": "vs/workbench/browser/parts/editor/diffEditorCommands.js"
+  },
+  "USa": {
+    "newName": "CMD_PREVIOUS_CHANGE",
+    "value": "workbench.action.compareEditor.previousChange",
+    "file": "vs/workbench/browser/parts/editor/diffEditorCommands.js"
+  },
+  "Wgu": {
+    "newName": "CMD_FOCUS_PRIMARY_SIDE",
+    "value": "workbench.action.compareEditor.focusPrimarySide",
+    "file": "vs/workbench/browser/parts/editor/diffEditorCommands.js"
+  },
+  "cfn": {
+    "newName": "CMD_WORKBENCH_ACTION_CLOSE_UNMODIFIED_EDITORS",
+    "value": "workbench.action.closeUnmodifiedEditors",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "Pit": {
+    "newName": "CMD_WORKBENCH_ACTION_CLOSE_EDITORS_IN_GROUP",
+    "value": "workbench.action.closeEditorsInGroup",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "HSa": {
+    "newName": "CMD_WORKBENCH_ACTION_CLOSE_EDITORS_AND_GROUP",
+    "value": "workbench.action.closeEditorsAndGroup",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "JSa": {
+    "newName": "CMD_WORKBENCH_ACTION_CLOSE_EDITORS_TO_THE_RIGHT",
+    "value": "workbench.action.closeEditorsToTheRight",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "Hce": {
+    "newName": "CMD_WORKBENCH_ACTION_CLOSE_ACTIVE_EDITOR",
+    "value": "workbench.action.closeActiveEditor",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "Kgu": {
+    "newName": "CMD_WORKBENCH_ACTION_CLOSE_ACTIVE_PINNED_EDITOR",
+    "value": "workbench.action.closeActivePinnedEditor",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "GSa": {
+    "newName": "CMD_WORKBENCH_ACTION_CLOSE_GROUP",
+    "value": "workbench.action.closeGroup",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "a0i": {
+    "newName": "CMD_WORKBENCH_ACTION_CLOSE_OTHER_EDITORS",
+    "value": "workbench.action.closeOtherEditors",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "swe": {
+    "newName": "MOVEACTIVEEDITOR",
+    "value": "moveActiveEditor",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "HMe": {
+    "newName": "COPYACTIVEEDITOR",
+    "value": "copyActiveEditor",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "JMe": {
+    "newName": "LAYOUTEDITORGROUPS",
+    "value": "layoutEditorGroups",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "WSa": {
+    "newName": "CMD_WORKBENCH_ACTION_KEEP_EDITOR",
+    "value": "workbench.action.keepEditor",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "Ygu": {
+    "newName": "CMD_WORKBENCH_ACTION_TOGGLE_KEEP_EDITORS",
+    "value": "workbench.action.toggleKeepEditors",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "QSa": {
+    "newName": "CMD_WORKBENCH_ACTION_TOGGLE_EDITOR_GROUP_LOCK",
+    "value": "workbench.action.toggleEditorGroupLock",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "jSa": {
+    "newName": "CMD_WORKBENCH_ACTION_LOCK_EDITOR_GROUP",
+    "value": "workbench.action.lockEditorGroup",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "L1t": {
+    "newName": "CMD_WORKBENCH_ACTION_UNLOCK_EDITOR_GROUP",
+    "value": "workbench.action.unlockEditorGroup",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "Zgu": {
+    "newName": "CMD_WORKBENCH_ACTION_SHOW_EDITORS_IN_GROUP",
+    "value": "workbench.action.showEditorsInGroup",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "c0i": {
+    "newName": "CMD_WORKBENCH_ACTION_REOPEN_WITH_EDITOR",
+    "value": "workbench.action.reopenWithEditor",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "zSa": {
+    "newName": "CMD_WORKBENCH_ACTION_PIN_EDITOR",
+    "value": "workbench.action.pinEditor",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "Lit": {
+    "newName": "CMD_WORKBENCH_ACTION_UNPIN_EDITOR",
+    "value": "workbench.action.unpinEditor",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "l0i": {
+    "newName": "CMD_WORKBENCH_ACTION_SPLIT_EDITOR",
+    "value": "workbench.action.splitEditor",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "Nit": {
+    "newName": "CMD_WORKBENCH_ACTION_SPLIT_EDITOR_UP",
+    "value": "workbench.action.splitEditorUp",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "jqe": {
+    "newName": "CMD_WORKBENCH_ACTION_SPLIT_EDITOR_DOWN",
+    "value": "workbench.action.splitEditorDown",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "Mit": {
+    "newName": "CMD_WORKBENCH_ACTION_SPLIT_EDITOR_LEFT",
+    "value": "workbench.action.splitEditorLeft",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "zqe": {
+    "newName": "CMD_WORKBENCH_ACTION_SPLIT_EDITOR_RIGHT",
+    "value": "workbench.action.splitEditorRight",
+    "file": "vs/workbench/browser/parts/editor/editorCommands.js"
+  },
+  "vfg": {
+    "newName": "CMD_WORKBENCH_EDITOR_SIDEBYSIDE_EDITOR",
+    "value": "workbench.editor.sidebysideEditor",
+    "file": "vs/workbench/common/editor.js"
+  },
+  "Fca": {
+    "newName": "CMD_WORKBENCH_EDITORS_TEXT_DIFF_EDITOR",
+    "value": "workbench.editors.textDiffEditor",
+    "file": "vs/workbench/common/editor.js"
+  },
+  "AWl": {
+    "newName": "CMD_BINARY_RESOURCE_DIFF_EDITOR",
+    "value": "workbench.editors.binaryResourceDiffEditor",
+    "file": "vs/workbench/common/editor.js"
+  },
+  "Kpa": {
+    "newName": "CMD_WORKBENCH_VIEW_BACKGROUND_AGENT_CONTENT",
+    "value": "workbench.view.backgroundAgent.content",
+    "file": "vs/workbench/contrib/aiBackgroundComposer/common/backgroundComposerConstants.js"
+  },
+  "I2g": {
+    "newName": "CMD_RESTART_SETUP",
+    "value": "workbench.action.backgroundComposer.restartSetup",
+    "file": "vs/workbench/contrib/aiBackgroundComposer/common/backgroundComposerConstants.js"
+  },
+  "Vtu": {
+    "newName": "CMD_START_SETUP",
+    "value": "workbench.action.backgroundComposer.startSetup",
+    "file": "vs/workbench/contrib/aiBackgroundComposer/common/backgroundComposerConstants.js"
+  },
+  "Ztu": {
+    "newName": "CHAT",
+    "value": "chat",
+    "file": "vs/workbench/contrib/aiBackgroundComposer/common/backgroundComposerConstants.js"
+  },
+  "K2g": {
+    "newName": "CMD_WORKBENCH_VIEW_EXTENSION_BACKGROUND_AGENT",
+    "value": "workbench.view.extension.backgroundAgent",
+    "file": "vs/workbench/contrib/aiBackgroundComposer/common/constants.js"
+  },
+  "dnu": {
+    "newName": "CMD_WORKBENCH_VIEW_BACKGROUND_AGENT_CONTENT",
+    "value": "workbench.view.backgroundAgent.content",
+    "file": "vs/workbench/contrib/aiBackgroundComposer/common/constants.js"
+  },
+  "Y2g": {
+    "newName": "CMD_OPEN_WINDOW_ID_FOR_BC",
+    "value": "workbench.action.backgroundComposer.openWindowIdForBc",
+    "file": "vs/workbench/contrib/aiBackgroundComposer/common/constants.js"
+  },
+  "Z2g": {
+    "newName": "CMD_UPDATE_WINDOW_CONTROLS",
+    "value": "workbench.action.backgroundComposer.updateWindowControls",
+    "file": "vs/workbench/contrib/aiBackgroundComposer/common/constants.js"
+  },
+  "wga": {
+    "newName": "BACKGROUND_COMPOSER_SETUP_START_DEFAULT_VM_STEP",
+    "value": "background-composer-setup-start-default-vm-step",
+    "file": "vs/workbench/contrib/aiBackgroundComposer/common/constants.js"
+  },
+  "hnu": {
+    "newName": "BACKGROUND_COMPOSER_SETUP_START_TESTING_VM_STEP",
+    "value": "background-composer-setup-start-testing-vm-step",
+    "file": "vs/workbench/contrib/aiBackgroundComposer/common/constants.js"
+  },
+  "L$e": {
+    "newName": "CMD_CURSOR_AGENT_IDE_UNIFICATION_FEATURE_GATE",
+    "value": "cursor.agentIdeUnification.featureGate",
+    "file": "vs/workbench/contrib/appLayout/common/unifiedAppLayoutContextKeys.js"
+  },
+  "tHg": {
+    "newName": "CMD_CURSOR_DEFAULT_SIDEBAR_LOCATION",
+    "value": "cursor.defaultSidebarLocation",
+    "file": "vs/workbench/contrib/appLayout/common/unifiedAppLayoutContextKeys.js"
+  },
+  "Avi": {
+    "newName": "CMD_SIDEBAR_LOCATION",
+    "value": "cursor.agentIdeUnification.sidebarLocation",
+    "file": "vs/workbench/contrib/appLayout/common/unifiedAppLayoutContextKeys.js"
+  },
+  "Riu": {
+    "newName": "CMD_UNIFIED_SIDEBAR_VISIBLE",
+    "value": "cursor.agentIdeUnification.unifiedSidebarVisible",
+    "file": "vs/workbench/contrib/appLayout/common/unifiedAppLayoutContextKeys.js"
+  },
+  "iHg": {
+    "newName": "CMD_AGENTS_SURFACE_VISIBLE",
+    "value": "cursor.agentIdeUnification.agentsSurfaceVisible",
+    "file": "vs/workbench/contrib/appLayout/common/unifiedAppLayoutContextKeys.js"
+  },
+  "MNe": {
+    "newName": "CMD_CURSOR_NO_TITLEBAR_LAYOUT_ENABLED",
+    "value": "cursor.noTitlebarLayout.enabled",
+    "file": "vs/workbench/contrib/appLayout/common/unifiedAppLayoutContextKeys.js"
+  },
+  "Oef": {
+    "newName": "CMD_WORKBENCH_ACTION_CHAT_OPEN",
+    "value": "workbench.action.chat.open",
+    "file": "vs/workbench/contrib/chat/browser/actions/chatActions.js"
+  },
+  "qau": {
+    "newName": "CMD_WORKBENCH_ACTION_CHAT_TRIGGER_SETUP",
+    "value": "workbench.action.chat.triggerSetup",
+    "file": "vs/workbench/contrib/chat/browser/actions/chatActions.js"
+  },
+  "Hau": {
+    "newName": "CMD_WORKBENCH_ACTION_CHAT_TOGGLE",
+    "value": "workbench.action.chat.toggle",
+    "file": "vs/workbench/contrib/chat/browser/actions/chatActions.js"
+  },
+  "Uef": {
+    "newName": "CMD_OPEN_QUOTA_EXCEEDED_DIALOG",
+    "value": "workbench.action.chat.openQuotaExceededDialog",
+    "file": "vs/workbench/contrib/chat/browser/actions/chatActions.js"
+  },
+  "Epu": {
+    "newName": "CMD_WORKBENCH_ACTION_CHAT_TOGGLE_AGENT_MODE",
+    "value": "workbench.action.chat.toggleAgentMode",
+    "file": "vs/workbench/contrib/chat/browser/actions/chatExecuteActions.js"
+  },
+  "Fxf": {
+    "newName": "CMD_TOGGLE_REQUEST_PAUSED",
+    "value": "workbench.action.chat.toggleRequestPaused",
+    "file": "vs/workbench/contrib/chat/browser/actions/chatExecuteActions.js"
+  },
+  "xpu": {
+    "newName": "CMD_WORKBENCH_ACTION_CHAT_SWITCH_TO_NEXT_MODEL",
+    "value": "workbench.action.chat.switchToNextModel",
+    "file": "vs/workbench/contrib/chat/browser/actions/chatExecuteActions.js"
+  },
+  "C5f": {
+    "newName": "CHAT_MOST_RECENT_RESPONSE",
+    "value": "chat-most-recent-response",
+    "file": "vs/workbench/contrib/chat/browser/chatListRenderer.ts"
+  },
+  "KEa": {
+    "newName": "URL_HTTP_VSCODEDECORATION",
+    "value": "http://_vscodedecoration_",
+    "file": "vs/workbench/contrib/chat/browser/chatMarkdownDecorationsRenderer.ts"
+  },
+  "aSi": {
+    "newName": "URL_HTTP_CHATAGENT",
+    "value": "http://_chatagent_",
+    "file": "vs/workbench/contrib/chat/browser/chatMarkdownDecorationsRenderer.ts"
+  },
+  "XAu": {
+    "newName": "URL_HTTP_CHATSLASH",
+    "value": "http://_chatslash_",
+    "file": "vs/workbench/contrib/chat/browser/chatMarkdownDecorationsRenderer.ts"
+  },
+  "Oyu": {
+    "newName": "TRANSIENTWORDWRAPSTATE",
+    "value": "transientWordWrapState",
+    "file": "vs/workbench/contrib/codeEditor/browser/toggleWordWrap.js"
+  },
+  "Mxa": {
+    "newName": "ISWORDWRAPMINIFIED",
+    "value": "isWordWrapMinified",
+    "file": "vs/workbench/contrib/codeEditor/browser/toggleWordWrap.js"
+  },
+  "Fxa": {
+    "newName": "ISDOMINATEDBYLONGLINES",
+    "value": "isDominatedByLongLines",
+    "file": "vs/workbench/contrib/codeEditor/browser/toggleWordWrap.js"
+  },
+  "MSi": {
+    "newName": "CMD_EDITOR_ACTION_TOGGLE_WORD_WRAP",
+    "value": "editor.action.toggleWordWrap",
+    "file": "vs/workbench/contrib/codeEditor/browser/toggleWordWrap.js"
+  },
+  "TNe": {
+    "newName": "BUBBLEID",
+    "value": "bubbleId",
+    "file": "vs/workbench/contrib/composer/browser/composerMessageStorageService.ts"
+  },
+  "gJl": {
+    "newName": "NEW_CHAT",
+    "value": "New Chat",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "ume": {
+    "newName": "TRANSPARENT",
+    "value": "transparent",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "FUe": {
+    "newName": "TRANSPARENT_2",
+    "value": "transparent",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "yJl": {
+    "newName": "SHOW_CHAT_HISTORY",
+    "value": "Show Chat History",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Aet": {
+    "newName": "CMD_COMPOSER_START_COMPOSER_PROMPT_2",
+    "value": "composer.startComposerPrompt2",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "_Jl": {
+    "newName": "CMD_COMPOSER_START_COMPOSER_PROMPT",
+    "value": "composer.startComposerPrompt",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Qdg": {
+    "newName": "CMD_START_COMPOSER_PROMPT_FROM_SELECTION",
+    "value": "composer.startComposerPromptFromSelection",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "hun": {
+    "newName": "CMD_COMPOSER_ADDFILESTOCOMPOSER",
+    "value": "composer.addfilestocomposer",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Jmi": {
+    "newName": "CMD_COMPOSER_ADDFILESTONNEWCOMPOSER",
+    "value": "composer.addfilestonnewcomposer",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Gmi": {
+    "newName": "CMD_COMPOSER_SHOW_BACKGROUND_AGENT_HISTORY",
+    "value": "composer.showBackgroundAgentHistory",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "z0t": {
+    "newName": "CMD_COMPOSER_SHOW_COMPOSER_HISTORY_EDITOR",
+    "value": "composer.showComposerHistoryEditor",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "CJl": {
+    "newName": "CMD_COMPOSER_SELECT_PREVIOUS_COMPOSER",
+    "value": "composer.selectPreviousComposer",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "SJl": {
+    "newName": "CMD_COMPOSER_SELECT_NEXT_COMPOSER",
+    "value": "composer.selectNextComposer",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "jdg": {
+    "newName": "CMD_COMPOSER_SELECT_PREVIOUS_SUB_COMPOSER_TAB",
+    "value": "composer.selectPreviousSubComposerTab",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "zdg": {
+    "newName": "CMD_COMPOSER_SELECT_NEXT_SUB_COMPOSER_TAB",
+    "value": "composer.selectNextSubComposerTab",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Vdg": {
+    "newName": "CMD_COMPOSER_SELECT_SUB_COMPOSER_TAB_1",
+    "value": "composer.selectSubComposerTab1",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Kdg": {
+    "newName": "CMD_COMPOSER_SELECT_SUB_COMPOSER_TAB_2",
+    "value": "composer.selectSubComposerTab2",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Ydg": {
+    "newName": "CMD_COMPOSER_SELECT_SUB_COMPOSER_TAB_3",
+    "value": "composer.selectSubComposerTab3",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Zdg": {
+    "newName": "CMD_COMPOSER_SELECT_SUB_COMPOSER_TAB_4",
+    "value": "composer.selectSubComposerTab4",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Xdg": {
+    "newName": "CMD_COMPOSER_SELECT_SUB_COMPOSER_TAB_5",
+    "value": "composer.selectSubComposerTab5",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "ehg": {
+    "newName": "CMD_COMPOSER_SELECT_SUB_COMPOSER_TAB_6",
+    "value": "composer.selectSubComposerTab6",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "thg": {
+    "newName": "CMD_COMPOSER_SELECT_SUB_COMPOSER_TAB_7",
+    "value": "composer.selectSubComposerTab7",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "nhg": {
+    "newName": "CMD_COMPOSER_SELECT_SUB_COMPOSER_TAB_8",
+    "value": "composer.selectSubComposerTab8",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "ihg": {
+    "newName": "CMD_COMPOSER_SELECT_SUB_COMPOSER_TAB_LAST",
+    "value": "composer.selectSubComposerTabLast",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "mun": {
+    "newName": "CMD_COMPOSER_ADDSYMBOLSTONEWCOMPOSER",
+    "value": "composer.addsymbolstonewcomposer",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "P1e": {
+    "newName": "CMD_COMPOSER_ADDSYMBOLSTOCOMPOSER",
+    "value": "composer.addsymbolstocomposer",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "yet": {
+    "newName": "CMD_AICHAT_NEWFOLLOWUPACTION",
+    "value": "aichat.newfollowupaction",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Laa": {
+    "newName": "CMD_COMPOSER_FIXERRORMESSAGE",
+    "value": "composer.fixerrormessage",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Wmi": {
+    "newName": "CMD_COMPOSER_OPEN_AS_PANE",
+    "value": "composer.openAsPane",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "kJl": {
+    "newName": "CMD_COMPOSER_OPEN_AS_BAR",
+    "value": "composer.openAsBar",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "pun": {
+    "newName": "CMD_COMPOSER_OPEN_CHAT_AS_EDITOR",
+    "value": "composer.openChatAsEditor",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "rhg": {
+    "newName": "CMD_COMPOSER_OPEN_IN_WEB_FOR_BACKGROUND_COMPOSER",
+    "value": "composer.openInWebForBackgroundComposer",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "shg": {
+    "newName": "CMD_COMPOSER_OPEN_VM_FOR_BACKGROUND_COMPOSER",
+    "value": "composer.openVMForBackgroundComposer",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "gun": {
+    "newName": "CMD_COMPOSER_EXPORT_CHAT_AS_MD",
+    "value": "composer.exportChatAsMd",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "fun": {
+    "newName": "CMD_COMPOSER_SHARE_CHAT",
+    "value": "composer.shareChat",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "EJl": {
+    "newName": "CMD_COMPOSER_FORK_SHARED_CHAT",
+    "value": "composer.forkSharedChat",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "bun": {
+    "newName": "CMD_COMPOSER_COPY_REQUEST_ID",
+    "value": "composer.copyRequestId",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "ohg": {
+    "newName": "CMD_COMPOSER_COPY_REQUEST_ID_FROM_PANE",
+    "value": "composer.copyRequestIdFromPane",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "xJl": {
+    "newName": "CMD_COMPOSER_COPY_REQUEST_ID_FROM_EDITOR",
+    "value": "composer.copyRequestIdFromEditor",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Qmi": {
+    "newName": "CMD_COMPOSER_REPORT_FEEDBACK",
+    "value": "composer.reportFeedback",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Naa": {
+    "newName": "CMD_CHAT_OPEN_CURSOR_SETTINGS",
+    "value": "chat.openCursorSettings",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "jmi": {
+    "newName": "CMD_COMPOSER_CANCEL_CHAT",
+    "value": "composer.cancelChat",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Maa": {
+    "newName": "CMD_COMPOSER_RESUME_CURRENT_CHAT",
+    "value": "composer.resumeCurrentChat",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "L1e": {
+    "newName": "CMD_COMPOSER_NEW_AGENT_CHAT",
+    "value": "composer.newAgentChat",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Faa": {
+    "newName": "CMD_COMPOSER_UPDATE_TITLE",
+    "value": "composer.updateTitle",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Oaa": {
+    "newName": "CMD_COMPOSER_UPDATE_STATUS",
+    "value": "composer.updateStatus",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "ahg": {
+    "newName": "CMD_COMPOSER_CYCLE_MODE",
+    "value": "composer.cycleMode",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Uaa": {
+    "newName": "CMD_COMPOSER_TOGGLE_CHAT_AS_EDITOR",
+    "value": "composer.toggleChatAsEditor",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "UUe": {
+    "newName": "CMD_COMPOSER_CLOSE_COMPOSER_TAB",
+    "value": "composer.closeComposerTab",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "V0t": {
+    "newName": "CMD_COMPOSER_CLOSE_OTHER_COMPOSER_TABS",
+    "value": "composer.closeOtherComposerTabs",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "$aa": {
+    "newName": "CMD_COMPOSER_PREVIOUS_CHAT_TAB",
+    "value": "composer.previousChatTab",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "qaa": {
+    "newName": "CMD_COMPOSER_NEXT_CHAT_TAB",
+    "value": "composer.nextChatTab",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "wet": {
+    "newName": "CMD_COMPOSER_OPEN_MODEL_TOGGLE",
+    "value": "composer.openModelToggle",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "chg": {
+    "newName": "CMD_COMPOSER_CYCLE_MODEL",
+    "value": "composer.cycleModel",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Haa": {
+    "newName": "CMD_COMPOSER_CYCLE_MODEL_PARAMETER",
+    "value": "composer.cycleModelParameter",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "vun": {
+    "newName": "CMD_COMPOSER_OPEN_MODE_MENU",
+    "value": "composer.openModeMenu",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "zmi": {
+    "newName": "CMD_COMPOSER_OPEN_ADD_CONTEXT_MENU",
+    "value": "composer.openAddContextMenu",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "K0t": {
+    "newName": "CMD_COMPOSER_OPEN_COMPOSER",
+    "value": "composer.openComposer",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "lhg": {
+    "newName": "CMD_COMPOSER_OPEN_COMPOSER_FROM_NOTIFICATION",
+    "value": "composer.openComposerFromNotification",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "TJl": {
+    "newName": "CMD_COMPOSER_ACCEPT_PENDING_FROM_NOTIFICATION",
+    "value": "composer.acceptPendingFromNotification",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "IJl": {
+    "newName": "CMD_COMPOSER_REJECT_PENDING_FROM_NOTIFICATION",
+    "value": "composer.rejectPendingFromNotification",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Jaa": {
+    "newName": "CMD_COMPOSER_GET_COMPOSER_HANDLE_BY_ID",
+    "value": "composer.getComposerHandleById",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "$Ue": {
+    "newName": "CMD_COMPOSER_CANCEL_COMPOSER_STEP",
+    "value": "composer.cancelComposerStep",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Vmi": {
+    "newName": "CMD_COMPOSER_ACCEPT_COMPOSER_STEP",
+    "value": "composer.acceptComposerStep",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "XLe": {
+    "newName": "CMD_COMPOSER_CANCEL_COMPOSER_STEP_INPUT_FOCUSED",
+    "value": "composer.cancelComposerStepInputFocused",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Aun": {
+    "newName": "CMD_COMPOSER_CANCEL_TERMINAL_TOOL_CALL",
+    "value": "composer.cancelTerminalToolCall",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "DJl": {
+    "newName": "CMD_COMPOSER_TOGGLE_VOICE_DICTATION",
+    "value": "composer.toggleVoiceDictation",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "BJl": {
+    "newName": "CMD_COMPOSER_RESET_MODE",
+    "value": "composer.resetMode",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "RJl": {
+    "newName": "CMD_COMPOSER_CREATE_NEW_BACKGROUND_AGENT",
+    "value": "composer.createNewBackgroundAgent",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "PJl": {
+    "newName": "CMD_COMPOSER_TRIGGER_CREATE_WORKTREE_BUTTON",
+    "value": "composer.triggerCreateWorktreeButton",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Kmi": {
+    "newName": "CMD_COMPOSER_CLEAR_COMPOSER_TABS",
+    "value": "composer.clearComposerTabs",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "uhg": {
+    "newName": "CMD_CREATE_NEW_COMPOSER_TAB",
+    "value": "workbench.action.backgroundComposer.createNewComposerTab",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Ymi": {
+    "newName": "CMD_COMPOSER_DUPLICATE_CHAT",
+    "value": "composer.duplicateChat",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "yun": {
+    "newName": "CMD_COMPOSER_SEND_TO_AGENT",
+    "value": "composer.sendToAgent",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "LJl": {
+    "newName": "CMD_COMPOSER_HANDLE_BUG_BOT_DEEPLINK",
+    "value": "composer.handleBugBotDeeplink",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "NJl": {
+    "newName": "CMD_COMPOSER_HANDLE_BUG_BOT_MULTIPLE_DEEPLINKS",
+    "value": "composer.handleBugBotMultipleDeeplinks",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "dhg": {
+    "newName": "CMD_COMPOSER_FOCUS_COMPOSER",
+    "value": "composer.focusComposer",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Gaa": {
+    "newName": "CMD_COMPOSER_HIDE_WORKTREE_SETUP_WARNING",
+    "value": "composer.hideWorktreeSetupWarning",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "hhg": {
+    "newName": "CMD_COMPOSER_OPEN_TERMINAL_IN_WORKTREE",
+    "value": "composer.openTerminalInWorktree",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "mhg": {
+    "newName": "CMD_COMPOSER_FIND_FOCUS",
+    "value": "composer.find.focus",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "phg": {
+    "newName": "CMD_COMPOSER_FIND_HIDE",
+    "value": "composer.find.hide",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "ghg": {
+    "newName": "CMD_COMPOSER_FIND_NEXT",
+    "value": "composer.find.next",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "fhg": {
+    "newName": "CMD_COMPOSER_FIND_PREVIOUS",
+    "value": "composer.find.previous",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Waa": {
+    "newName": "CMD_COMPOSER_GET_ORDERED_SELECTED_COMPOSER_IDS",
+    "value": "composer.getOrderedSelectedComposerIds",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "bhg": {
+    "newName": "CMD_WORKBENCH_ACTION_CHAT_OPEN",
+    "value": "workbench.action.chat.open",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "MJl": {
+    "newName": "CMD_WORKBENCH_ACTION_CHAT_TEST_OPEN_WITH_PROMPT",
+    "value": "workbench.action.chat.testOpenWithPrompt",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "vhg": {
+    "newName": "CMD_COMPOSER_TEST_NOTIFICATION",
+    "value": "composer.testNotification",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "FJl": {
+    "newName": "CHAT",
+    "value": "Chat",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Ahg": {
+    "newName": "CMD_WORKBENCH_PANEL_COMPOSER_CHAT_VIEW_PANE",
+    "value": "workbench.panel.composerChatViewPane",
+    "file": "vs/workbench/contrib/composer/browser/constants.js"
+  },
+  "Ibu": {
+    "newName": "ANYSPHERE_UI_STYLES",
+    "value": "anysphere-ui-styles",
+    "file": "vs/workbench/contrib/controlCommon/browser/uiPackageStyles.js"
+  },
+  "Dbu": {
+    "newName": "ANYSPHERE_UI_TOKENS",
+    "value": "anysphere-ui-tokens",
+    "file": "vs/workbench/contrib/controlCommon/browser/uiPackageStyles.js"
+  },
+  "Lme": {
+    "newName": "CMD_EXTENSIONS_AUTO_UPDATE",
+    "value": "extensions.autoUpdate",
+    "file": "vs/workbench/contrib/extensions/common/extensions.js"
+  },
+  "bva": {
+    "newName": "CMD_EXTENSIONS_AUTO_CHECK_UPDATES",
+    "value": "extensions.autoCheckUpdates",
+    "file": "vs/workbench/contrib/extensions/common/extensions.js"
+  },
+  "UXg": {
+    "newName": "CMD_CLOSE_EXTENSION_DETAILS_ON_VIEW_CHANGE",
+    "value": "extensions.closeExtensionDetailsOnViewChange",
+    "file": "vs/workbench/contrib/extensions/common/extensions.js"
+  },
+  "mkt": {
+    "newName": "CMD_EXTENSIONS_AUTO_RESTART",
+    "value": "extensions.autoRestart",
+    "file": "vs/workbench/contrib/extensions/common/extensions.js"
+  },
+  "Sfu": {
+    "newName": "SAVECONFLICTRESOLUTIONCONTEXT",
+    "value": "saveConflictResolutionContext",
+    "file": "vs/workbench/contrib/files/browser/editors/textFileSaveErrorHandler.ts"
+  },
+  "hka": {
+    "newName": "CONFLICTRESOLUTION",
+    "value": "conflictResolution",
+    "file": "vs/workbench/contrib/files/browser/editors/textFileSaveErrorHandler.ts"
+  },
+  "mka": {
+    "newName": "LEARNMOREDIRTYWRITEERROR",
+    "value": "learnMoreDirtyWriteError",
+    "file": "vs/workbench/contrib/files/browser/editors/textFileSaveErrorHandler.ts"
+  },
+  "nAu": {
+    "newName": "RENAMEFILE",
+    "value": "renameFile",
+    "file": "vs/workbench/contrib/files/browser/fileActions.contribution.js"
+  },
+  "iAu": {
+    "newName": "MOVEFILETOTRASH",
+    "value": "moveFileToTrash",
+    "file": "vs/workbench/contrib/files/browser/fileActions.contribution.js"
+  },
+  "cCi": {
+    "newName": "DELETEFILE",
+    "value": "deleteFile",
+    "file": "vs/workbench/contrib/files/browser/fileActions.contribution.js"
+  },
+  "rAu": {
+    "newName": "CMD_FILES_EXPLORER_CUT",
+    "value": "filesExplorer.cut",
+    "file": "vs/workbench/contrib/files/browser/fileActions.contribution.js"
+  },
+  "sAu": {
+    "newName": "CMD_FILES_EXPLORER_COPY",
+    "value": "filesExplorer.copy",
+    "file": "vs/workbench/contrib/files/browser/fileActions.contribution.js"
+  },
+  "R1a": {
+    "newName": "CMD_FILES_EXPLORER_PASTE",
+    "value": "filesExplorer.paste",
+    "file": "vs/workbench/contrib/files/browser/fileActions.contribution.js"
+  },
+  "dfn": {
+    "newName": "CMD_EXPLORER_NEW_FILE",
+    "value": "explorer.newFile",
+    "file": "vs/workbench/contrib/files/browser/fileActions.js"
+  },
+  "p0i": {
+    "newName": "CMD_EXPLORER_NEW_FOLDER",
+    "value": "explorer.newFolder",
+    "file": "vs/workbench/contrib/files/browser/fileActions.js"
+  },
+  "bfu": {
+    "newName": "CMD_EXPLORER_DOWNLOAD",
+    "value": "explorer.download",
+    "file": "vs/workbench/contrib/files/browser/fileActions.js"
+  },
+  "vfu": {
+    "newName": "CMD_EXPLORER_UPLOAD",
+    "value": "explorer.upload",
+    "file": "vs/workbench/contrib/files/browser/fileActions.js"
+  },
+  "Afu": {
+    "newName": "CMD_EXPLORER_CONFIRM_DELETE",
+    "value": "explorer.confirmDelete",
+    "file": "vs/workbench/contrib/files/browser/fileActions.js"
+  },
+  "Qgn": {
+    "newName": "REVEALINEXPLORER",
+    "value": "revealInExplorer",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "e0i": {
+    "newName": "CMD_WORKBENCH_ACTION_FILES_REVERT",
+    "value": "workbench.action.files.revert",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "vgu": {
+    "newName": "CMD_EXPLORER_OPEN_TO_SIDE",
+    "value": "explorer.openToSide",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "Agu": {
+    "newName": "CMD_EXPLORER_OPEN_WITH",
+    "value": "explorer.openWith",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "ygu": {
+    "newName": "SELECTFORCOMPARE",
+    "value": "selectForCompare",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "wgu": {
+    "newName": "COMPARESELECTED",
+    "value": "compareSelected",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "_gu": {
+    "newName": "COMPAREFILES",
+    "value": "compareFiles",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "vSa": {
+    "newName": "CMD_WORKBENCH_FILES_ACTION_COMPARE_WITH_SAVED",
+    "value": "workbench.files.action.compareWithSaved",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "jgn": {
+    "newName": "COPYFILEPATH",
+    "value": "copyFilePath",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "zgn": {
+    "newName": "COPYRELATIVEFILEPATH",
+    "value": "copyRelativeFilePath",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "ASa": {
+    "newName": "CMD_WORKBENCH_ACTION_FILES_SAVE_AS",
+    "value": "workbench.action.files.saveAs",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "Vgn": {
+    "newName": "CMD_WORKBENCH_ACTION_FILES_SAVE",
+    "value": "workbench.action.files.save",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "kgu": {
+    "newName": "CMD_SAVE_WITHOUT_FORMATTING",
+    "value": "workbench.action.files.saveWithoutFormatting",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "ySa": {
+    "newName": "SAVEALL",
+    "value": "saveAll",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "t0i": {
+    "newName": "CMD_WORKBENCH_FILES_ACTION_SAVE_ALL_IN_GROUP",
+    "value": "workbench.files.action.saveAllInGroup",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "Egu": {
+    "newName": "CMD_WORKBENCH_ACTION_FILES_SAVE_FILES",
+    "value": "workbench.action.files.saveFiles",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "Tgu": {
+    "newName": "REMOVEROOTFOLDER",
+    "value": "removeRootFolder",
+    "file": "vs/workbench/contrib/files/browser/fileConstants.js"
+  },
+  "w1t": {
+    "newName": "CMD_WORKBENCH_EDITORS_FILES_TEXT_FILE_EDITOR",
+    "value": "workbench.editors.files.textFileEditor",
+    "file": "vs/workbench/contrib/files/common/files.ts"
+  },
+  "_1t": {
+    "newName": "CMD_WORKBENCH_EDITORS_FILES_FILE_EDITOR_INPUT",
+    "value": "workbench.editors.files.fileEditorInput",
+    "file": "vs/workbench/contrib/files/common/files.ts"
+  },
+  "Npu": {
+    "newName": "CMD_WORKBENCH_EDITORS_FILES_BINARY_FILE_EDITOR",
+    "value": "workbench.editors.files.binaryFileEditor",
+    "file": "vs/workbench/contrib/files/common/files.ts"
+  },
+  "BCa": {
+    "newName": "CODE_TEXT_BINARY",
+    "value": "code-text-binary",
+    "file": "vs/workbench/contrib/files/common/files.ts"
+  },
+  "bgn": {
+    "newName": "INTERACTIVEEDITOR",
+    "value": "interactiveEditor",
+    "file": "vs/workbench/contrib/inlineChat/common/inlineChat.js"
+  },
+  "pEf": {
+    "newName": "CMD_INLINE_CHAT_ACCEPT_CHANGES",
+    "value": "inlineChat.acceptChanges",
+    "file": "vs/workbench/contrib/inlineChat/common/inlineChat.js"
+  },
+  "gEf": {
+    "newName": "CMD_INLINE_CHAT_REGENERATE",
+    "value": "inlineChat.regenerate",
+    "file": "vs/workbench/contrib/inlineChat/common/inlineChat.js"
+  },
+  "Lmu": {
+    "newName": "CMD_INLINE_CHAT_TOGGLE_DIFF",
+    "value": "inlineChat.toggleDiff",
+    "file": "vs/workbench/contrib/inlineChat/common/inlineChat.js"
+  },
+  "fEf": {
+    "newName": "CMD_INLINE_CHAT_REPORT_ISSUE",
+    "value": "inlineChat.reportIssue",
+    "file": "vs/workbench/contrib/inlineChat/common/inlineChat.js"
+  },
+  "Mgn": {
+    "newName": "MCP",
+    "value": "mcp",
+    "file": "vs/workbench/contrib/mcp/common/mcpConfiguration.js"
+  },
+  "dTf": {
+    "newName": "CMD_CHAT_MCP_DISCOVERY_ENABLED",
+    "value": "chat.mcp.discovery.enabled",
+    "file": "vs/workbench/contrib/mcp/common/mcpConfiguration.js"
+  },
+  "hTf": {
+    "newName": "CMD_CHAT_MCP_ENABLED",
+    "value": "chat.mcp.enabled",
+    "file": "vs/workbench/contrib/mcp/common/mcpConfiguration.js"
+  },
+  "pwe": {
+    "newName": "CMD_NOTEBOOK_SELECT_KERNEL",
+    "value": "_notebook.selectKernel",
+    "file": "vs/workbench/contrib/notebook/browser/controller/coreActions.js"
+  },
+  "vIa": {
+    "newName": "CMD_NOTEBOOK_CELL_EXPAND_CELL_INPUT",
+    "value": "notebook.cell.expandCellInput",
+    "file": "vs/workbench/contrib/notebook/browser/notebookBrowser.js"
+  },
+  "X8f": {
+    "newName": "CMD_NOTEBOOK_CELL_EXECUTE",
+    "value": "notebook.cell.execute",
+    "file": "vs/workbench/contrib/notebook/browser/notebookBrowser.js"
+  },
+  "AIa": {
+    "newName": "CMD_NOTEBOOK_CELL_DETECT_LANGUAGE",
+    "value": "notebook.cell.detectLanguage",
+    "file": "vs/workbench/contrib/notebook/browser/notebookBrowser.js"
+  },
+  "y_u": {
+    "newName": "CMD_NOTEBOOK_CELL_CHANGE_LANGUAGE",
+    "value": "notebook.cell.changeLanguage",
+    "file": "vs/workbench/contrib/notebook/browser/notebookBrowser.js"
+  },
+  "w_u": {
+    "newName": "CMD_NOTEBOOK_CELL_QUIT_EDIT",
+    "value": "notebook.cell.quitEdit",
+    "file": "vs/workbench/contrib/notebook/browser/notebookBrowser.js"
+  },
+  "__u": {
+    "newName": "CMD_NOTEBOOK_CELL_EXPAND_CELL_OUTPUT",
+    "value": "notebook.cell.expandCellOutput",
+    "file": "vs/workbench/contrib/notebook/browser/notebookBrowser.js"
+  },
+  "yIa": {
+    "newName": "JUPYTER_NOTEBOOK",
+    "value": "jupyter-notebook",
+    "file": "vs/workbench/contrib/notebook/browser/notebookBrowser.js"
+  },
+  "cCt": {
+    "newName": "CMD_WORKBENCH_EDITOR_NOTEBOOK",
+    "value": "workbench.editor.notebook",
+    "file": "vs/workbench/contrib/notebook/common/notebookCommon.js"
+  },
+  "Lpi": {
+    "newName": "CMD_WORKBENCH_EDITOR_NOTEBOOK_TEXT_DIFF_EDITOR",
+    "value": "workbench.editor.notebookTextDiffEditor",
+    "file": "vs/workbench/contrib/notebook/common/notebookCommon.js"
+  },
+  "Sgg": {
+    "newName": "CMD_NOTEBOOK_MULTI_TEXT_DIFF_EDITOR",
+    "value": "workbench.editor.notebookMultiTextDiffEditor",
+    "file": "vs/workbench/contrib/notebook/common/notebookCommon.js"
+  },
+  "$un": {
+    "newName": "CMD_WORKBENCH_EDITOR_INTERACTIVE",
+    "value": "workbench.editor.interactive",
+    "file": "vs/workbench/contrib/notebook/common/notebookCommon.js"
+  },
+  "xca": {
+    "newName": "CMD_WORKBENCH_EDITOR_REPL",
+    "value": "workbench.editor.repl",
+    "file": "vs/workbench/contrib/notebook/common/notebookCommon.js"
+  },
+  "Zki": {
+    "newName": "CMD_WORKBENCH_VIEW_SCM",
+    "value": "workbench.view.scm",
+    "file": "vs/workbench/contrib/scm/common/scm.js"
+  },
+  "a0u": {
+    "newName": "CMD_WORKBENCH_SCM_REPOSITORIES",
+    "value": "workbench.scm.repositories",
+    "file": "vs/workbench/contrib/scm/common/scm.js"
+  },
+  "E7e": {
+    "newName": "CMD_WORKBENCH_SCM_HISTORY",
+    "value": "workbench.scm.history",
+    "file": "vs/workbench/contrib/scm/common/scm.js"
+  },
+  "EBf": {
+    "newName": "NORMAL",
+    "value": "normal",
+    "file": "vs/workbench/contrib/terminal/common/terminal.js"
+  },
+  "xBf": {
+    "newName": "BOLD",
+    "value": "bold",
+    "file": "vs/workbench/contrib/terminal/common/terminal.js"
+  },
+  "rkf": {
+    "newName": "BACKGROUNDCOMPOSERARTIFACTCACHE",
+    "value": "backgroundComposerArtifactCache",
+    "file": "vs/workbench/services/agentData/browser/artifactCacheService.js"
+  },
+  "r1t": {
+    "newName": "ARTIFACTS",
+    "value": "artifacts",
+    "file": "vs/workbench/services/agentData/browser/artifactCacheService.js"
+  },
+  "Tkt": {
+    "newName": "CURSOR_BROWSER_EXTENSION",
+    "value": "cursor-browser-extension",
+    "file": "vs/workbench/services/ai/browser/common/mcpConstants.js"
+  },
+  "Ikt": {
+    "newName": "CURSOR_IDE_BROWSER",
+    "value": "cursor-ide-browser",
+    "file": "vs/workbench/services/ai/browser/common/mcpConstants.js"
+  },
+  "dMe": {
+    "newName": "CURSOR_IDE_BROWSER_2",
+    "value": "cursor-ide-browser",
+    "file": "vs/workbench/services/ai/browser/common/mcpConstants.js"
+  },
+  "nAa": {
+    "newName": "URL_HTTPS_REPO_42_CURSOR_SH",
+    "value": "https://repo42.cursor.sh",
+    "file": "vs/workbench/services/ai/browser/cursorCredsService.ts"
+  },
+  "sMe": {
+    "newName": "URL_HTTPS_DEV_STAGING_CURSOR_SH",
+    "value": "https://dev-staging.cursor.sh",
+    "file": "vs/workbench/services/ai/browser/cursorCredsService.ts"
+  },
+  "Ont": {
+    "newName": "OZABXLCLY5CAGXNZUHQ2VLKNPI07TGUE",
+    "value": "OzaBXLClY5CAGxNzUhQ2vlknpi07tGuE",
+    "file": "vs/workbench/services/ai/browser/cursorCredsService.ts"
+  },
+  "iAa": {
+    "newName": "CMD_DEV_AUTHENTICATION_CURSOR_SH",
+    "value": "dev.authentication.cursor.sh",
+    "file": "vs/workbench/services/ai/browser/cursorCredsService.ts"
+  },
+  "oMe": {
+    "newName": "URL_HTTP_LOCALHOST_4000",
+    "value": "http://localhost:4000",
+    "file": "vs/workbench/services/ai/browser/cursorCredsService.ts"
+  },
+  "Shu": {
+    "newName": "SERVER_IS_BLOCKED_BY_TEAM_ADMIN",
+    "value": "Server is blocked by team admin",
+    "file": "vs/workbench/services/ai/browser/mcpService.js"
+  },
+  "P_i": {
+    "newName": "SETTINGS",
+    "value": "settings",
+    "file": "vs/workbench/services/configuration/common/configuration.js"
+  },
+  "Lie": {
+    "newName": "TASKS",
+    "value": "tasks",
+    "file": "vs/workbench/services/configuration/common/configuration.js"
+  },
+  "Fqe": {
+    "newName": "LAUNCH",
+    "value": "launch",
+    "file": "vs/workbench/services/configuration/common/configuration.js"
+  },
+  "YEe": {
+    "newName": "MCP",
+    "value": "mcp",
+    "file": "vs/workbench/services/configuration/common/configuration.js"
+  },
+  "aAa": {
+    "newName": "LOG",
+    "value": "Log",
+    "file": "vs/workbench/services/output/common/output.js"
+  },
+  "cAa": {
+    "newName": "LOG_2",
+    "value": "log",
+    "file": "vs/workbench/services/output/common/output.js"
+  },
+  "Vba": {
+    "newName": "CMD_WORKBENCH_VIEW_SEARCH",
+    "value": "workbench.view.search",
+    "file": "vs/workbench/services/search/common/search.js"
+  },
+  "hie": {
+    "newName": "CMD_WORKBENCH_VIEW_SEARCH_2",
+    "value": "workbench.view.search",
+    "file": "vs/workbench/services/search/common/search.js"
+  },
+  "Ant": {
+    "newName": "SEARCH_RESULT",
+    "value": "search-result",
+    "file": "vs/workbench/services/search/common/search.js"
+  },
+  "Eou": {
+    "newName": "CMD_SEARCH_EXCLUDE",
+    "value": "search.exclude",
+    "file": "vs/workbench/services/search/common/search.js"
+  },
+  "qMe": {
+    "newName": "UTF8BOM",
+    "value": "utf8bom",
+    "file": "vs/workbench/services/textfile/common/encoding.js"
+  },
+  "Dit": {
+    "newName": "UTF16BE",
+    "value": "utf16be",
+    "file": "vs/workbench/services/textfile/common/encoding.js"
+  },
+  "Bit": {
+    "newName": "UTF16LE",
+    "value": "utf16le",
+    "file": "vs/workbench/services/textfile/common/encoding.js"
+  },
+  "jau": {
+    "newName": "NODE_IGNORE",
+    "value": "node-ignore",
+    "file": "vs/workbench/services/utils/common/ignore.js"
+  },
+  "DCi": {
+    "newName": "CMD_SECURITY_WORKSPACE_TRUST_ENABLED",
+    "value": "security.workspace.trust.enabled",
+    "file": "vs/workbench/services/workspaces/common/workspaceTrust.js"
+  },
+  "MAu": {
+    "newName": "CMD_SECURITY_WORKSPACE_TRUST_STARTUP_PROMPT",
+    "value": "security.workspace.trust.startupPrompt",
+    "file": "vs/workbench/services/workspaces/common/workspaceTrust.js"
+  },
+  "FAu": {
+    "newName": "CMD_SECURITY_WORKSPACE_TRUST_BANNER",
+    "value": "security.workspace.trust.banner",
+    "file": "vs/workbench/services/workspaces/common/workspaceTrust.js"
+  },
+  "BCi": {
+    "newName": "CMD_SECURITY_WORKSPACE_TRUST_UNTRUSTED_FILES",
+    "value": "security.workspace.trust.untrustedFiles",
+    "file": "vs/workbench/services/workspaces/common/workspaceTrust.js"
+  },
+  "vEa": {
+    "newName": "CMD_SECURITY_WORKSPACE_TRUST_EMPTY_WINDOW",
+    "value": "security.workspace.trust.emptyWindow",
+    "file": "vs/workbench/services/workspaces/common/workspaceTrust.js"
+  },
+  "OAu": {
+    "newName": "CMD_EXTENSIONS_SUPPORT_UNTRUSTED_WORKSPACES",
+    "value": "extensions.supportUntrustedWorkspaces",
+    "file": "vs/workbench/services/workspaces/common/workspaceTrust.js"
+  },
+  "e3f": {
+    "newName": "CMD_CONTENT_TRUST_MODEL_KEY",
+    "value": "content.trust.model.key",
+    "file": "vs/workbench/services/workspaces/common/workspaceTrust.js"
+  }
+}

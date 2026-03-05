@@ -21,6 +21,23 @@
 import { readFileSync, writeFileSync, readdirSync, statSync } from 'node:fs';
 import { join, relative, resolve, extname } from 'node:path';
 import { execSync } from 'node:child_process';
+import { createRequire } from 'node:module';
+
+// Load prettier API directly (avoids spawning npx per file)
+let prettierApi = null;
+async function loadPrettier() {
+	try {
+		prettierApi = await import('prettier');
+	} catch {
+		// Fallback: resolve from npx cache
+		try {
+			const require = createRequire(import.meta.url);
+			prettierApi = require('prettier');
+		} catch {
+			console.log('[format-modules] WARNING: prettier API not available, using CLI fallback');
+		}
+	}
+}
 
 const PROJECT_ROOT = resolve(import.meta.dirname, '..');
 const DEFAULT_INPUT = join(PROJECT_ROOT, 'extracted/cursor-unbundled/modules');
@@ -95,12 +112,24 @@ function splitHeaderAndBody(content) {
  * Wraps in IIFE to help prettier parse code fragments,
  * then unwraps the result.
  */
-function formatWithPrettier(code) {
+async function formatWithPrettier(code) {
 	// Wrap code fragment in IIFE
 	const wrapped = '(function () {\n' + code + '\n})();\n';
 
-	// Write to temp file, format, read back
-	const tmpFile = join(PROJECT_ROOT, `.fmt-tmp-${process.pid}-${Date.now()}.js`);
+	if (prettierApi) {
+		// Use prettier API directly (fast, no process spawn)
+		const formatted = await prettierApi.format(wrapped, {
+			parser: 'babel',
+			printWidth: 100,
+			singleQuote: true,
+			tabWidth: 2,
+			trailingComma: 'all',
+		});
+		return unwrapIIFE(formatted);
+	}
+
+	// Fallback: CLI (slow, spawns process per file)
+	const tmpFile = join(PROJECT_ROOT, `.fmt-tmp-${process.pid}-${Date.now()}-${Math.random().toString(36).slice(2)}.js`);
 	try {
 		writeFileSync(tmpFile, wrapped);
 		execSync(
@@ -108,8 +137,6 @@ function formatWithPrettier(code) {
 			{ timeout: 30000 }
 		);
 		const formatted = readFileSync(tmpFile, 'utf8');
-
-		// Unwrap IIFE
 		return unwrapIIFE(formatted);
 	} finally {
 		try { execSync(`rm -f "${tmpFile}"`, { stdio: 'ignore' }); } catch { /* noop */ }
@@ -256,7 +283,7 @@ function fallbackFormat(code) {
 
 // ─── Format Single File ──────────────────────────────────────────
 
-function formatFile(filePath) {
+async function formatFile(filePath) {
 	const content = readFileSync(filePath, 'utf8');
 
 	// Skip very small files (likely empty or trivial)
@@ -285,7 +312,7 @@ function formatFile(filePath) {
 	let method = 'prettier';
 
 	try {
-		formatted = formatWithPrettier(body);
+		formatted = await formatWithPrettier(body);
 	} catch {
 		// Prettier failed — try fallback
 		try {
@@ -311,71 +338,96 @@ function formatFile(filePath) {
 
 // ─── Main ────────────────────────────────────────────────────────
 
-console.log(`[format-modules] 扫描 ${inputDir} ...`);
-const files = findJSFiles(inputDir);
-console.log(`[format-modules] 发现 ${files.length} 个 JS 文件`);
+async function main() {
+	// Load prettier API first
+	await loadPrettier();
+	if (prettierApi) {
+		console.log(`[format-modules] 使用 prettier API (快速模式，并发 ${concurrency})`);
+	} else {
+		console.log(`[format-modules] 使用 prettier CLI (慢速模式)`);
+	}
 
-if (dryRun) {
-	console.log('[format-modules] 模式: dry-run (不修改文件)');
-}
+	console.log(`[format-modules] 扫描 ${inputDir} ...`);
+	const files = findJSFiles(inputDir);
+	console.log(`[format-modules] 发现 ${files.length} 个 JS 文件`);
 
-const stats = { formatted: 0, fallback: 0, skipped: 0, failed: 0 };
-const failures = [];
+	if (dryRun) {
+		console.log('[format-modules] 模式: dry-run (不修改文件)');
+	}
 
-for (let i = 0; i < files.length; i++) {
-	const file = files[i];
-	const relPath = relative(inputDir, file);
+	const stats = { formatted: 0, fallback: 0, skipped: 0, failed: 0 };
+	const failures = [];
+	let completed = 0;
 
-	try {
-		const result = formatFile(file);
-
-		switch (result.status) {
-			case 'formatted':
-			case 'would-format':
-				if (result.method === 'fallback') {
-					stats.fallback++;
-					process.stdout.write('f');
-				} else {
-					stats.formatted++;
-					process.stdout.write('.');
-				}
-				break;
-			case 'skipped':
-				stats.skipped++;
-				break;
-			case 'failed':
-				stats.failed++;
-				failures.push({ file: relPath, reason: result.reason });
-				process.stdout.write('x');
-				break;
+	// Worker pool: process files with true concurrency
+	async function processOne(file) {
+		const relPath = relative(inputDir, file);
+		try {
+			const result = await formatFile(file);
+			switch (result.status) {
+				case 'formatted':
+				case 'would-format':
+					if (result.method === 'fallback') {
+						stats.fallback++;
+					} else {
+						stats.formatted++;
+					}
+					break;
+				case 'skipped':
+					stats.skipped++;
+					break;
+				case 'failed':
+					stats.failed++;
+					failures.push({ file: relPath, reason: result.reason });
+					break;
+			}
+		} catch (err) {
+			stats.failed++;
+			failures.push({ file: relPath, reason: err.message });
 		}
-	} catch (err) {
-		stats.failed++;
-		failures.push({ file: relPath, reason: err.message });
-		process.stdout.write('x');
+		completed++;
+		if (completed % 200 === 0) {
+			console.log(`[format-modules] 进度: ${completed}/${files.length} (格式化: ${stats.formatted}, 跳过: ${stats.skipped}, 失败: ${stats.failed})`);
+		}
 	}
 
-	// Progress indicator
-	if ((i + 1) % 100 === 0) {
-		process.stdout.write(` [${i + 1}/${files.length}]\n`);
+	// Run with bounded concurrency
+	const pool = [];
+	for (const file of files) {
+		const p = processOne(file);
+		pool.push(p);
+		if (pool.length >= concurrency) {
+			await Promise.race(pool);
+			// Remove settled promises
+			for (let i = pool.length - 1; i >= 0; i--) {
+				const status = await Promise.race([pool[i].then(() => 'done'), Promise.resolve('pending')]);
+				if (status === 'done') pool.splice(i, 1);
+			}
+		}
 	}
+	await Promise.all(pool);
+
+	console.log('\n[format-modules] === 结果 ===');
+	console.log(`  prettier 格式化: ${stats.formatted}`);
+	console.log(`  fallback 格式化: ${stats.fallback}`);
+	console.log(`  已跳过: ${stats.skipped}`);
+	console.log(`  失败: ${stats.failed}`);
+	console.log(`  总计: ${completed}`);
+
+	if (failures.length > 0) {
+		console.log('\n[format-modules] 失败文件:');
+		for (const f of failures.slice(0, 20)) {
+			console.log(`  ${f.file}: ${f.reason}`);
+		}
+		if (failures.length > 20) {
+			console.log(`  ... 还有 ${failures.length - 20} 个`);
+		}
+	}
+
+	console.log('\n[format-modules] 完成!');
 }
 
-console.log('\n');
-console.log('[format-modules] === 结果 ===');
-console.log(`  prettier 格式化: ${stats.formatted}`);
-console.log(`  fallback 格式化: ${stats.fallback}`);
-console.log(`  已跳过: ${stats.skipped}`);
-console.log(`  失败: ${stats.failed}`);
-
-if (failures.length > 0) {
-	console.log('\n[format-modules] 失败文件:');
-	for (const f of failures.slice(0, 20)) {
-		console.log(`  ${f.file}: ${f.reason}`);
-	}
-	if (failures.length > 20) {
-		console.log(`  ... 还有 ${failures.length - 20} 个`);
-	}
-}
-
-console.log('\n[format-modules] 完成!');
+main().catch(err => {
+	console.error('[format-modules] 致命错误:', err);
+	process.exit(1);
+});

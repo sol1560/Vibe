@@ -272,7 +272,7 @@ function stripTypeAnnotations(code) {
 	//    这些是 convert-to-ts 脚本添加的 TS 类属性声明，在原始 JS 中不存在
 	//    模式: `public FieldName: ITypeName;` — 可能在行首也可能内联
 	//    必须完整删除（包括 public 关键字、字段名、类型注解和分号）
-	result = result.replace(/(public|private|protected)\s+(readonly\s+)?[A-Za-z_$][\w$]*\s*:\s*I?[A-Z][\w.]*(?:<[^>]+>)?\s*;/g, '');
+	result = result.replace(/(public|private|protected)\s+(readonly\s+)?[A-Za-z_$][\w$]*\s*:\s*I[A-Z][\w.]*(?:<[^>]+>)?\s*;/g, '');
 
 	// 1. 去除参数装饰器: @IServiceName paramName → paramName
 	//    匹配: @ICapitalized word (在函数参数上下文中)
@@ -313,7 +313,7 @@ function extractDepPreamble(originalBody) {
 	let preambleEnd = i;
 	while (i < originalBody.length) {
 		// 跳过空白
-		while (i < originalBody.length && (originalBody[i] === ' ' || originalBody[i] === '\n')) i++;
+		while (i < originalBody.length && /[\s]/.test(originalBody[i])) i++;
 		const slice = originalBody.substring(i);
 		const m = slice.match(depCallRe);
 		if (!m) break;
@@ -396,6 +396,120 @@ for (const [varName, modulePath] of Object.entries(moduleMap)) {
 }
 
 console.log(`[rebundle] 读取了 ${readCount} 个模块文件 (${tsCount} 个 TypeScript, ${syntaxErrors} 个语法错误已跳过)`);
+
+// ============================================================
+// Phase 5a: 反混淆逆转（Re-obfuscation）
+// ============================================================
+// deobfuscate.js 将 shortVar → longName（如 On → IConfigurationService）
+// 这里需要逆转：longName → shortVar，让模块体中的名称恢复为 bundle 中的原始名称
+// 只逆转 global renames（Strategy 1 + Strategy 4），不处理 constructor param renames
+// （ctor param renames 只改构造函数签名内部的局部名称，不影响跨模块引用）
+
+console.log('[rebundle] 构建 re-obfuscation 逆转映射...');
+
+const SERVICE_MAP_PATH = join(PROJECT_ROOT, 'scripts/data/service-map.json');
+const SINGLETON_MAP_PATH = join(PROJECT_ROOT, 'scripts/data/singleton-map.json');
+
+const serviceMap = JSON.parse(readFileSync(SERVICE_MAP_PATH, 'utf-8'));
+const singletonMap = JSON.parse(readFileSync(SINGLETON_MAP_PATH, 'utf-8'));
+
+// 构建逆转映射: longName → shortVar
+// 注意：deobfuscate.js 只有在当前模块中有定义时才重命名，
+// 但逆转时我们可以安全地全局替换，因为这些 longName 都是唯一的接口/类名
+const reverseMap = new Map();
+
+// Strategy 1 逆转: interfaceName → shortVar (来自 service-map.json)
+for (const [shortVar, info] of Object.entries(serviceMap)) {
+	if (info.interfaceName && shortVar !== info.interfaceName) {
+		// 检查是否有冲突（多个 shortVar 映射到同一个 interfaceName）
+		if (reverseMap.has(info.interfaceName)) {
+			// 冲突！跳过，保留第一个映射
+			console.log(`[rebundle] [警告] 逆转映射冲突: ${info.interfaceName} → ${reverseMap.get(info.interfaceName)} 和 ${shortVar}`);
+		} else {
+			reverseMap.set(info.interfaceName, shortVar);
+		}
+	}
+}
+
+// Strategy 4 逆转: implClassName → implVar (来自 singleton-map.json)
+for (const [implVar, info] of Object.entries(singletonMap)) {
+	if (!info.implClassName) continue;
+	if (implVar.length <= 2) continue; // deobfuscate.js 跳过 <=2 字符的
+	if (implVar === info.implClassName) continue;
+
+	if (reverseMap.has(info.implClassName)) {
+		console.log(`[rebundle] [警告] 逆转映射冲突: ${info.implClassName} → ${reverseMap.get(info.implClassName)} 和 ${implVar}`);
+	} else {
+		reverseMap.set(info.implClassName, implVar);
+	}
+}
+
+console.log(`[rebundle] 逆转映射: ${reverseMap.size} 个条目 (${Object.keys(serviceMap).length} service + ${Object.keys(singletonMap).length} singleton)`);
+
+// 按 longName 长度降序排列，避免短名匹配干扰长名
+const sortedReverseEntries = [...reverseMap.entries()].sort((a, b) => b[0].length - a[0].length);
+
+// 正则转义辅助函数
+function escapeRegexRebundle(str) {
+	return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * 对模块体应用 re-obfuscation: 将人类可读名称替换回原始短变量名
+ * 使用 word-boundary 匹配，与 deobfuscate.js 的 applyGlobalRenames 完全对称
+ */
+function reobfuscateModuleBody(body, reverseEntries) {
+	let result = body;
+	let totalCount = 0;
+
+	for (const [longName, shortVar] of reverseEntries) {
+		if (longName === shortVar) continue;
+		// Word-boundary: 不匹配 longName 前后紧邻字母/数字/$/_ 的情况
+		const regex = new RegExp(`(?<![\\w$])${escapeRegexRebundle(longName)}(?![\\w$])`, 'g');
+		const before = result;
+		result = result.replace(regex, shortVar);
+		if (result !== before) {
+			const matches = before.match(regex);
+			totalCount += matches ? matches.length : 0;
+		}
+	}
+
+	return { body: result, count: totalCount };
+}
+
+// 对每个 modifiedBody 应用 re-obfuscation
+let reobfuscatedCount = 0;
+let reobfuscatedRenames = 0;
+
+for (const [varName, body] of modifiedBodies) {
+	const { body: newBody, count } = reobfuscateModuleBody(body, sortedReverseEntries);
+	if (count > 0) {
+		modifiedBodies.set(varName, newBody);
+		reobfuscatedCount++;
+		reobfuscatedRenames += count;
+	}
+}
+
+console.log(`[rebundle] Re-obfuscation: ${reobfuscatedCount} 个模块被逆转, 共 ${reobfuscatedRenames} 处替换`);
+
+// 验证: 检查是否还有残留的 extends Disposable（应为 extends at）
+{
+	let disposableCount = 0;
+	for (const [varName, body] of modifiedBodies) {
+		const matches = body.match(/\bextends\s+Disposable\b/g);
+		if (matches) {
+			disposableCount += matches.length;
+			if (disposableCount <= 5) {
+				console.log(`[rebundle] [警告] 残留 extends Disposable 在模块 ${varName} (${matches.length} 处)`);
+			}
+		}
+	}
+	if (disposableCount > 0) {
+		console.log(`[rebundle] [警告] 共有 ${disposableCount} 处 extends Disposable 残留！`);
+	} else {
+		console.log('[rebundle] [验证通过] 无 extends Disposable 残留');
+	}
+}
 
 // ============================================================
 // Phase 5b: 发现并注册新模块（不在原始 module-map.json 中）
@@ -543,6 +657,12 @@ for (const nm of newModules) {
 	// 新模块总是需要去除可能的类型注解和装饰器
 	if (nm.body) {
 		nm.body = stripTypeAnnotations(nm.body);
+		// 新模块也需要 re-obfuscation（如果开发时使用了人类可读名称）
+		const { body: reobBody, count: reobCount } = reobfuscateModuleBody(nm.body, sortedReverseEntries);
+		if (reobCount > 0) {
+			nm.body = reobBody;
+			console.log(`[rebundle] 新模块 ${nm.varName} re-obfuscation: ${reobCount} 处替换`);
+		}
 	}
 }
 
@@ -729,7 +849,7 @@ let output = pieces.join('');
 {
 	const tsBefore = output.length;
 	// 删除 convert-to-ts 注入的 class field 声明（内联和独立行都匹配）
-	output = output.replace(/(public|private|protected)\s+(readonly\s+)?[A-Za-z_$][\w$]*\s*:\s*I?[A-Z][\w.]*(?:<[^>]+>)?\s*;/g, '');
+	output = output.replace(/(public|private|protected)\s+(readonly\s+)?[A-Za-z_$][\w$]*\s*:\s*I[A-Z][\w.]*(?:<[^>]+>)?\s*;/g, '');
 	// 也删除已被部分 strip 后残留的孤立标识符（如 "ConfigurationResolverService;"）
 	output = output.replace(/(?<=[\{\n])[ \t]*[A-Z][A-Za-z]*Service\s*;/g, '');
 	const tsRemoved = tsBefore - output.length;

@@ -1,0 +1,4160 @@
+{
+  "vPf": {
+    "inferred": "Broadcast",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/broadcast.js",
+    "count": 1
+  },
+  "s5e": {
+    "inferred": "Browser",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/browser.js",
+    "count": 3
+  },
+  "lve": {
+    "inferred": "CssValue",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/cssValue.js",
+    "count": 1
+  },
+  "oIc": {
+    "inferred": "Dnd",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/dnd.js",
+    "count": 1
+  },
+  "Msh": {
+    "inferred": "DomStylesheets",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/domStylesheets.js",
+    "count": 1
+  },
+  "Hg": {
+    "inferred": "Event",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/event.js",
+    "count": 1
+  },
+  "UH": {
+    "inferred": "FastDomNode",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/fastDomNode.ts",
+    "count": 1
+  },
+  "Hft": {
+    "inferred": "GlobalPointerMoveMonitor",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/globalPointerMoveMonitor.js",
+    "count": 1
+  },
+  "jnh": {
+    "inferred": "Iframe",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/iframe.js",
+    "count": 1
+  },
+  "bh": {
+    "inferred": "KeyboardEvent",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/keyboardEvent.js",
+    "count": 1
+  },
+  "x1": {
+    "inferred": "Touch",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/touch.ts",
+    "count": 2
+  },
+  "Qf": {
+    "inferred": "Actionbar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/actionbar/actionbar.ts",
+    "count": 1
+  },
+  "mme": {
+    "inferred": "CountBadge",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/countBadge/countBadge.js",
+    "count": 1
+  },
+  "dpi": {
+    "inferred": "FindInput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/findinput/findInput.ts",
+    "count": 1
+  },
+  "Mx": {
+    "inferred": "HighlightedLabel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/highlightedlabel/highlightedLabel.ts",
+    "count": 1
+  },
+  "nxe": {
+    "inferred": "SimpleIconLabel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/iconLabel/simpleIconLabel.js",
+    "count": 1
+  },
+  "Voe": {
+    "inferred": "KeybindingLabel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/keybindingLabel/keybindingLabel.js",
+    "count": 1
+  },
+  "fwh": {
+    "inferred": "RangeMap",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/list/rangeMap.js",
+    "count": 1
+  },
+  "bwh": {
+    "inferred": "RowCache",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/list/rowCache.js",
+    "count": 1
+  },
+  "zyh": {
+    "inferred": "Splice",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/list/splice.js",
+    "count": 1
+  },
+  "Wye": {
+    "inferred": "Progressbar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/progressbar/progressbar.ts",
+    "count": 1
+  },
+  "Q9t": {
+    "inferred": "Resizable",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/resizable/resizable.ts",
+    "count": 1
+  },
+  "sTc": {
+    "inferred": "AbstractScrollbar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/scrollbar/abstractScrollbar.ts",
+    "count": 1
+  },
+  "cvh": {
+    "inferred": "HorizontalScrollbar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/scrollbar/horizontalScrollbar.js",
+    "count": 1
+  },
+  "ivh": {
+    "inferred": "ScrollbarArrow",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/scrollbar/scrollbarArrow.js",
+    "count": 1
+  },
+  "qOo": {
+    "inferred": "ScrollbarState",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/scrollbar/scrollbarState.ts",
+    "count": 1
+  },
+  "rvh": {
+    "inferred": "ScrollbarVisibilityController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/scrollbar/scrollbarVisibilityController.js",
+    "count": 1
+  },
+  "lvh": {
+    "inferred": "VerticalScrollbar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/scrollbar/verticalScrollbar.js",
+    "count": 1
+  },
+  "C9e": {
+    "inferred": "SelectBox",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/selectBox/selectBox.js",
+    "count": 1
+  },
+  "hme": {
+    "inferred": "DataTree",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/tree/dataTree.js",
+    "count": 1
+  },
+  "Zmg": {
+    "inferred": "IndexTreeModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/tree/indexTreeModel.ts",
+    "count": 1
+  },
+  "ppi": {
+    "inferred": "ObjectTreeModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/tree/objectTreeModel.ts",
+    "count": 1
+  },
+  "UR": {
+    "inferred": "Widget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/browser/ui/widget.js",
+    "count": 1
+  },
+  "HEe": {
+    "inferred": "AsyncPromiseQueue",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/asyncPromiseQueue.js",
+    "count": 1
+  },
+  "Ps": {
+    "inferred": "Buffer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/buffer.ts",
+    "count": 1
+  },
+  "y0c": {
+    "inferred": "Cache",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/cache.js",
+    "count": 1
+  },
+  "CTf": {
+    "inferred": "AsyncDecoder",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/codecs/asyncDecoder.js",
+    "count": 1
+  },
+  "Pth": {
+    "inferred": "Collections",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/collections.js",
+    "count": 1
+  },
+  "wbt": {
+    "inferred": "DataTransfer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/dataTransfer.js",
+    "count": 1
+  },
+  "JUe": {
+    "inferred": "DiffChange",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/diff/diffChange.js",
+    "count": 1
+  },
+  "tvn": {
+    "inferred": "EvictingLRUCache",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/evictingLRUCache.js",
+    "count": 1
+  },
+  "YOn": {
+    "inferred": "Filters",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/filters.js",
+    "count": 1
+  },
+  "Sde": {
+    "inferred": "Hash",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/hash.js",
+    "count": 2
+  },
+  "f0": {
+    "inferred": "HierarchicalKind",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/hierarchicalKind.js",
+    "count": 1
+  },
+  "sc": {
+    "inferred": "HtmlContent",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/htmlContent.ts",
+    "count": 1
+  },
+  "k3o": {
+    "inferred": "IdGenerator",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/idGenerator.js",
+    "count": 2
+  },
+  "cyh": {
+    "inferred": "Ime",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/ime.js",
+    "count": 2
+  },
+  "RMo": {
+    "inferred": "KeyCodes",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/keyCodes.ts",
+    "count": 4
+  },
+  "k3n": {
+    "inferred": "KeybindingLabels",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/keybindingLabels.js",
+    "count": 5
+  },
+  "Mb": {
+    "inferred": "Lazy",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/lazy.js",
+    "count": 1
+  },
+  "zmu": {
+    "inferred": "LinkedText",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/linkedText.js",
+    "count": 2
+  },
+  "Gmg": {
+    "inferred": "Navigator",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/navigator.js",
+    "count": 1
+  },
+  "x1t": {
+    "inferred": "ObservableDisposable",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/observableDisposable.js",
+    "count": 1
+  },
+  "f4t": {
+    "inferred": "Autorun",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/observableInternal/autorun.js",
+    "count": 2
+  },
+  "L4": {
+    "inferred": "DebugName",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/observableInternal/debugName.js",
+    "count": 1
+  },
+  "psh": {
+    "inferred": "LazyObservableValue",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/observableInternal/lazyObservableValue.js",
+    "count": 1
+  },
+  "vSc": {
+    "inferred": "ConsoleObservableLogger",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/observableInternal/logging/consoleObservableLogger.js",
+    "count": 1
+  },
+  "Dsh": {
+    "inferred": "DevToolsLogger",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/observableInternal/logging/debugger/devToolsLogger.ts",
+    "count": 1
+  },
+  "ksh": {
+    "inferred": "Rpc",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/observableInternal/logging/debugger/rpc.js",
+    "count": 1
+  },
+  "Ish": {
+    "inferred": "Utils",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/observableInternal/logging/debugger/utils.js",
+    "count": 1
+  },
+  "lSc": {
+    "inferred": "Logging",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/observableInternal/logging/logging.js",
+    "count": 1
+  },
+  "kye": {
+    "inferred": "ObservableValue",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/observableValue.js",
+    "count": 1
+  },
+  "A0c": {
+    "inferred": "Path",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/path.ts",
+    "count": 1
+  },
+  "iFn": {
+    "inferred": "Resources",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/resources.ts",
+    "count": 4
+  },
+  "Dih": {
+    "inferred": "Stream",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "base/common/stream.js",
+    "count": 1
+  },
+  "je": {
+    "inferred": "URI",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "base/common/uri.ts",
+    "count": 2
+  },
+  "Uxc": {
+    "inferred": "ElementSizeObserver",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/config/elementSizeObserver.js",
+    "count": 1
+  },
+  "BOn": {
+    "inferred": "MigrateOptions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/config/migrateOptions.ts",
+    "count": 1
+  },
+  "i3t": {
+    "inferred": "ClipboardUtils",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/controller/editContext/clipboardUtils.ts",
+    "count": 1
+  },
+  "QTc": {
+    "inferred": "EditContext",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/controller/editContext/editContext.js",
+    "count": 1
+  },
+  "QOn": {
+    "inferred": "NativeEditContext",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/controller/editContext/native/nativeEditContext.ts",
+    "count": 3
+  },
+  "gyh": {
+    "inferred": "NativeEditContextRegistry",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/controller/editContext/native/nativeEditContextRegistry.js",
+    "count": 2
+  },
+  "pyh": {
+    "inferred": "NativeEditContextUtils",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/controller/editContext/native/nativeEditContextUtils.js",
+    "count": 1
+  },
+  "n3o": {
+    "inferred": "ScreenReaderSupport",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/controller/editContext/native/screenReaderSupport.ts",
+    "count": 3
+  },
+  "zTc": {
+    "inferred": "ScreenReaderUtils",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/controller/editContext/screenReaderUtils.js",
+    "count": 1
+  },
+  "JOo": {
+    "inferred": "MouseHandler",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/browser/controller/mouseHandler.ts",
+    "count": 1
+  },
+  "Cvh": {
+    "inferred": "PointerHandler",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/browser/controller/pointerHandler.js",
+    "count": 2
+  },
+  "g9e": {
+    "inferred": "TextureAtlas",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/atlas/textureAtlas.ts",
+    "count": 3
+  },
+  "cve": {
+    "inferred": "TextureAtlasPage",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/atlas/textureAtlasPage.ts",
+    "count": 3
+  },
+  "UAh": {
+    "inferred": "TextureAtlasShelfAllocator",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/atlas/textureAtlasShelfAllocator.js",
+    "count": 1
+  },
+  "qAh": {
+    "inferred": "TextureAtlasSlabAllocator",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/atlas/textureAtlasSlabAllocator.ts",
+    "count": 1
+  },
+  "HAh": {
+    "inferred": "BufferDirtyTracker",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/bufferDirtyTracker.js",
+    "count": 1
+  },
+  "zAh": {
+    "inferred": "DecorationCssRuleExtractor",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/css/decorationCssRuleExtractor.js",
+    "count": 1
+  },
+  "VAh": {
+    "inferred": "DecorationStyleCache",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/css/decorationStyleCache.js",
+    "count": 1
+  },
+  "u3t": {
+    "inferred": "GlyphRasterizer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/raster/glyphRasterizer.ts",
+    "count": 2
+  },
+  "jAh": {
+    "inferred": "RectangleRenderer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/rectangleRenderer.ts",
+    "count": 1
+  },
+  "GTc": {
+    "inferred": "BaseRenderStrategy",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/renderStrategy/baseRenderStrategy.js",
+    "count": 1
+  },
+  "d3t": {
+    "inferred": "FullFileRenderStrategy",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/renderStrategy/fullFileRenderStrategy.ts",
+    "count": 1
+  },
+  "ryh": {
+    "inferred": "ViewportRenderStrategy",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/renderStrategy/viewportRenderStrategy.ts",
+    "count": 1
+  },
+  "qH": {
+    "inferred": "ViewGpuContext",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/gpu/viewGpuContext.ts",
+    "count": 3
+  },
+  "O0h": {
+    "inferred": "ObservableCodeEditor",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/observableCodeEditor.ts",
+    "count": 1
+  },
+  "Qoe": {
+    "inferred": "Point",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/point.js",
+    "count": 1
+  },
+  "E2": {
+    "inferred": "Rect",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/rect.ts",
+    "count": 1
+  },
+  "N3n": {
+    "inferred": "BulkEditService",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/browser/services/bulkEditService.ts",
+    "count": 3
+  },
+  "hce": {
+    "inferred": "GenericUndoRedoElement",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/services/genericUndoRedoElement.js",
+    "count": 1
+  },
+  "BUf": {
+    "inferred": "InlineDiffSourceAdapter",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/services/inlineDiffSourceAdapter.ts",
+    "count": 1
+  },
+  "ZZ": {
+    "inferred": "InlineDiffUndoRedoElement",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/services/inlineDiffUndoRedoElement.js",
+    "count": 1
+  },
+  "LOn": {
+    "inferred": "MarkerDecorations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/services/markerDecorations.js",
+    "count": 5
+  },
+  "h9e": {
+    "inferred": "DynamicViewOverlay",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/view/dynamicViewOverlay.js",
+    "count": 1
+  },
+  "kvh": {
+    "inferred": "ViewController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/view/viewController.ts",
+    "count": 1
+  },
+  "mTc": {
+    "inferred": "ViewUserInputEvents",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/view/viewUserInputEvents.js",
+    "count": 1
+  },
+  "Bvh": {
+    "inferred": "BlockDecorations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/blockDecorations/blockDecorations.js",
+    "count": 1
+  },
+  "Mvh": {
+    "inferred": "Decorations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/decorations/decorations.ts",
+    "count": 1
+  },
+  "Fvh": {
+    "inferred": "EditorScrollbar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/editorScrollbar/editorScrollbar.js",
+    "count": 1
+  },
+  "vyh": {
+    "inferred": "GpuMark",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/gpuMark/gpuMark.ts",
+    "count": 1
+  },
+  "Wvh": {
+    "inferred": "IndentGuides",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/indentGuides/indentGuides.ts",
+    "count": 1
+  },
+  "ATc": {
+    "inferred": "LineNumbers",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/lineNumbers/lineNumbers.ts",
+    "count": 1
+  },
+  "Yvh": {
+    "inferred": "LinesDecorations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/linesDecorations/linesDecorations.js",
+    "count": 1
+  },
+  "wTc": {
+    "inferred": "Margin",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/margin/margin.ts",
+    "count": 1
+  },
+  "Xvh": {
+    "inferred": "MarginDecorations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/marginDecorations/marginDecorations.js",
+    "count": 1
+  },
+  "rAh": {
+    "inferred": "MinimapCharRendererFactory",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/minimap/minimapCharRendererFactory.ts",
+    "count": 1
+  },
+  "hAh": {
+    "inferred": "OverlayWidgets",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/overlayWidgets/overlayWidgets.js",
+    "count": 1
+  },
+  "wAh": {
+    "inferred": "OverviewRuler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/overviewRuler/overviewRuler.js",
+    "count": 1
+  },
+  "byh": {
+    "inferred": "RulersGpu",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/rulersGpu/rulersGpu.js",
+    "count": 1
+  },
+  "CAh": {
+    "inferred": "ScrollDecoration",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/scrollDecoration/scrollDecoration.js",
+    "count": 1
+  },
+  "TAh": {
+    "inferred": "ViewCursors",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/viewCursors/viewCursors.ts",
+    "count": 1
+  },
+  "zOo": {
+    "inferred": "DomReadingContext",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/viewLines/domReadingContext.js",
+    "count": 1
+  },
+  "MOn": {
+    "inferred": "RangeUtil",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/viewLines/rangeUtil.js",
+    "count": 1
+  },
+  "qOn": {
+    "inferred": "ViewLineOptions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/viewLines/viewLineOptions.js",
+    "count": 1
+  },
+  "XOo": {
+    "inferred": "ViewLinesGpu",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/viewLinesGpu/viewLinesGpu.ts",
+    "count": 3
+  },
+  "IAh": {
+    "inferred": "ViewZones",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/viewParts/viewZones/viewZones.ts",
+    "count": 1
+  },
+  "Syh": {
+    "inferred": "CodeEditorContributions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/codeEditor/codeEditorContributions.js",
+    "count": 1
+  },
+  "H3": {
+    "inferred": "EmbeddedCodeEditorWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/codeEditor/embeddedCodeEditorWidget.js",
+    "count": 3
+  },
+  "F0h": {
+    "inferred": "DiffEditorDecorations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/diffEditor/components/diffEditorDecorations.ts",
+    "count": 1
+  },
+  "a5o": {
+    "inferred": "DiffEditorEditors",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/diffEditor/components/diffEditorEditors.ts",
+    "count": 3
+  },
+  "s5o": {
+    "inferred": "DiffEditorViewZones",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/diffEditor/components/diffEditorViewZones/diffEditorViewZones.ts",
+    "count": 3
+  },
+  "B0h": {
+    "inferred": "InlineDiffDeletedCodeMargin",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/diffEditor/components/diffEditorViewZones/inlineDiffDeletedCodeMargin.ts",
+    "count": 1
+  },
+  "W0h": {
+    "inferred": "DelegatingEditorImpl",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/diffEditor/delegatingEditorImpl.js",
+    "count": 1
+  },
+  "JB": {
+    "inferred": "DiffEditorWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/diffEditor/diffEditorWidget.ts",
+    "count": 3
+  },
+  "fbt": {
+    "inferred": "OverviewRulerFeature",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/diffEditor/features/overviewRulerFeature.ts",
+    "count": 3
+  },
+  "tL": {
+    "inferred": "MarkdownRenderer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/markdownRenderer/browser/markdownRenderer.ts",
+    "count": 3
+  },
+  "PDc": {
+    "inferred": "Utils",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/browser/widget/multiDiffEditor/utils.js",
+    "count": 1
+  },
+  "MU": {
+    "inferred": "BaseToken",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/baseToken.js",
+    "count": 1
+  },
+  "MTf": {
+    "inferred": "LinesDecoder",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/linesCodec/linesDecoder.js",
+    "count": 1
+  },
+  "T1t": {
+    "inferred": "CarriageReturn",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/linesCodec/tokens/carriageReturn.js",
+    "count": 1
+  },
+  "NTf": {
+    "inferred": "Line",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/linesCodec/tokens/line.js",
+    "count": 1
+  },
+  "qTf": {
+    "inferred": "MarkdownDecoder",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/markdownCodec/markdownDecoder.js",
+    "count": 1
+  },
+  "ggu": {
+    "inferred": "MarkdownImage",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/markdownCodec/parsers/markdownImage.js",
+    "count": 2
+  },
+  "TTf": {
+    "inferred": "MarkdownImage",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/markdownCodec/tokens/markdownImage.js",
+    "count": 1
+  },
+  "qqe": {
+    "inferred": "ParserBase",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/parserBase.js",
+    "count": 1
+  },
+  "UTf": {
+    "inferred": "SimpleDecoder",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/simpleDecoder.js",
+    "count": 1
+  },
+  "I1t": {
+    "inferred": "AngleBrackets",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/tokens/angleBrackets.ts",
+    "count": 1
+  },
+  "Jgn": {
+    "inferred": "Brackets",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/tokens/brackets.ts",
+    "count": 1
+  },
+  "Hgn": {
+    "inferred": "Colon",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/tokens/colon.js",
+    "count": 1
+  },
+  "Hqe": {
+    "inferred": "Dash",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/tokens/dash.js",
+    "count": 1
+  },
+  "Cit": {
+    "inferred": "ExclamationMark",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/tokens/exclamationMark.js",
+    "count": 1
+  },
+  "qgn": {
+    "inferred": "Hash",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/tokens/hash.js",
+    "count": 1
+  },
+  "lSa": {
+    "inferred": "Parentheses",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/tokens/parentheses.ts",
+    "count": 1
+  },
+  "tSa": {
+    "inferred": "Space",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/tokens/space.js",
+    "count": 1
+  },
+  "eSa": {
+    "inferred": "Tab",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/tokens/tab.js",
+    "count": 1
+  },
+  "LTf": {
+    "inferred": "Word",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/codecs/simpleCodec/tokens/word.js",
+    "count": 1
+  },
+  "jFo": {
+    "inferred": "ShiftCommand",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/commands/shiftCommand.ts",
+    "count": 4
+  },
+  "zP": {
+    "inferred": "CursorColumns",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/core/cursorColumns.ts",
+    "count": 1
+  },
+  "Qb": {
+    "inferred": "EditOperation",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/core/editOperation.js",
+    "count": 1
+  },
+  "sr": {
+    "inferred": "Position",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/core/position.ts",
+    "count": 1
+  },
+  "m3t": {
+    "inferred": "PositionToOffset",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/core/positionToOffset.js",
+    "count": 1
+  },
+  "Zt": {
+    "inferred": "Range",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/core/range.ts",
+    "count": 1
+  },
+  "HVe": {
+    "inferred": "Rgba",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/core/rgba.js",
+    "count": 1
+  },
+  "Yl": {
+    "inferred": "Selection",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/core/selection.js",
+    "count": 1
+  },
+  "zbe": {
+    "inferred": "StringBuilder",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/core/stringBuilder.js",
+    "count": 1
+  },
+  "VN": {
+    "inferred": "TextLength",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/core/textLength.js",
+    "count": 1
+  },
+  "qah": {
+    "inferred": "WordCharacterClassifier",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/core/wordCharacterClassifier.js",
+    "count": 1
+  },
+  "SFo": {
+    "inferred": "CursorAtomicMoveOperations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/cursor/cursorAtomicMoveOperations.ts",
+    "count": 1
+  },
+  "mxc": {
+    "inferred": "CursorCollection",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/cursor/cursorCollection.ts",
+    "count": 1
+  },
+  "M4t": {
+    "inferred": "CursorColumnSelection",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/cursor/cursorColumnSelection.ts",
+    "count": 1
+  },
+  "pxc": {
+    "inferred": "CursorContext",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/cursor/cursorContext.js",
+    "count": 1
+  },
+  "Zgt": {
+    "inferred": "CursorDeleteOperations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/cursor/cursorDeleteOperations.ts",
+    "count": 1
+  },
+  "f9": {
+    "inferred": "CursorMoveCommands",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/cursor/cursorMoveCommands.ts",
+    "count": 1
+  },
+  "hxc": {
+    "inferred": "OneCursor",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/cursor/oneCursor.js",
+    "count": 1
+  },
+  "p0h": {
+    "inferred": "DynamicProgrammingDiffing",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/diff/defaultLinesDiffComputer/algorithms/dynamicProgrammingDiffing.js",
+    "count": 1
+  },
+  "m0h": {
+    "inferred": "StreamingDPDiffing",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/diff/defaultLinesDiffComputer/algorithms/streamingDPDiffing.js",
+    "count": 1
+  },
+  "i5o": {
+    "inferred": "DefaultLinesDiffComputer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/diff/defaultLinesDiffComputer/defaultLinesDiffComputer.ts",
+    "count": 1
+  },
+  "g3n": {
+    "inferred": "LineSequence",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/diff/defaultLinesDiffComputer/lineSequence.js",
+    "count": 1
+  },
+  "p3n": {
+    "inferred": "LinesSliceCharSequence",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/diff/defaultLinesDiffComputer/linesSliceCharSequence.js",
+    "count": 1
+  },
+  "umh": {
+    "inferred": "EditorAction",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/editorAction.ts",
+    "count": 1
+  },
+  "RAh": {
+    "inferred": "EditorTheme",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/editorTheme.js",
+    "count": 1
+  },
+  "gF": {
+    "inferred": "EncodedTokenAttributes",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/encodedTokenAttributes.js",
+    "count": 1
+  },
+  "Sah": {
+    "inferred": "InputMode",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/inputMode.js",
+    "count": 2
+  },
+  "Bch": {
+    "inferred": "LanguageConfigurationRegistry",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/common/languages/languageConfigurationRegistry.ts",
+    "count": 2
+  },
+  "Cch": {
+    "inferred": "ModesRegistry",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/languages/modesRegistry.js",
+    "count": 2
+  },
+  "Wah": {
+    "inferred": "CharacterPair",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/languages/supports/characterPair.ts",
+    "count": 1
+  },
+  "Zah": {
+    "inferred": "ElectricCharacter",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/languages/supports/electricCharacter.js",
+    "count": 1
+  },
+  "ech": {
+    "inferred": "IndentRules",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/languages/supports/indentRules.js",
+    "count": 1
+  },
+  "WFo": {
+    "inferred": "IndentationLineProcessor",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/common/languages/supports/indentationLineProcessor.js",
+    "count": 1
+  },
+  "tch": {
+    "inferred": "OnEnter",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/languages/supports/onEnter.ts",
+    "count": 1
+  },
+  "W4o": {
+    "inferred": "CombineTextEditInfos",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/bracketPairsTextModelPart/bracketPairsTree/combineTextEditInfos.js",
+    "count": 1
+  },
+  "qmh": {
+    "inferred": "NodeReader",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/bracketPairsTextModelPart/bracketPairsTree/nodeReader.js",
+    "count": 1
+  },
+  "Hmh": {
+    "inferred": "Parser",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/bracketPairsTextModelPart/bracketPairsTree/parser.js",
+    "count": 1
+  },
+  "Ymh": {
+    "inferred": "ColorizedBracketPairsDecorationProvider",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/common/model/bracketPairsTextModelPart/colorizedBracketPairsDecorationProvider.js",
+    "count": 1
+  },
+  "AAg": {
+    "inferred": "FixBrackets",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/bracketPairsTextModelPart/fixBrackets.js",
+    "count": 1
+  },
+  "Qph": {
+    "inferred": "FixedArray",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/fixedArray.js",
+    "count": 1
+  },
+  "sph": {
+    "inferred": "IndentationGuesser",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/indentationGuesser.js",
+    "count": 1
+  },
+  "Z4o": {
+    "inferred": "PieceTreeTextBuffer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/pieceTreeTextBuffer/pieceTreeTextBuffer.ts",
+    "count": 1
+  },
+  "Y4o": {
+    "inferred": "RbTreeBase",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/pieceTreeTextBuffer/rbTreeBase.js",
+    "count": 2
+  },
+  "Vet": {
+    "inferred": "TextModelOffsetEdit",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/textModelOffsetEdit.js",
+    "count": 1
+  },
+  "vEc": {
+    "inferred": "TextModelPart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/textModelPart.js",
+    "count": 1
+  },
+  "wKe": {
+    "inferred": "TextModelText",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/textModelText.js",
+    "count": 1
+  },
+  "UVe": {
+    "inferred": "TokenStore",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/common/model/tokenStore.ts",
+    "count": 3
+  },
+  "hOn": {
+    "inferred": "TreeSitterTokens",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/model/treeSitterTokens.js",
+    "count": 3
+  },
+  "vxf": {
+    "inferred": "LanguageService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/services/languageService.ts",
+    "count": 1
+  },
+  "fxf": {
+    "inferred": "LanguagesRegistry",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/common/services/languagesRegistry.ts",
+    "count": 2
+  },
+  "A3f": {
+    "inferred": "ModelService",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/common/services/modelService.ts",
+    "count": 2
+  },
+  "gme": {
+    "inferred": "TreeViewsDnd",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/services/treeViewsDnd.js",
+    "count": 1
+  },
+  "BEc": {
+    "inferred": "TokenizationRegistry",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/common/tokenizationRegistry.js",
+    "count": 1
+  },
+  "FOt": {
+    "inferred": "ContiguousMultilineTokensBuilder",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/tokens/contiguousMultilineTokensBuilder.js",
+    "count": 1
+  },
+  "rz": {
+    "inferred": "ContiguousTokensEditing",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/tokens/contiguousTokensEditing.js",
+    "count": 1
+  },
+  "QEc": {
+    "inferred": "ContiguousTokensStore",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/tokens/contiguousTokensStore.ts",
+    "count": 1
+  },
+  "UB": {
+    "inferred": "LineTokens",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/tokens/lineTokens.ts",
+    "count": 1
+  },
+  "lgh": {
+    "inferred": "SparseTokensStore",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/tokens/sparseTokensStore.js",
+    "count": 1
+  },
+  "WVe": {
+    "inferred": "ViewEventHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/viewEventHandler.js",
+    "count": 1
+  },
+  "y3": {
+    "inferred": "LinePart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/viewLayout/linePart.js",
+    "count": 1
+  },
+  "Kxc": {
+    "inferred": "ViewLineRenderer",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/common/viewLayout/viewLineRenderer.ts",
+    "count": 1
+  },
+  "BAh": {
+    "inferred": "ViewLinesViewportData",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/viewLayout/viewLinesViewportData.js",
+    "count": 1
+  },
+  "rbh": {
+    "inferred": "GlyphLanesModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/viewModel/glyphLanesModel.js",
+    "count": 1
+  },
+  "xxc": {
+    "inferred": "MinimapTokensColorTracker",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/viewModel/minimapTokensColorTracker.js",
+    "count": 1
+  },
+  "RTc": {
+    "inferred": "OverviewZoneManager",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/common/viewModel/overviewZoneManager.js",
+    "count": 3
+  },
+  "PAh": {
+    "inferred": "ViewContext",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/viewModel/viewContext.js",
+    "count": 1
+  },
+  "Vfh": {
+    "inferred": "ViewModelDecorations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/common/viewModel/viewModelDecorations.js",
+    "count": 1
+  },
+  "ffh": {
+    "inferred": "ViewModelEventDispatcher",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/common/viewModelEventDispatcher.ts",
+    "count": 1
+  },
+  "qrt": {
+    "inferred": "HintLineContributions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/cHintLine/browser/hintLineContributions.ts",
+    "count": 6
+  },
+  "IDa": {
+    "inferred": "HintLineWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/cHintLine/browser/hintLineWidget.ts",
+    "count": 3
+  },
+  "B7e": {
+    "inferred": "HoverContributions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/cHover/browser/hoverContributions.ts",
+    "count": 5
+  },
+  "DDa": {
+    "inferred": "HoverWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/cHover/browser/hoverWidget.ts",
+    "count": 3
+  },
+  "fSh": {
+    "inferred": "Clipboard",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/clipboard/browser/clipboard.ts",
+    "count": 2
+  },
+  "ySh": {
+    "inferred": "CodeAction",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/codeAction/browser/codeAction.ts",
+    "count": 1
+  },
+  "ine": {
+    "inferred": "CodeActionController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/codeAction/browser/codeActionController.ts",
+    "count": 3
+  },
+  "FUo": {
+    "inferred": "CodeActionKeybindingResolver",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/codeAction/browser/codeActionKeybindingResolver.ts",
+    "count": 3
+  },
+  "CHh": {
+    "inferred": "CodeActionModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/codeAction/browser/codeActionModel.ts",
+    "count": 1
+  },
+  "q9t": {
+    "inferred": "LightBulbWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/codeAction/browser/lightBulbWidget.ts",
+    "count": 3
+  },
+  "dmg": {
+    "inferred": "ColorPickerModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/colorPicker/browser/colorPickerModel.js",
+    "count": 1
+  },
+  "smg": {
+    "inferred": "ColorPickerBody",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/colorPicker/browser/colorPickerParts/colorPickerBody.js",
+    "count": 1
+  },
+  "amg": {
+    "inferred": "ColorPickerCloseButton",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/colorPicker/browser/colorPickerParts/colorPickerCloseButton.js",
+    "count": 1
+  },
+  "cmg": {
+    "inferred": "ColorPickerHeader",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/colorPicker/browser/colorPickerParts/colorPickerHeader.js",
+    "count": 1
+  },
+  "tmg": {
+    "inferred": "ColorPickerInsertButton",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/colorPicker/browser/colorPickerParts/colorPickerInsertButton.js",
+    "count": 1
+  },
+  "emg": {
+    "inferred": "ColorPickerSaturationBox",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/colorPicker/browser/colorPickerParts/colorPickerSaturationBox.js",
+    "count": 1
+  },
+  "G9t": {
+    "inferred": "DefaultDocumentColorProvider",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/colorPicker/browser/defaultDocumentColorProvider.ts",
+    "count": 4
+  },
+  "ZJl": {
+    "inferred": "HoverColorPickerWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerWidget.ts",
+    "count": 1
+  },
+  "KH": {
+    "inferred": "CopyPasteController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/dropOrPasteInto/browser/copyPasteController.ts",
+    "count": 3
+  },
+  "fme": {
+    "inferred": "DropIntoEditorController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/dropOrPasteInto/browser/dropIntoEditorController.ts",
+    "count": 3
+  },
+  "eSh": {
+    "inferred": "KeybindingCancellation",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/editorState/browser/keybindingCancellation.js",
+    "count": 1
+  },
+  "W3": {
+    "inferred": "FindController",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/find/browser/findController.ts",
+    "count": 13
+  },
+  "tdn": {
+    "inferred": "FindDecorations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/find/browser/findDecorations.ts",
+    "count": 1
+  },
+  "Cbg": {
+    "inferred": "FindModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/find/browser/findModel.ts",
+    "count": 1
+  },
+  "Sbg": {
+    "inferred": "FindOptionsWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/find/browser/findOptionsWidget.ts",
+    "count": 1
+  },
+  "igi": {
+    "inferred": "FindState",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/find/browser/findState.ts",
+    "count": 1
+  },
+  "dla": {
+    "inferred": "FindWidgetSearchHistory",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/find/browser/findWidgetSearchHistory.ts",
+    "count": 3
+  },
+  "hbg": {
+    "inferred": "ReplaceAllCommand",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/find/browser/replaceAllCommand.js",
+    "count": 1
+  },
+  "hla": {
+    "inferred": "ReplaceWidgetHistory",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/find/browser/replaceWidgetHistory.ts",
+    "count": 3
+  },
+  "fvg": {
+    "inferred": "FoldingDecorations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/folding/browser/foldingDecorations.ts",
+    "count": 1
+  },
+  "avg": {
+    "inferred": "FoldingModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/folding/browser/foldingModel.ts",
+    "count": 1
+  },
+  "uvg": {
+    "inferred": "HiddenRangeModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/folding/browser/hiddenRangeModel.js",
+    "count": 1
+  },
+  "sgi": {
+    "inferred": "IndentRangeProvider",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/folding/browser/indentRangeProvider.ts",
+    "count": 1
+  },
+  "Tpi": {
+    "inferred": "SyntaxRangeProvider",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/folding/browser/syntaxRangeProvider.js",
+    "count": 1
+  },
+  "Q1e": {
+    "inferred": "ReferencesController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/gotoSymbol/browser/peek/referencesController.ts",
+    "count": 3
+  },
+  "Qca": {
+    "inferred": "SymbolNavigation",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/gotoSymbol/browser/symbolNavigation.ts",
+    "count": 4
+  },
+  "hJh": {
+    "inferred": "ContentHoverComputer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/hover/browser/contentHoverComputer.js",
+    "count": 1
+  },
+  "XE": {
+    "inferred": "ContentHoverController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/hover/browser/contentHoverController.ts",
+    "count": 3
+  },
+  "j6n": {
+    "inferred": "ContentHoverStatusBar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/hover/browser/contentHoverStatusBar.ts",
+    "count": 3
+  },
+  "Kca": {
+    "inferred": "ContentHoverWidgetWrapper",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/hover/browser/contentHoverWidgetWrapper.ts",
+    "count": 3
+  },
+  "fJh": {
+    "inferred": "GetHover",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/hover/browser/getHover.js",
+    "count": 1
+  },
+  "WEf": {
+    "inferred": "GlyphHoverComputer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/hover/browser/glyphHoverComputer.js",
+    "count": 1
+  },
+  "IQ": {
+    "inferred": "GlyphHoverController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/hover/browser/glyphHoverController.ts",
+    "count": 3
+  },
+  "K0a": {
+    "inferred": "GlyphHoverWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/hover/browser/glyphHoverWidget.ts",
+    "count": 3
+  },
+  "cJh": {
+    "inferred": "ResizableContentWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/hover/browser/resizableContentWidget.js",
+    "count": 1
+  },
+  "jca": {
+    "inferred": "InlayHintsController",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/inlayHints/browser/inlayHintsController.ts",
+    "count": 3
+  },
+  "VS": {
+    "inferred": "InlineCompletionContextKeys",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys.js",
+    "count": 1
+  },
+  "eP": {
+    "inferred": "InlineCompletionsController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/controller/inlineCompletionsController.ts",
+    "count": 3
+  },
+  "bla": {
+    "inferred": "ChangeRecorder",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/model/changeRecorder.ts",
+    "count": 3
+  },
+  "DAg": {
+    "inferred": "InlineCompletionsModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/model/inlineCompletionsModel.ts",
+    "count": 2
+  },
+  "IAg": {
+    "inferred": "InlineEdit",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/model/inlineEdit.js",
+    "count": 1
+  },
+  "iyg": {
+    "inferred": "SuggestWidgetAdapter",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/inlineCompletions/browser/model/suggestWidgetAdapter.ts",
+    "count": 2
+  },
+  "Vvg": {
+    "inferred": "StructuredLogger",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/structuredLogger.ts",
+    "count": 2
+  },
+  "eua": {
+    "inferred": "InlineCompletionsView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineCompletionsView.ts",
+    "count": 3
+  },
+  "qla": {
+    "inferred": "GutterIndicatorMenu",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/components/gutterIndicatorMenu.ts",
+    "count": 3
+  },
+  "Hla": {
+    "inferred": "GutterIndicatorView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/components/gutterIndicatorView.ts",
+    "count": 3
+  },
+  "XQl": {
+    "inferred": "InlineEditWithChanges",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditWithChanges.js",
+    "count": 1
+  },
+  "Hyg": {
+    "inferred": "InlineEditsView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsView.ts",
+    "count": 2
+  },
+  "Xla": {
+    "inferred": "InlineEditsViewProducer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViewProducer.js",
+    "count": 3
+  },
+  "Byg": {
+    "inferred": "InlineEditsCollapsedView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsCollapsedView.js",
+    "count": 1
+  },
+  "Lyg": {
+    "inferred": "InlineEditsDeletionView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsDeletionView.ts",
+    "count": 1
+  },
+  "zla": {
+    "inferred": "InlineEditsInsertionView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsInsertionView.ts",
+    "count": 3
+  },
+  "Vla": {
+    "inferred": "InlineEditsLineReplacementView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsLineReplacementView.ts",
+    "count": 3
+  },
+  "Lgi": {
+    "inferred": "InlineEditsSideBySideView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsSideBySideView.ts",
+    "count": 3
+  },
+  "BCt": {
+    "inferred": "InlineEditsWordReplacementView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViews/inlineEditsWordReplacementView.ts",
+    "count": 3
+  },
+  "gSA": {
+    "inferred": "Utils",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineCompletions/browser/view/inlineEdits/utils/utils.js",
+    "count": 1
+  },
+  "JUf": {
+    "inferred": "InlineDiffController",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/inlineDiffs/browser/controllers/inlineDiffController.ts",
+    "count": 2
+  },
+  "CDa": {
+    "inferred": "InlineDiffPartialWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineDiffs/browser/widgets/inlineDiffPartialWidget.ts",
+    "count": 3
+  },
+  "SDa": {
+    "inferred": "RemovedLinesZoneWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/inlineDiffs/browser/widgets/removedLinesZoneWidget.ts",
+    "count": 3
+  },
+  "S3": {
+    "inferred": "MessageController",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/message/browser/messageController.ts",
+    "count": 7
+  },
+  "jSi": {
+    "inferred": "PlaceholderTextContribution",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/placeholderText/browser/placeholderTextContribution.ts",
+    "count": 1
+  },
+  "Fou": {
+    "inferred": "EditorNavigationQuickAccess",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/quickAccess/browser/editorNavigationQuickAccess.js",
+    "count": 1
+  },
+  "ex": {
+    "inferred": "SnippetController2",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/snippet/browser/snippetController2.ts",
+    "count": 12
+  },
+  "KCh": {
+    "inferred": "SnippetParser",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/snippet/browser/snippetParser.js",
+    "count": 2
+  },
+  "jae": {
+    "inferred": "StickyScrollController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/stickyScroll/browser/stickyScrollController.ts",
+    "count": 3
+  },
+  "Pla": {
+    "inferred": "StickyScrollModelProvider",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/stickyScroll/browser/stickyScrollModelProvider.ts",
+    "count": 3
+  },
+  "fyg": {
+    "inferred": "StickyScrollProvider",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/stickyScroll/browser/stickyScrollProvider.ts",
+    "count": 2
+  },
+  "xCt": {
+    "inferred": "SuggestAlternatives",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/suggest/browser/suggestAlternatives.js",
+    "count": 3
+  },
+  "LAg": {
+    "inferred": "SuggestCommitCharacters",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/suggest/browser/suggestCommitCharacters.js",
+    "count": 1
+  },
+  "eyg": {
+    "inferred": "SuggestController",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/suggest/browser/suggestController.ts",
+    "count": 2
+  },
+  "qAg": {
+    "inferred": "SuggestOvertypingCapturer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/suggest/browser/suggestOvertypingCapturer.js",
+    "count": 1
+  },
+  "Ela": {
+    "inferred": "SuggestWidgetRenderer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/suggest/browser/suggestWidgetRenderer.ts",
+    "count": 3
+  },
+  "vdn": {
+    "inferred": "SuggestWidgetStatus",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/suggest/browser/suggestWidgetStatus.ts",
+    "count": 3
+  },
+  "Sgi": {
+    "inferred": "WordContextKey",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/suggest/browser/wordContextKey.js",
+    "count": 3
+  },
+  "qQl": {
+    "inferred": "WordDistance",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "editor/contrib/suggest/browser/wordDistance.js",
+    "count": 1
+  },
+  "iyu": {
+    "inferred": "TextualHighlightProvider",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "editor/contrib/wordHighlighter/browser/textualHighlightProvider.js",
+    "count": 3
+  },
+  "HJ": {
+    "inferred": "AccessibleView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/accessibility/browser/accessibleView.js",
+    "count": 1
+  },
+  "x0a": {
+    "inferred": "Buttonbar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/actions/browser/buttonbar.ts",
+    "count": 4
+  },
+  "Lye": {
+    "inferred": "DropdownWithPrimaryActionViewItem",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/actions/browser/dropdownWithPrimaryActionViewItem.ts",
+    "count": 3
+  },
+  "YEf": {
+    "inferred": "Assignment",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/assignment/common/assignment.js",
+    "count": 1
+  },
+  "txf": {
+    "inferred": "AssignmentService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/assignment/common/assignmentService.ts",
+    "count": 1
+  },
+  "wch": {
+    "inferred": "ConfigurationRegistry",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/configuration/common/configurationRegistry.ts",
+    "count": 2
+  },
+  "I4t": {
+    "inferred": "Scanner",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/contextkey/common/scanner.ts",
+    "count": 1
+  },
+  "zDc": {
+    "inferred": "Dialogs",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/dialogs/common/dialogs.js",
+    "count": 1
+  },
+  "dB": {
+    "inferred": "EnvironmentService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/environment/common/environmentService.ts",
+    "count": 31
+  },
+  "PXg": {
+    "inferred": "ExtensionManagementUtil",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/extensionManagement/common/extensionManagementUtil.js",
+    "count": 1
+  },
+  "J0f": {
+    "inferred": "ImplicitActivationEvents",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/extensionManagement/common/implicitActivationEvents.js",
+    "count": 2
+  },
+  "kxf": {
+    "inferred": "ExtensionResourceLoader",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/extensionResourceLoader/common/extensionResourceLoader.ts",
+    "count": 1
+  },
+  "UCh": {
+    "inferred": "HtmlFileSystemProvider",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/files/browser/htmlFileSystemProvider.ts",
+    "count": 1
+  },
+  "zpu": {
+    "inferred": "InMemoryFilesystemProvider",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "platform/files/common/inMemoryFilesystemProvider.ts",
+    "count": 3
+  },
+  "joe": {
+    "inferred": "Hover",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/hover/browser/hover.js",
+    "count": 3
+  },
+  "Xl": {
+    "inferred": "Descriptors",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/instantiation/common/descriptors.js",
+    "count": 1
+  },
+  "xA": {
+    "inferred": "ServiceCollection",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/instantiation/common/serviceCollection.js",
+    "count": 1
+  },
+  "mch": {
+    "inferred": "JsonContributionRegistry",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/jsonschemas/common/jsonContributionRegistry.js",
+    "count": 2
+  },
+  "eah": {
+    "inferred": "KeybindingsRegistry",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/keybinding/common/keybindingsRegistry.ts",
+    "count": 2
+  },
+  "UAu": {
+    "inferred": "LanguagePacks",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/languagePacks/common/languagePacks.js",
+    "count": 3
+  },
+  "Skf": {
+    "inferred": "ZIndexRegistry",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/layout/browser/zIndexRegistry.js",
+    "count": 2
+  },
+  "oEa": {
+    "inferred": "ObservableMemento",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/observable/common/observableMemento.js",
+    "count": 3
+  },
+  "Rie": {
+    "inferred": "Link",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/opener/browser/link.js",
+    "count": 3
+  },
+  "tX": {
+    "inferred": "PickerQuickAccess",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/quickinput/browser/pickerQuickAccess.ts",
+    "count": 1
+  },
+  "Bvi": {
+    "inferred": "QuickAccess",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/quickinput/browser/quickAccess.ts",
+    "count": 3
+  },
+  "UHg": {
+    "inferred": "QuickAccess",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/quickinput/common/quickAccess.js",
+    "count": 2
+  },
+  "JDc": {
+    "inferred": "QuickInput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/quickinput/common/quickInput.js",
+    "count": 2
+  },
+  "RUo": {
+    "inferred": "Observable",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/reactivestorage/browser/observable.ts",
+    "count": 3
+  },
+  "MUo": {
+    "inferred": "ReactiveStorageService",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "platform/reactivestorage/browser/reactiveStorageService.ts",
+    "count": 1
+  },
+  "nne": {
+    "inferred": "ReactiveStorageTypes",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/reactivestorage/browser/reactiveStorageTypes.ts",
+    "count": 1
+  },
+  "K5e": {
+    "inferred": "ReactiveStorageTypes2",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/reactivestorage/common/reactiveStorageTypes2.js",
+    "count": 1
+  },
+  "Zoh": {
+    "inferred": "Platform",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/registry/common/platform.js",
+    "count": 2
+  },
+  "ZOf": {
+    "inferred": "RemoteAuthorityResolver",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "platform/remote/common/remoteAuthorityResolver.js",
+    "count": 1
+  },
+  "Jba": {
+    "inferred": "Secrets",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/secrets/common/secrets.ts",
+    "count": 3
+  },
+  "wkf": {
+    "inferred": "Terminal",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/terminal/common/terminal.ts",
+    "count": 2
+  },
+  "glh": {
+    "inferred": "ColorUtils",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/theme/common/colorUtils.js",
+    "count": 2
+  },
+  "juh": {
+    "inferred": "ThemeService",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "platform/theme/common/themeService.js",
+    "count": 2
+  },
+  "mxe": {
+    "inferred": "TokenClassificationRegistry",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "platform/theme/common/tokenClassificationRegistry.ts",
+    "count": 7
+  },
+  "Z2o": {
+    "inferred": "Span",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/tracing/common/span.js",
+    "count": 1
+  },
+  "D1c": {
+    "inferred": "UserDataProfile",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "platform/userDataProfile/common/userDataProfile.ts",
+    "count": 3
+  },
+  "Crt": {
+    "inferred": "WidgetNavigationCommands",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/actions/widgetNavigationCommands.ts",
+    "count": 7
+  },
+  "sC": {
+    "inferred": "Editor",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/editor.ts",
+    "count": 1
+  },
+  "rxe": {
+    "inferred": "Breadcrumbs",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/breadcrumbs.ts",
+    "count": 1
+  },
+  "Ika": {
+    "inferred": "EditorGroupQuickActions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/editorGroupQuickActions.ts",
+    "count": 3
+  },
+  "ert": {
+    "inferred": "EditorGroupView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/editorGroupView.ts",
+    "count": 8
+  },
+  "Pka": {
+    "inferred": "EditorGroupWatermark",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/editorGroupWatermark.ts",
+    "count": 3
+  },
+  "Fka": {
+    "inferred": "EditorPanes",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/editorPanes.ts",
+    "count": 3
+  },
+  "T1a": {
+    "inferred": "EditorTitleControl",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/editorTitleControl.ts",
+    "count": 3
+  },
+  "Jqe": {
+    "inferred": "EditorWithViewState",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/editorWithViewState.ts",
+    "count": 3
+  },
+  "Mfn": {
+    "inferred": "MultiEditorTabsControl",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/multiEditorTabsControl.ts",
+    "count": 3
+  },
+  "E1a": {
+    "inferred": "MultiRowEditorTabsControl",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/multiRowEditorTabsControl.ts",
+    "count": 3
+  },
+  "P4f": {
+    "inferred": "NoEditorTabsControl",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/noEditorTabsControl.ts",
+    "count": 1
+  },
+  "fIf": {
+    "inferred": "SideBySideEditor",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/sideBySideEditor.ts",
+    "count": 2
+  },
+  "x1a": {
+    "inferred": "SingleEditorTabsControl",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/singleEditorTabsControl.ts",
+    "count": 3
+  },
+  "Gqe": {
+    "inferred": "TextDiffEditor",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/parts/editor/textDiffEditor.ts",
+    "count": 3
+  },
+  "jmn": {
+    "inferred": "Quickaccess",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/browser/quickaccess.ts",
+    "count": 3
+  },
+  "Zgn": {
+    "inferred": "Component",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/component.js",
+    "count": 1
+  },
+  "xp": {
+    "inferred": "Contextkeys",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/contextkeys.ts",
+    "count": 3
+  },
+  "qhn": {
+    "inferred": "Contributions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/contributions.ts",
+    "count": 6
+  },
+  "pfn": {
+    "inferred": "BinaryEditorModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/editor/binaryEditorModel.ts",
+    "count": 3
+  },
+  "yIf": {
+    "inferred": "DiffEditorInput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/editor/diffEditorInput.ts",
+    "count": 1
+  },
+  "Lgu": {
+    "inferred": "DiffEditorModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/editor/diffEditorModel.js",
+    "count": 1
+  },
+  "E0i": {
+    "inferred": "EditorGroupModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/editor/editorGroupModel.ts",
+    "count": 3
+  },
+  "XS": {
+    "inferred": "EditorInput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/editor/editorInput.ts",
+    "count": 1
+  },
+  "qce": {
+    "inferred": "EditorModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/editor/editorModel.js",
+    "count": 1
+  },
+  "jwi": {
+    "inferred": "ResourceEditorInput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/editor/resourceEditorInput.ts",
+    "count": 3
+  },
+  "xSa": {
+    "inferred": "TextDiffEditorModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/editor/textDiffEditorModel.ts",
+    "count": 1
+  },
+  "mfn": {
+    "inferred": "TextResourceEditorModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/editor/textResourceEditorModel.ts",
+    "count": 3
+  },
+  "Hva": {
+    "inferred": "Memento",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/memento.ts",
+    "count": 4
+  },
+  "xnf": {
+    "inferred": "ReasonedAbortController",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/common/reasonedAbortController.ts",
+    "count": 2
+  },
+  "rkt": {
+    "inferred": "Resources",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/common/resources.ts",
+    "count": 3
+  },
+  "HAi": {
+    "inferred": "AccessibilityConfiguration",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/accessibility/browser/accessibilityConfiguration.ts",
+    "count": 3
+  },
+  "vHg": {
+    "inferred": "CppDebouncingService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/aiCpp/browser/cppDebouncingService.ts",
+    "count": 1
+  },
+  "zIa": {
+    "inferred": "TokenStreamingNoVZDiff",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/aiDiff/browser/tokenStreamingNoVZDiff.ts",
+    "count": 3
+  },
+  "Jau": {
+    "inferred": "ChatActions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/actions/chatActions.ts",
+    "count": 3
+  },
+  "vTf": {
+    "inferred": "ChatToolActions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/actions/chatToolActions.ts",
+    "count": 1
+  },
+  "qCa": {
+    "inferred": "ImplicitContextAttachment",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/attachments/implicitContextAttachment.ts",
+    "count": 3
+  },
+  "WCa": {
+    "inferred": "PromptAttachmentWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/attachments/promptAttachments/promptAttachmentWidget.ts",
+    "count": 3
+  },
+  "QCa": {
+    "inferred": "PromptAttachmentsCollectionWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/attachments/promptAttachments/promptAttachmentsCollectionWidget.ts",
+    "count": 3
+  },
+  "V0a": {
+    "inferred": "ChatAccessibilityProvider",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatAccessibilityProvider.ts",
+    "count": 3
+  },
+  "ebn": {
+    "inferred": "ChatAgentHover",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatAgentHover.ts",
+    "count": 3
+  },
+  "pSa": {
+    "inferred": "ChatPromptAttachmentModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatAttachmentModel/chatPromptAttachmentModel.ts",
+    "count": 3
+  },
+  "fSa": {
+    "inferred": "ChatPromptAttachmentsCollection",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatAttachmentModel/chatPromptAttachmentsCollection.ts",
+    "count": 3
+  },
+  "bSa": {
+    "inferred": "ChatAttachmentModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatAttachmentModel.ts",
+    "count": 3
+  },
+  "GEa": {
+    "inferred": "ChatAgentCommandContentPart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatContentParts/chatAgentCommandContentPart.ts",
+    "count": 3
+  },
+  "F1a": {
+    "inferred": "ChatAttachmentsContentPart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatContentParts/chatAttachmentsContentPart.ts",
+    "count": 3
+  },
+  "WEa": {
+    "inferred": "ChatCodeCitationContentPart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatContentParts/chatCodeCitationContentPart.ts",
+    "count": 3
+  },
+  "hCi": {
+    "inferred": "ChatCollections",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatContentParts/chatCollections.js",
+    "count": 1
+  },
+  "QEa": {
+    "inferred": "ChatCommandContentPart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatContentParts/chatCommandContentPart.ts",
+    "count": 3
+  },
+  "jEa": {
+    "inferred": "ChatConfirmationContentPart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatContentParts/chatConfirmationContentPart.ts",
+    "count": 3
+  },
+  "uxa": {
+    "inferred": "ChatQuotaExceededPart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatContentParts/chatQuotaExceededPart.ts",
+    "count": 3
+  },
+  "dxa": {
+    "inferred": "ChatTaskContentPart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatContentParts/chatTaskContentPart.ts",
+    "count": 3
+  },
+  "Syu": {
+    "inferred": "ChatWarningContentPart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatContentParts/chatWarningContentPart.ts",
+    "count": 1
+  },
+  "rEa": {
+    "inferred": "ChatDragAndDrop",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatDragAndDrop.ts",
+    "count": 3
+  },
+  "SCa": {
+    "inferred": "ChatEditingEditorContextKeys",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatEditing/chatEditingEditorContextKeys.ts",
+    "count": 4
+  },
+  "sEa": {
+    "inferred": "ChatFollowups",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatFollowups.ts",
+    "count": 3
+  },
+  "oSi": {
+    "inferred": "ChatInlineAnchorWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatInlineAnchorWidget.ts",
+    "count": 3
+  },
+  "ESi": {
+    "inferred": "ChatListRenderer",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/chat/browser/chatListRenderer.ts",
+    "count": 4
+  },
+  "cSi": {
+    "inferred": "ChatMarkdownDecorationsRenderer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatMarkdownDecorationsRenderer.ts",
+    "count": 3
+  },
+  "kxa": {
+    "inferred": "ChatOptions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatOptions.ts",
+    "count": 3
+  },
+  "aEa": {
+    "inferred": "ChatSelectedTools",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatSelectedTools.ts",
+    "count": 3
+  },
+  "BSi": {
+    "inferred": "ChatViewPane",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatViewPane.ts",
+    "count": 3
+  },
+  "s2e": {
+    "inferred": "ChatWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/chatWidget.ts",
+    "count": 4
+  },
+  "Y1t": {
+    "inferred": "ChatFileReference",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/contrib/chatDynamicVariables/chatFileReference.ts",
+    "count": 3
+  },
+  "xxa": {
+    "inferred": "ChatViewWelcomeController",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/chat/browser/viewsWelcome/chatViewWelcomeController.ts",
+    "count": 3
+  },
+  "E5f": {
+    "inferred": "ChatViewsWelcome",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/browser/viewsWelcome/chatViewsWelcome.js",
+    "count": 2
+  },
+  "iyi": {
+    "inferred": "ChatAgents",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/common/chatAgents.ts",
+    "count": 5
+  },
+  "Dqe": {
+    "inferred": "ChatRequestParser",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/common/chatRequestParser.ts",
+    "count": 3
+  },
+  "HTf": {
+    "inferred": "ChatPromptDecoder",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/common/promptSyntax/codecs/chatPromptDecoder.ts",
+    "count": 1
+  },
+  "aSa": {
+    "inferred": "PromptVariableParser",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/chat/common/promptSyntax/codecs/parsers/promptVariableParser.ts",
+    "count": 2
+  },
+  "rgu": {
+    "inferred": "PromptToken",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/common/promptSyntax/codecs/tokens/promptToken.js",
+    "count": 1
+  },
+  "cgu": {
+    "inferred": "PromptVariable",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/common/promptSyntax/codecs/tokens/promptVariable.ts",
+    "count": 2
+  },
+  "bgu": {
+    "inferred": "FilePromptContentsProvider",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/common/promptSyntax/contentProviders/filePromptContentsProvider.ts",
+    "count": 3
+  },
+  "mSa": {
+    "inferred": "PromptContentsProviderBase",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/common/promptSyntax/contentProviders/promptContentsProviderBase.ts",
+    "count": 2
+  },
+  "Ggn": {
+    "inferred": "BasePromptParser",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/chat/common/promptSyntax/parsers/basePromptParser.ts",
+    "count": 4
+  },
+  "igu": {
+    "inferred": "TopError",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/chat/common/promptSyntax/parsers/topError.ts",
+    "count": 1
+  },
+  "Grt": {
+    "inferred": "SimpleFindWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/codeEditor/browser/find/simpleFindWidget.ts",
+    "count": 1
+  },
+  "QZ": {
+    "inferred": "MenuPreventer",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/codeEditor/browser/menuPreventer.ts",
+    "count": 3
+  },
+  "wbn": {
+    "inferred": "CommentFormActions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/commentFormActions.ts",
+    "count": 1
+  },
+  "Wxa": {
+    "inferred": "CommentMenus",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/commentMenus.ts",
+    "count": 3
+  },
+  "Yxa": {
+    "inferred": "CommentReply",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/commentReply.ts",
+    "count": 3
+  },
+  "zxa": {
+    "inferred": "CommentService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/commentService.ts",
+    "count": 3
+  },
+  "nTa": {
+    "inferred": "CommentThreadAdditionalActions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/commentThreadAdditionalActions.ts",
+    "count": 3
+  },
+  "eTa": {
+    "inferred": "CommentThreadBody",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/commentThreadBody.ts",
+    "count": 3
+  },
+  "tTa": {
+    "inferred": "CommentThreadHeader",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/commentThreadHeader.ts",
+    "count": 3
+  },
+  "KSi": {
+    "inferred": "CommentThreadWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/commentThreadWidget.ts",
+    "count": 3
+  },
+  "ybn": {
+    "inferred": "CommentsModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/commentsModel.ts",
+    "count": 1
+  },
+  "u2e": {
+    "inferred": "SimpleCommentEditor",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/simpleCommentEditor.ts",
+    "count": 3
+  },
+  "Zxa": {
+    "inferred": "Timestamp",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/comments/browser/timestamp.ts",
+    "count": 1
+  },
+  "fUf": {
+    "inferred": "BrowserScreenshotService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/browserScreenshotService.ts",
+    "count": 2
+  },
+  "gKg": {
+    "inferred": "BubbleComposerDataHandle",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/bubbleComposerDataHandle.js",
+    "count": 1
+  },
+  "Iwi": {
+    "inferred": "ContextWindow",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/capabilities/contextWindow.ts",
+    "count": 4
+  },
+  "WCf": {
+    "inferred": "ComposerAgentProviderRouter",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/composerAgentProviderRouter.js",
+    "count": 1
+  },
+  "Z4": {
+    "inferred": "ComposerBlobStore",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/composer/browser/composerBlobStore.ts",
+    "count": 2
+  },
+  "INe": {
+    "inferred": "ComposerCodeBlockDiffStorageService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/composerCodeBlockDiffStorageService.ts",
+    "count": 10
+  },
+  "rS": {
+    "inferred": "ComposerCodeBlockService",
+    "strategy": "A:singleton-map",
+    "confidence": 5,
+    "file": "workbench/contrib/composer/browser/composerCodeBlockService.ts",
+    "count": 44
+  },
+  "xjl": {
+    "inferred": "ComposerData",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/composerData.ts",
+    "count": 1
+  },
+  "dy": {
+    "inferred": "ComposerDataService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/composerDataService.ts",
+    "count": 59
+  },
+  "kga": {
+    "inferred": "ComposerEventService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/composerEventService.ts",
+    "count": 4
+  },
+  "lQ": {
+    "inferred": "ComposerFileService",
+    "strategy": "A:singleton-map",
+    "confidence": 5,
+    "file": "workbench/contrib/composer/browser/composerFileService.ts",
+    "count": 18
+  },
+  "hEe": {
+    "inferred": "ComposerMessageStorageService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/composerMessageStorageService.ts",
+    "count": 11
+  },
+  "FDa": {
+    "inferred": "ComposerMultiDiffContentProvider",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/composerMultiDiffContentProvider.ts",
+    "count": 3
+  },
+  "uO": {
+    "inferred": "ComposerUtilsService",
+    "strategy": "A:singleton-map",
+    "confidence": 5,
+    "file": "workbench/contrib/composer/browser/composerUtilsService.ts",
+    "count": 24
+  },
+  "YCf": {
+    "inferred": "ComposerWakelockManager",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/composerWakelockManager.ts",
+    "count": 1
+  },
+  "ZCf": {
+    "inferred": "MockComposerStreamController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/mockComposerStreamController.ts",
+    "count": 1
+  },
+  "JCf": {
+    "inferred": "NaiveComposerAgentProvider",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/composer/browser/naiveComposerAgentProvider.ts",
+    "count": 2
+  },
+  "lsu": {
+    "inferred": "PlanUpdateMerger",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/services/planUpdateMerger.js",
+    "count": 1
+  },
+  "n1t": {
+    "inferred": "ReviewModel",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/toolCallHumanReviewService.ts",
+    "count": 6
+  },
+  "Gwi": {
+    "inferred": "EditFileReviewModel",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/toolCallHumanReviewService.ts",
+    "count": 4
+  },
+  "Wwi": {
+    "inferred": "TerminalToolReviewModel",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/toolCallHumanReviewService.ts",
+    "count": 4
+  },
+  "ogn": {
+    "inferred": "MCPToolReviewModel",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/toolCallHumanReviewService.ts",
+    "count": 5
+  },
+  "agn": {
+    "inferred": "WebFetchToolReviewModel",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/toolCallHumanReviewService.ts",
+    "count": 5
+  },
+  "i1t": {
+    "inferred": "PlanReviewModel",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/contrib/composer/browser/toolCallHumanReviewService.ts",
+    "count": 6
+  },
+  "c1i": {
+    "inferred": "CursorBlameEditorInputSerializer",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/contrib/cursorBlame/browser/cursorBlameEditor.ts",
+    "count": 3
+  },
+  "wxe": {
+    "inferred": "CursorBlameEditorInput",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/contrib/cursorBlame/browser/cursorBlameEditor.ts",
+    "count": 4
+  },
+  "bvn": {
+    "inferred": "CursorBlameEditor",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/contrib/cursorBlame/browser/cursorBlameEditor.ts",
+    "count": 3
+  },
+  "GAi": {
+    "inferred": "Extensions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/extensions/common/extensions.ts",
+    "count": 3
+  },
+  "Cfu": {
+    "inferred": "FileEditorInput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/files/browser/editors/fileEditorInput.ts",
+    "count": 3
+  },
+  "f0i": {
+    "inferred": "TextFileSaveErrorHandler",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/files/browser/editors/textFileSaveErrorHandler.ts",
+    "count": 3
+  },
+  "Y4f": {
+    "inferred": "ExplorerFileContrib",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/files/browser/explorerFileContrib.ts",
+    "count": 2
+  },
+  "K1a": {
+    "inferred": "ExplorerDecorationsProvider",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/files/browser/views/explorerDecorationsProvider.ts",
+    "count": 3
+  },
+  "K1t": {
+    "inferred": "ExplorerView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/files/browser/views/explorerView.ts",
+    "count": 5
+  },
+  "N2": {
+    "inferred": "Files",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/files/common/files.ts",
+    "count": 1
+  },
+  "Fgn": {
+    "inferred": "McpCommandsAddConfiguration",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/mcp/browser/mcpCommandsAddConfiguration.ts",
+    "count": 3
+  },
+  "UCa": {
+    "inferred": "McpUrlHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/mcp/browser/mcpUrlHandler.ts",
+    "count": 3
+  },
+  "Upu": {
+    "inferred": "McpContextKeys",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/mcp/common/mcpContextKeys.ts",
+    "count": 3
+  },
+  "Lwu": {
+    "inferred": "FindMatchDecorationModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/contrib/find/findMatchDecorationModel.ts",
+    "count": 1
+  },
+  "J5f": {
+    "inferred": "NotebookChatController",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/notebook/browser/controller/chat/notebookChatController.ts",
+    "count": 2
+  },
+  "h2e": {
+    "inferred": "FoldingController",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/controller/foldingController.ts",
+    "count": 5
+  },
+  "wki": {
+    "inferred": "DiffNestedCellViewModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/diff/diffNestedCellViewModel.ts",
+    "count": 3
+  },
+  "Iki": {
+    "inferred": "EditorHeightCalculator",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/diff/editorHeightCalculator.ts",
+    "count": 3
+  },
+  "k8f": {
+    "inferred": "EventDispatcher",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/notebook/browser/diff/eventDispatcher.ts",
+    "count": 1
+  },
+  "hIa": {
+    "inferred": "NotebookCellDiffDecorator",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/diff/inlineDiff/notebookCellDiffDecorator.ts",
+    "count": 3
+  },
+  "Gbn": {
+    "inferred": "NotebookInlineDiff",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/diff/inlineDiff/notebookInlineDiff.ts",
+    "count": 5
+  },
+  "fIa": {
+    "inferred": "NotebookInlineDiffWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/diff/inlineDiff/notebookInlineDiffWidget.ts",
+    "count": 3
+  },
+  "pIa": {
+    "inferred": "NotebookOriginalModelRefFactory",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/diff/inlineDiff/notebookOriginalModelRefFactory.ts",
+    "count": 4
+  },
+  "nIa": {
+    "inferred": "NotebookDiffOverviewRuler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/diff/notebookDiffOverviewRuler.ts",
+    "count": 3
+  },
+  "GTa": {
+    "inferred": "NotebookAccessibilityProvider",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/notebookAccessibilityProvider.ts",
+    "count": 3
+  },
+  "k0a": {
+    "inferred": "NotebookEditorExtensions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/notebookEditorExtensions.js",
+    "count": 3
+  },
+  "Rbn": {
+    "inferred": "NotebookEditorWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/notebookEditorWidget.ts",
+    "count": 3
+  },
+  "K1f": {
+    "inferred": "NotebookLogger",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/notebookLogger.js",
+    "count": 2
+  },
+  "xrt": {
+    "inferred": "NotebookOptions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/notebookOptions.ts",
+    "count": 3
+  },
+  "YSi": {
+    "inferred": "CellComments",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/cellComments.ts",
+    "count": 3
+  },
+  "fwu": {
+    "inferred": "CellDecorations",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/cellDecorations.ts",
+    "count": 1
+  },
+  "L9f": {
+    "inferred": "CellDragRenderer",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/cellDragRenderer.ts",
+    "count": 2
+  },
+  "Sbn": {
+    "inferred": "CellEditorOptions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/cellEditorOptions.ts",
+    "count": 1
+  },
+  "lTa": {
+    "inferred": "CellExecution",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/cellExecution.ts",
+    "count": 3
+  },
+  "ywu": {
+    "inferred": "CellFocus",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/cellFocus.js",
+    "count": 1
+  },
+  "wwu": {
+    "inferred": "CellFocusIndicator",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/cellFocusIndicator.ts",
+    "count": 1
+  },
+  "uTa": {
+    "inferred": "CellProgressBar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/cellProgressBar.ts",
+    "count": 3
+  },
+  "Zyu": {
+    "inferred": "CellChatPart",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/chat/cellChatPart.js",
+    "count": 1
+  },
+  "fTa": {
+    "inferred": "CodeCell",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/codeCell.ts",
+    "count": 3
+  },
+  "gTa": {
+    "inferred": "CodeCellExecutionIcon",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/codeCellExecutionIcon.ts",
+    "count": 3
+  },
+  "bTa": {
+    "inferred": "CodeCellRunToolbar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/codeCellRunToolbar.ts",
+    "count": 3
+  },
+  "xwu": {
+    "inferred": "CollapsedCellInput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/collapsedCellInput.ts",
+    "count": 1
+  },
+  "vTa": {
+    "inferred": "CollapsedCellOutput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/collapsedCellOutput.ts",
+    "count": 3
+  },
+  "yTa": {
+    "inferred": "FoldedCellHint",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/foldedCellHint.ts",
+    "count": 3
+  },
+  "wTa": {
+    "inferred": "MarkupCell",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/cellParts/markupCell.ts",
+    "count": 3
+  },
+  "e9f": {
+    "inferred": "NotebookCellAnchor",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/notebookCellAnchor.ts",
+    "count": 1
+  },
+  "WTa": {
+    "inferred": "NotebookCellEditorPool",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/notebookCellEditorPool.ts",
+    "count": 3
+  },
+  "vbn": {
+    "inferred": "BackLayerWebView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/view/renderers/backLayerWebView.ts",
+    "count": 3
+  },
+  "Pwu": {
+    "inferred": "CellRenderer",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/notebook/browser/view/renderers/cellRenderer.ts",
+    "count": 3
+  },
+  "Upi": {
+    "inferred": "OutlineEntry",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/OutlineEntry.ts",
+    "count": 1
+  },
+  "qyu": {
+    "inferred": "BaseCellViewModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/baseCellViewModel.ts",
+    "count": 1
+  },
+  "p8f": {
+    "inferred": "CellEditorOptions",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/cellEditorOptions.ts",
+    "count": 1
+  },
+  "NSi": {
+    "inferred": "CellOutputViewModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/cellOutputViewModel.ts",
+    "count": 1
+  },
+  "Z9f": {
+    "inferred": "CellSelectionCollection",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/cellSelectionCollection.ts",
+    "count": 1
+  },
+  "QJ": {
+    "inferred": "CodeCellViewModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/codeCellViewModel.ts",
+    "count": 3
+  },
+  "K9f": {
+    "inferred": "EventDispatcher",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/eventDispatcher.ts",
+    "count": 1
+  },
+  "qgg": {
+    "inferred": "FoldingModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/foldingModel.ts",
+    "count": 1
+  },
+  "OV": {
+    "inferred": "MarkupCellViewModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/markupCellViewModel.ts",
+    "count": 3
+  },
+  "qTa": {
+    "inferred": "NotebookOutlineDataSourceFactory",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/notebookOutlineDataSourceFactory.ts",
+    "count": 4
+  },
+  "n8f": {
+    "inferred": "ViewContext",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewModel/viewContext.js",
+    "count": 1
+  },
+  "PTa": {
+    "inferred": "NotebookEditorWidgetContextKeys",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewParts/notebookEditorWidgetContextKeys.ts",
+    "count": 3
+  },
+  "A8f": {
+    "inferred": "NotebookHorizontalTracker",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewParts/notebookHorizontalTracker.ts",
+    "count": 1
+  },
+  "Ert": {
+    "inferred": "NotebookKernelView",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewParts/notebookKernelView.ts",
+    "count": 3
+  },
+  "LTa": {
+    "inferred": "NotebookOverviewRuler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewParts/notebookOverviewRuler.ts",
+    "count": 3
+  },
+  "NTa": {
+    "inferred": "NotebookTopCellToolbar",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/browser/viewParts/notebookTopCellToolbar.ts",
+    "count": 3
+  },
+  "RSi": {
+    "inferred": "NotebookCellOutputTextModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/common/model/notebookCellOutputTextModel.ts",
+    "count": 1
+  },
+  "PSi": {
+    "inferred": "NotebookCellTextModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/common/model/notebookCellTextModel.ts",
+    "count": 1
+  },
+  "Hx": {
+    "inferred": "NotebookEditorInput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/notebook/common/notebookEditorInput.ts",
+    "count": 3
+  },
+  "FEt": {
+    "inferred": "ReviewChangesResourceManager",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/reviewChanges/browser/ReviewChangesResourceManager.ts",
+    "count": 1
+  },
+  "eqf": {
+    "inferred": "ReviewChangesFindWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/reviewChanges/browser/components/ReviewChangesFindWidget.ts",
+    "count": 1
+  },
+  "wnt": {
+    "inferred": "SymbolsQuickAccess",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/search/browser/symbolsQuickAccess.ts",
+    "count": 3
+  },
+  "cXg": {
+    "inferred": "CacheState",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/search/common/cacheState.ts",
+    "count": 1
+  },
+  "sXg": {
+    "inferred": "Search",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/search/common/search.ts",
+    "count": 1
+  },
+  "Egn": {
+    "inferred": "SnippetCompletionProvider",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/snippets/browser/snippetCompletionProvider.ts",
+    "count": 5
+  },
+  "bCa": {
+    "inferred": "SnippetsService",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/contrib/snippets/browser/snippetsService.ts",
+    "count": 4
+  },
+  "Zye": {
+    "inferred": "TabCompletion",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/snippets/browser/tabCompletion.ts",
+    "count": 7
+  },
+  "mAa": {
+    "inferred": "Terminal",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/terminal/browser/terminal.ts",
+    "count": 1
+  },
+  "q1t": {
+    "inferred": "MentionNode",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/ui/browser/aiInput/plugins/mentions/MentionNode.ts",
+    "count": 1
+  },
+  "HA": {
+    "inferred": "Types",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/ui/browser/aiInput/plugins/mentions/types.ts",
+    "count": 1
+  },
+  "dfg": {
+    "inferred": "Types",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/ui/browser/aiInput/types.js",
+    "count": 1
+  },
+  "WDa": {
+    "inferred": "HtmlFindWidget",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/ui/browser/htmlFindWidget/htmlFindWidget.ts",
+    "count": 3
+  },
+  "W9": {
+    "inferred": "CodeBlock",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/ui/browser/widgets/codeBlock.ts",
+    "count": 3
+  },
+  "Jxa": {
+    "inferred": "WebviewWindowDragMonitor",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/webview/browser/webviewWindowDragMonitor.js",
+    "count": 1
+  },
+  "JU": {
+    "inferred": "WebviewEditorInput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/contrib/webviewPanel/browser/webviewEditorInput.ts",
+    "count": 1
+  },
+  "HSf": {
+    "inferred": "AgentResponseAdapter",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/services/agent/browser/agentResponseAdapter.ts",
+    "count": 2
+  },
+  "Gpn": {
+    "inferred": "ConversationActionManager",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/conversationActionManager.ts",
+    "count": 1
+  },
+  "LSf": {
+    "inferred": "ToolCallRejectedError",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/askQuestion/askQuestionQueryHandler.ts",
+    "count": 1
+  },
+  "Qhu": {
+    "inferred": "AskQuestionQueryHandler",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/askQuestion/askQuestionQueryHandler.ts",
+    "count": 1
+  },
+  "Ghu": {
+    "inferred": "AskQuestionToolCallHandler",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/askQuestion/askQuestionToolCallHandler.ts",
+    "count": 1
+  },
+  "DSf": {
+    "inferred": "CreatePlanQueryHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/createPlan/createPlanQueryHandler.ts",
+    "count": 1
+  },
+  "ISf": {
+    "inferred": "CreatePlanToolCallHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/createPlan/createPlanToolCallHandler.ts",
+    "count": 1
+  },
+  "sSf": {
+    "inferred": "EditToolCallHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/edit/editToolCallHandler.ts",
+    "count": 1
+  },
+  "USf": {
+    "inferred": "McpAuthQueryHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/mcpAuth/mcpAuthQueryHandler.ts",
+    "count": 1
+  },
+  "rSf": {
+    "inferred": "ShellToolCallHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/shell/shellToolCallHandler.ts",
+    "count": 1
+  },
+  "MSf": {
+    "inferred": "SwitchModeQueryHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/switchMode/switchModeQueryHandler.ts",
+    "count": 1
+  },
+  "e0a": {
+    "inferred": "TaskToolCallHandler",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/services/agent/browser/toolCallHandlers/task/taskToolCallHandler.ts",
+    "count": 4
+  },
+  "oSf": {
+    "inferred": "TodoToolCallHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/todo/todoToolCallHandler.ts",
+    "count": 1
+  },
+  "OSf": {
+    "inferred": "WebFetchQueryHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/webFetch/webFetchQueryHandler.ts",
+    "count": 1
+  },
+  "FSf": {
+    "inferred": "WebSearchQueryHandler",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agent/browser/toolCallHandlers/webSearch/webSearchQueryHandler.ts",
+    "count": 1
+  },
+  "AAa": {
+    "inferred": "CacheStorageService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agentData/browser/cacheStorageService.ts",
+    "count": 4
+  },
+  "knf": {
+    "inferred": "DraftAgentRepositoryService",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/services/agentData/browser/draftAgentRepositoryService.ts",
+    "count": 2
+  },
+  "Syi": {
+    "inferred": "LocalAgentEnvironment",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agentData/browser/localAgentEnvironment.ts",
+    "count": 1
+  },
+  "Ncu": {
+    "inferred": "MentionsCapabilityService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/agentData/browser/mentionsCapabilityService.ts",
+    "count": 1
+  },
+  "YS": {
+    "inferred": "BackendClient",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/ai/browser/backendClient.ts",
+    "count": 3
+  },
+  "spa": {
+    "inferred": "ComposerNotificationService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/ai/browser/composerNotificationService.ts",
+    "count": 4
+  },
+  "ffa": {
+    "inferred": "ConnectRequestService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/ai/browser/connectRequestService.ts",
+    "count": 4
+  },
+  "Chu": {
+    "inferred": "McpService",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/services/ai/browser/mcpService.ts",
+    "count": 3
+  },
+  "uUf": {
+    "inferred": "SimpleSerialProcessor",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/services/aiContext/browser/simpleSerialProcessor.ts",
+    "count": 1
+  },
+  "Knt": {
+    "inferred": "Errors",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/aiErrors/browser/errors.ts",
+    "count": 1
+  },
+  "dfa": {
+    "inferred": "AiSettingsService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/aiSettings/browser/aiSettingsService.ts",
+    "count": 4
+  },
+  "nxf": {
+    "inferred": "AssignmentService",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/services/assignment/common/assignmentService.ts",
+    "count": 2
+  },
+  "OIa": {
+    "inferred": "ComposerProjectService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/composer/browser/composerProjectService.ts",
+    "count": 4
+  },
+  "Zxf": {
+    "inferred": "JsonEditing",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/configuration/common/jsonEditing.js",
+    "count": 1
+  },
+  "p8": {
+    "inferred": "ConfigurationResolver",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/configurationResolver/common/configurationResolver.ts",
+    "count": 1
+  },
+  "Hye": {
+    "inferred": "ConfigurationResolverExpression",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/configurationResolver/common/configurationResolverExpression.ts",
+    "count": 1
+  },
+  "Ynt": {
+    "inferred": "CursorHooks",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/cursorHooks/common/cursorHooks.js",
+    "count": 1
+  },
+  "Qpa": {
+    "inferred": "ExperimentService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/experiment/browser/experimentService.ts",
+    "count": 4
+  },
+  "Ief": {
+    "inferred": "ExtensionFeatures",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/extensionManagement/common/extensionFeatures.ts",
+    "count": 2
+  },
+  "mga": {
+    "inferred": "CursorExtensionIsolationService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/extensions/browser/cursorExtensionIsolationService.ts",
+    "count": 4
+  },
+  "CCf": {
+    "inferred": "ExtensionHostKind",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/extensions/common/extensionHostKind.ts",
+    "count": 1
+  },
+  "cxf": {
+    "inferred": "ExtensionsRegistry",
+    "strategy": "B2:filename-first",
+    "confidence": 3,
+    "file": "workbench/services/extensions/common/extensionsRegistry.ts",
+    "count": 1
+  },
+  "p0u": {
+    "inferred": "LineProvenanceMap",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/inlineDiffsV2/common/lineProvenanceMap.ts",
+    "count": 1
+  },
+  "Wtf": {
+    "inferred": "Output",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/output/common/output.ts",
+    "count": 2
+  },
+  "Uiu": {
+    "inferred": "PathService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/path/common/pathService.ts",
+    "count": 3
+  },
+  "V4f": {
+    "inferred": "IgnoreFile",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/search/common/ignoreFile.ts",
+    "count": 1
+  },
+  "bV": {
+    "inferred": "QueryBuilder",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/search/common/queryBuilder.ts",
+    "count": 3
+  },
+  "Q3f": {
+    "inferred": "TMHelper",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/textMate/common/TMHelper.ts",
+    "count": 1
+  },
+  "Ega": {
+    "inferred": "Textfiles",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/textfile/common/textfiles.ts",
+    "count": 1
+  },
+  "GJ": {
+    "inferred": "UntitledTextEditorInput",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/untitled/common/untitledTextEditorInput.ts",
+    "count": 3
+  },
+  "ofn": {
+    "inferred": "UntitledTextEditorModel",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/untitled/common/untitledTextEditorModel.ts",
+    "count": 3
+  },
+  "HIa": {
+    "inferred": "UpdateNotificationService",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/update/browser/updateNotificationService.ts",
+    "count": 4
+  },
+  "XSa": {
+    "inferred": "StoredFileWorkingCopySaveParticipant",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/workingCopy/common/storedFileWorkingCopySaveParticipant.ts",
+    "count": 3
+  },
+  "ZSa": {
+    "inferred": "WorkingCopyFileOperationParticipant",
+    "strategy": "B:filename",
+    "confidence": 4,
+    "file": "workbench/services/workingCopy/common/workingCopyFileOperationParticipant.ts",
+    "count": 3
+  },
+  "V2g": {
+    "inferred": "NoChangesToApplyError",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/services/worktree/common/worktree.js",
+    "count": 1
+  },
+  "unu": {
+    "inferred": "WorktreeLockLease",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/services/worktree/common/worktree.js",
+    "count": 1
+  },
+  "yga": {
+    "inferred": "WorktreeOperationCanceledError",
+    "strategy": "C:export-map",
+    "confidence": 4,
+    "file": "workbench/services/worktree/common/worktree.js",
+    "count": 1
+  }
+}

@@ -143,3 +143,117 @@ Claude Desktop App 的聊天界面是通过 WebContentsView 从 claude.ai 加载
 | stream_event | { event: { type: "content_block_delta", delta: { type: "thinking_delta", thinking } } } | thinkingDelta |
 | assistant | { message: { content: [...] } } | textDelta / toolCall |
 | result | { result, session_id, ... } | turnEnded |
+
+## [2026-03-05] Pipeline 修复 — deobfuscate + convert-to-ts 跨模块引用问题
+
+### 背景
+rebundled workbench.desktop.main.js 加载时报 `ReferenceError: Disposable is not defined`，导致黑屏。
+
+### 决策
+1. **方向 1（修复源头脚本）**：修复 deobfuscate.js 和 convert-to-ts.js 的 bug，而非在 rebundle.js 中做反向映射
+2. **禁用 addDisposableType()**：convert-to-ts.js 中的类型推断功能不成熟，暂时禁用
+3. **定义站点检测**：deobfuscate.js 只在模块有变量定义站点时才重命名
+
+### 理由
+- 修复源头比在下游做反向映射更可持续
+- addDisposableType() 的启发式逻辑不可靠（38 处误判）
+- 定义站点检测确保不会破坏跨模块引用
+
+### 验证结果
+- Pipeline 重跑：`extends Disposable` = 0，`node --check` = PASS
+- App 启动：无 ReferenceError，无黑屏，MCP Gateway 初始化成功
+- 剩余非致命错误均为预期行为（扩展 API 版本不匹配等）
+
+## [2026-03-05] re-obfuscation 步骤 — rebundle.js Phase 5a
+
+### 背景
+deobfuscate.js 将 DI 服务和单例的短名替换为人类可读名，但 rebundle 回 bundle 时需要恢复原始短名以匹配跨模块引用。
+
+### 决策
+在 rebundle.js Phase 5 后添加 Phase 5a re-obfuscation，从 service-map.json 和 singleton-map.json 构建逆转映射。
+
+### 实现
+- 读取 service-map (559) + singleton-map (431) 构建 reverseMap
+- 按 longName 长度降序排列，防止短名干扰
+- word-boundary 正则替换，与 deobfuscate.js 对称
+- 不逆转 Strategy 2（构造函数局部参数）— 安全
+
+## [2026-03-05] App 测试环境 — 使用 src app 而非 build app
+
+### 决策
+开发和测试基于 `src/ClaudeEditor-darwin-arm64/Claude Editor.app/`（Cursor 完整结构），而非 `build/Claude Editor.app/`。
+
+### 理由
+- src app 有正确的 Cursor Electron 二进制和完整目录结构（electron-browser）
+- build app 使用 Code OSS 结构（electron-sandbox），与 Cursor workbench 不兼容
+- src app 中 Cursor 原版 Electron Framework（173MB）含自定义补丁，是运行 rebundled workbench 的必要条件
+
+## [2026-03-05] AI 调用链完整逆向 — Agent Provider 架构
+
+### 背景
+需要找到 Cursor AI 请求的完整调用链，以确定 Claude Code CLI 接入的最佳拦截点。
+
+### 调用链路
+```
+Composer UI → ComposerService (Bi("composerService"))
+  → ComposerAgentProviderRouter (WCf class)
+    → NaiveComposerAgentProvider (GCf/JCf class)
+      → AgentProviderService (CAa class, Bi("agentProviderService"))
+        → MainThreadCursorAgentProviderService (rlb class)
+          → [IPC] ExtHostCursorAgentProviderService
+            → cursor-agent extension → gRPC backend
+```
+
+### 关键类和位置（workbench.desktop.main.js）
+- `CAa` = AgentProviderService: line 124532, `registerHandler(handler)` + `createAgent(sessionId, options)`
+- `rlb` = MainThreadCursorAgentProviderService: line 304684, IPC bridge
+- `WCf` = ComposerAgentProviderRouter: line 124743
+- `JCf` = NaiveComposerAgentProvider agent runner: line 124735, `run()` 解码 protobuf
+
+### 拦截点选择
+- **推荐方案 A**: 直接在 AgentProviderService 注册 ClaudeCodeHandler（绕过 ExtHost IPC）
+- **方案 B**: 通过 cursor-agent 扩展的 `vscode.cursor.registerAgentProvider()` API
+
+### 原始注册方式
+`vscode.cursor.registerAgentProvider(agentProvider)` — 在 cursor-agent 扩展的 `activate()` 中调用
+
+## [2026-03-05] 反编译流水线完整重跑 — 全部 6 步完成
+
+### 背景
+之前的反编译产出文件丢失（只剩 303/2763），需要从头重跑完整流水线。
+
+### 执行结果
+1. unbundle: 2763 模块 ✅
+2. format: 2554 文件格式化（使用 prettier API + async 并发，6 秒完成） ✅
+3. restore-imports: 15229 条 import ✅
+4. deobfuscate: 993 文件, 28482 处替换 ✅
+5. convert-to-ts: 349 文件加类型注解 ✅
+6. rebundle: 54.1 MB 输出, node --check 通过 ✅
+
+### 修复的脚本 Bug
+- convert-to-ts.js: 4 个 bug（addFieldTypes 禁用、正则修复、split 修复、启发式禁用）
+- rebundle.js: 2 个 bug（正则收窄 I?→I、空白字符匹配）
+- restore-imports.js: 2 个 bug（$ 变量名正则、if 包裹格式）
+- format-modules.js: 重写并发（串行 CLI → 并行 API，30 分钟→6 秒）
+
+## [2026-03-05] IPC 错误根本原因分析
+
+### cursorDiskKV* 错误 (P0)
+- **原因**: main.js `StorageDatabaseChannel.call()` 只处理 `getItems/updateItems/optimize/isUsed`
+- **Cursor 扩展方法**: `cursorDiskKVGet/Set/SetBinary/GetBinary/ClearPrefix/GetPrefix/GetPrefixKeys/GetPrefixBinary/GetBatch`
+- **影响**: Composer blob store + checkpoint + message storage 全部失败
+- **修复**: 在 main.js `StorageDatabaseChannel.call()` 的 switch 中添加所有 cursorDiskKV* case
+
+### onDidChangeCssModules 错误 (P2)
+- **原因**: workbench line 140565 调用 `nativeHostService.onDidChangeCssModules()`, main.js NativeHost channel 不提供
+- **影响**: 非致命，只影响 CSS hot-reload，但会抛 uncaught exception
+- **修复**: try-catch 包裹或在 main.js 添加空事件
+
+### MainThreadChatContext 错误 (P2)
+- **原因**: ExtHost 引用但 workbench Tf actor map 中不存在
+- **修复**: 添加 no-op 实现到 Tf map
+
+### $onUnexpectedError on MainThreadTreeViews (P3)
+- **原因**: ExtHost 调用该方法但实现中没有
+- **影响**: 日志污染 (16803 次)
+- **修复**: 添加空方法

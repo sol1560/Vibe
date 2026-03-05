@@ -259,12 +259,9 @@ function inferParamType(paramName) {
 		return SERVICE_INTERFACE_MAP[cleanName];
 	}
 
-	// Heuristic: if it ends with "Service", assume I<PascalName>
-	if (cleanName.endsWith('Service')) {
-		const pascal = cleanName.charAt(0).toUpperCase() + cleanName.slice(1);
-		return 'I' + pascal;
-	}
-
+	// [DISABLED] Heuristic guessing produces wrong interface names
+	// e.g. remoteService → IRemoteService (actual: IRemoteAgentService)
+	// Only use exact matches from SERVICE_INTERFACE_MAP
 	return null;
 }
 
@@ -278,9 +275,35 @@ function inferParamType(paramName) {
 function addConstructorTypes(code) {
 	let changed = false;
 
-	// Find constructor declarations
-	const ctorRegex = /constructor\s*\(([^)]*)\)/g;
-	code = code.replace(ctorRegex, (match, params) => {
+	// Find constructor declarations — use balanced paren matching
+	// to handle nested parens in default values like `callback = () => {}`
+	const ctorMatches = [];
+	const ctorStartRegex = /constructor\s*\(/g;
+	let ctorMatch;
+	while ((ctorMatch = ctorStartRegex.exec(code)) !== null) {
+		const start = ctorMatch.index;
+		const parenStart = start + ctorMatch[0].length;
+		let depth = 1, pos = parenStart;
+		while (pos < code.length && depth > 0) {
+			if (code[pos] === '(') depth++;
+			else if (code[pos] === ')') depth--;
+			pos++;
+		}
+		if (depth === 0) {
+			ctorMatches.push({
+				start,
+				end: pos,
+				full: code.slice(start, pos),
+				params: code.slice(parenStart, pos - 1)
+			});
+		}
+	}
+	// Replace in reverse order to preserve indices
+	for (let ci = ctorMatches.length - 1; ci >= 0; ci--) {
+		const cm = ctorMatches[ci];
+		const params = cm.params;
+		const match = cm.full;
+		const replacer = ((match, params) => {
 		if (!params.trim()) return match;
 
 		const paramList = params.split(',').map(p => p.trim()).filter(Boolean);
@@ -291,8 +314,10 @@ function addConstructorTypes(code) {
 			// Skip if it's a destructured parameter
 			if (param.includes('{') || param.includes('[')) return param;
 
-			// Skip if it has a default value with complex expression
-			const [name, defaultValue] = param.split('=').map(s => s.trim());
+			// Skip if it has a default value — only split on first '='
+			const eqIdx = param.indexOf('=');
+			const name = eqIdx >= 0 ? param.slice(0, eqIdx).trim() : param.trim();
+			const defaultValue = eqIdx >= 0 ? param.slice(eqIdx + 1).trim() : undefined;
 
 			const type = inferParamType(name);
 			if (type) {
@@ -306,7 +331,9 @@ function addConstructorTypes(code) {
 		});
 
 		return `constructor(${typedParams.join(', ')})`;
-	});
+	})(match, params);
+		code = code.slice(0, cm.start) + replacer + code.slice(cm.end);
+	}
 
 	return { code, changed };
 }
@@ -347,29 +374,6 @@ function addFieldTypes(code) {
 	});
 
 	return { code, changed };
-}
-
-/**
- * Add Disposable type annotations.
- * Common VS Code pattern: classes extend Disposable.
- */
-function addDisposableType(code) {
-	// If code has `super.dispose()` or `this._register(...)`, it's likely a Disposable
-	const hasDispose = /super\.dispose\(\)/.test(code) || /this\._register\b/.test(code);
-	if (!hasDispose) return { code, changed: false };
-
-	// Check if class already extends something
-	const classRegex = /class\s+(\w+)\s*\{/;
-	const classMatch = code.match(classRegex);
-	if (classMatch) {
-		code = code.replace(
-			classRegex,
-			`class ${classMatch[1]} extends Disposable {`
-		);
-		return { code, changed: true };
-	}
-
-	return { code, changed: false };
 }
 
 /**
@@ -478,8 +482,8 @@ function processFile(filePath) {
 	// Apply transformations in order
 	const transforms = [
 		addConstructorTypes,
-		addFieldTypes,
-		addDisposableType,
+		// [DISABLED] addFieldTypes — collects fields file-wide but inserts into every
+		// class declaration, causing TS2300 Duplicate identifier in multi-class files
 		convertEnumPatterns,
 		addMethodReturnTypes,
 	];

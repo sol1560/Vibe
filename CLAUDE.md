@@ -329,3 +329,16 @@ npx asar extract /tmp/cursor-mount/Cursor.app/Contents/Resources/app.asar ./extr
 - 每个组件都要经过视觉对比验证
 - UI 必须像素级还原 Claude 的设计语言
 - 交互体验要流畅自然
+
+
+## UI Design Reference Convention (Refero)
+
+When working on UI/design tasks for this project, **always use Refero MCP tools first** to search for real product references before starting the design.
+
+### Workflow
+1. Identify the screen type / UI pattern needed
+2. Use `refero_search_screens` or `refero_search_flows` to find references
+3. Review text descriptions, pick top candidates
+4. Use `refero_get_screen` with `image_size: "thumbnail"` or `"full"` to visually inspect
+5. Use insights from references to inform the design
+

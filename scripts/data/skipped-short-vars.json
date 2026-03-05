@@ -1,0 +1,694 @@
+{
+  "un": {
+    "interfaceName": "IInstantiationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "gl": {
+    "interfaceName": "ICodeEditorService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Il": {
+    "interfaceName": "IModelService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "xl": {
+    "interfaceName": "ITextModelService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "br": {
+    "interfaceName": "ICommandService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Ci": {
+    "interfaceName": "IContextKeyService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "xd": {
+    "interfaceName": "IMenuService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Zo": {
+    "interfaceName": "ITelemetryService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Ir": {
+    "interfaceName": "ILogService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "jP": {
+    "interfaceName": "ILoggerService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "On": {
+    "interfaceName": "IConfigurationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Wl": {
+    "interfaceName": "ILanguageService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "HS": {
+    "interfaceName": "ILanguageConfigurationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Ef": {
+    "interfaceName": "IAccessibilityService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "ms": {
+    "interfaceName": "INotificationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "bo": {
+    "interfaceName": "IThemeService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "ug": {
+    "interfaceName": "IEnvironmentService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Jr": {
+    "interfaceName": "IFileService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Rr": {
+    "interfaceName": "IContextService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Dl": {
+    "interfaceName": "IUriIdentityService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "MA": {
+    "interfaceName": "IUserDataProfilesService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Ji": {
+    "interfaceName": "IStorageService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "MY": {
+    "interfaceName": "ITooltipService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "qB": {
+    "interfaceName": "IUndoRedoService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Uu": {
+    "interfaceName": "ILanguageFeaturesService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "po": {
+    "interfaceName": "IKeybindingService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "wS": {
+    "interfaceName": "IAccessibilitySignalService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Tb": {
+    "interfaceName": "IProgressService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "h2": {
+    "interfaceName": "IEditorProgressService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "c_": {
+    "interfaceName": "IEditorWorkerService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Km": {
+    "interfaceName": "IClipboardService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "ay": {
+    "interfaceName": "IContextViewService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "wc": {
+    "interfaceName": "IContextMenuService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "zc": {
+    "interfaceName": "IHoverService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "YD": {
+    "interfaceName": "IUiOverlayService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "da": {
+    "interfaceName": "IQuickInputService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Ul": {
+    "interfaceName": "IDialogService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "cy": {
+    "interfaceName": "IFileDialogService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "qa": {
+    "interfaceName": "IOpenerService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "eL": {
+    "interfaceName": "IWorkspaceEditService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "QS": {
+    "interfaceName": "ILayoutService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "fk": {
+    "interfaceName": "IMarkerService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "xu": {
+    "interfaceName": "IReactiveStorageService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "og": {
+    "interfaceName": "IComposerService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "mh": {
+    "interfaceName": "IAnalyticsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "dM": {
+    "interfaceName": "ICppService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "jz": {
+    "interfaceName": "IAiCodeTrackingService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Ph": {
+    "interfaceName": "IListService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Fl": {
+    "interfaceName": "ILabelService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "hE": {
+    "interfaceName": "INotebookExecutionStateService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "ha": {
+    "interfaceName": "IEditorGroupsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "_i": {
+    "interfaceName": "IEditorService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "ZE": {
+    "interfaceName": "IMetricsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "e": {
+    "interfaceName": "ISecretStorageService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "P1": {
+    "interfaceName": "IAiServerConfigService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "gE": {
+    "interfaceName": "IStructuredLogService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "ec": {
+    "interfaceName": "IProductService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Rl": {
+    "interfaceName": "IExperimentService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "tt": {
+    "interfaceName": "IComposerMessageStorageService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "tx": {
+    "interfaceName": "IModelConfigService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Yk": {
+    "interfaceName": "IBackgroundComposerDataService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "ag": {
+    "interfaceName": "IAuthenticationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "X9": {
+    "interfaceName": "IAdminSettingsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "bp": {
+    "interfaceName": "IViewDescriptorService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "up": {
+    "interfaceName": "ILifecycleService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "hn": {
+    "interfaceName": "ICursorExtensionIsolationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "fE": {
+    "interfaceName": "IGitContextService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "A0": {
+    "interfaceName": "IPaneCompositePartService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "yu": {
+    "interfaceName": "IViewsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "nx": {
+    "interfaceName": "IBackgroundComposerService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "bM": {
+    "interfaceName": "IComposerChatService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "RA": {
+    "interfaceName": "IComposerEventService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Wg": {
+    "interfaceName": "ITextFileService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Bq": {
+    "interfaceName": "INotebookModelResolverService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "KZ": {
+    "interfaceName": "IComposerFileService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Fa": {
+    "interfaceName": "IComposerDataService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "hL": {
+    "interfaceName": "IAgentLayoutService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "sw": {
+    "interfaceName": "IComposerViewsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "vU": {
+    "interfaceName": "IAISettingsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "AU": {
+    "interfaceName": "IDiffChangeSourceRegistry",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Zp": {
+    "interfaceName": "IRemoteAgentService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Rp": {
+    "interfaceName": "IPathService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "GA": {
+    "interfaceName": "INotebookService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Jv": {
+    "interfaceName": "IAiService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "I2": {
+    "interfaceName": "ICmdKStateService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "mL": {
+    "interfaceName": "IInlineDiffService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "hy": {
+    "interfaceName": "ITextResourceConfigurationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "yU": {
+    "interfaceName": "IEverythingProviderService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "bE": {
+    "interfaceName": "IExtensionGalleryService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "ES": {
+    "interfaceName": "IExtensionManagementService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "wU": {
+    "interfaceName": "IAllowedExtensionsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "D2": {
+    "interfaceName": "ITunnelService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "AM": {
+    "interfaceName": "IWorkspacesService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Py": {
+    "interfaceName": "IUserDataProfileService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "cV": {
+    "interfaceName": "IComposerContextService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "SJ": {
+    "interfaceName": "IComposerCodeBlockService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "DC": {
+    "interfaceName": "IFilesConfigurationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "iO": {
+    "interfaceName": "IPrettyDialogService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "fQ": {
+    "interfaceName": "ISearchService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "cB": {
+    "interfaceName": "IWorkingCopyService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "ek": {
+    "interfaceName": "IHistoryService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "kd": {
+    "interfaceName": "IHostService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "km": {
+    "interfaceName": "IExtensionsWorkbenchService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "a8": {
+    "interfaceName": "IRequestService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "WF": {
+    "interfaceName": "IAuthenticationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "oP": {
+    "interfaceName": "IExtensionManagementServerService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "sS": {
+    "interfaceName": "IExtensionEnablementService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "TT": {
+    "interfaceName": "IChatAgentService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "yQ": {
+    "interfaceName": "IChatEditingService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "BC": {
+    "interfaceName": "IChatService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "sX": {
+    "interfaceName": "ILanguageModelToolsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "F1": {
+    "interfaceName": "IChatWidgetService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "au": {
+    "interfaceName": "IChatAccessibilityService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "V0": {
+    "interfaceName": "IStatusbarService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "NJ": {
+    "interfaceName": "ICursorCredsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "aX": {
+    "interfaceName": "IRepositoryService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "oS": {
+    "interfaceName": "IOutputService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "r5": {
+    "interfaceName": "ICursorIgnoreService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "CM": {
+    "interfaceName": "IAppLayoutService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "MJ": {
+    "interfaceName": "ICursorRulesService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Vb": {
+    "interfaceName": "ITerminalService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Wq": {
+    "interfaceName": "ITerminalConfigurationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "SM": {
+    "interfaceName": "ITerminalGroupService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "_Q": {
+    "interfaceName": "ITerminalInstanceService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "DU": {
+    "interfaceName": "IMcpService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "eu": {
+    "interfaceName": "IExtensionService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "CQ": {
+    "interfaceName": "IConfigurationResolverService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "uX": {
+    "interfaceName": "ICursorHooksService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "dX": {
+    "interfaceName": "IWorkspaceEditingService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "kM": {
+    "interfaceName": "IComposerUtilsService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "CV": {
+    "interfaceName": "IComposerPlanService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "DT": {
+    "interfaceName": "IComposerModesService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "PU": {
+    "interfaceName": "ITerminalLogService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "hO": {
+    "interfaceName": "INotebookEditorWidgetService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "L2": {
+    "interfaceName": "IAccessibleViewService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "vX": {
+    "interfaceName": "IJsonEditingService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "nb": {
+    "interfaceName": "IPreferencesService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "vD": {
+    "interfaceName": "IEditorResolverService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Yq": {
+    "interfaceName": "IWorkingCopyBackupService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Zq": {
+    "interfaceName": "IWorkingCopyFileService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "RC": {
+    "interfaceName": "IExplorerService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "yX": {
+    "interfaceName": "ITerminalProfileResolverService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Jx": {
+    "interfaceName": "IWorkspaceTrustManagementService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "wX": {
+    "interfaceName": "IWorkspaceTrustRequestService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "LC": {
+    "interfaceName": "IBrowserViewStore",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "TM": {
+    "interfaceName": "IUserDataSyncEnablementService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "pO": {
+    "interfaceName": "IRemoteAuthorityResolverService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "d5": {
+    "interfaceName": "IExtensionManifestPropertiesService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Au": {
+    "interfaceName": "IActiveLanguageService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "U": {
+    "interfaceName": "IUpdateService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "V": {
+    "interfaceName": "ICommentService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "BM": {
+    "interfaceName": "INotebookKernelService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "xX": {
+    "interfaceName": "IGithubPRService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "_u": {
+    "interfaceName": "IComposerProjectService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "ki": {
+    "interfaceName": "IUpdateNotificationService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "vN": {
+    "interfaceName": "IScm",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "r7": {
+    "interfaceName": "IScmView",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "gh": {
+    "interfaceName": "IDebugService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "pP": {
+    "interfaceName": "IRemoteExplorerService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "XF": {
+    "interfaceName": "ITestProfileService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "CO": {
+    "interfaceName": "ITestResultService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "hC": {
+    "interfaceName": "ITestService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "e4": {
+    "interfaceName": "IActivityService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "XU": {
+    "interfaceName": "IMainProcessService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "Qp": {
+    "interfaceName": "INativeHostService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "R8": {
+    "interfaceName": "IGlassTabPersistenceService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "b": {
+    "interfaceName": "ICppSuggestionService",
+    "reason": "length <= 2, only renamed at Bi() def site"
+  },
+  "lQ": {
+    "implClassName": "ComposerFileService",
+    "reason": "length <= 2, skipped by Ki() strategy"
+  },
+  "rS": {
+    "implClassName": "ComposerCodeBlockService",
+    "reason": "length <= 2, skipped by Ki() strategy"
+  },
+  "uO": {
+    "implClassName": "ComposerUtilsService",
+    "reason": "length <= 2, skipped by Ki() strategy"
+  },
+  "FQ": {
+    "implClassName": "ReviewChangesService",
+    "reason": "length <= 2, skipped by Ki() strategy"
+  },
+  "SE": {
+    "implClassName": "ComposerService",
+    "reason": "length <= 2, skipped by Ki() strategy"
+  },
+  "RX": {
+    "implClassName": "TerminalService",
+    "reason": "length <= 2, skipped by Ki() strategy"
+  }
+}
