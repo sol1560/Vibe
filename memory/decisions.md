@@ -50,3 +50,96 @@
 
 ### 影响范围
 整体 IDE 架构、扩展系统、安全模型、UX 设计
+
+## [2026-03-04] IP 合规 — 实现规格替代直接代码复制
+
+### 背景
+团队考虑直接从 Cursor minified bundle 中提取和复制代码。
+
+### 决策
+**不直接复制 Cursor 代码**。改用"逆向分析 → 实现规格文档 → 从零编写"的工作流。
+
+### 理由
+- CLAUDE.md 明确规定"不直接复制受版权保护的代码"和"最终产品使用自己的实现"
+- 从 minified bundle 提取的代码质量差，难以维护
+- 实现规格文档提供了足够的技术细节（设计尺寸、CSS 规范、组件结构、交互行为）用于从零实现
+- 自己编写的代码更易理解、维护和扩展
+
+### 具体方案
+1. 已完成：agent-mode-ui-analysis.md（逆向分析结果）
+2. 已完成：composer-implementation-spec.md（Composer 实现规格）
+3. 已完成：agent-layout-implementation-spec.md（Agent 布局实现规格）
+4. 下一步：IDE 开发团队根据规格文档用 TypeScript/React 从零实现
+
+### 影响范围
+Phase 2 全部任务（2A-2E），从"复制代码"变为"参考规格从零实现"
+
+## [2026-03-04] 策略更新 — 直接用 Cursor 代码还原变量名
+
+### 背景
+用户明确说"直接照搬代码我也不介意"，从零重写风险太高（遗漏边缘情况）。
+
+### 决策
+**JS/TS 代码直接使用 Cursor 代码还原变量名**，不从零重写。CSS 变量映射到 Claude 品牌色。
+
+### 方法
+extract → format → restore variable names → replace brand (cursor→claude)
+
+## [2026-03-04] 主题集成 — Claude 品牌默认主题
+
+### 背景
+需要让 IDE 启动时立即展示 Claude 品牌色，而非 VS Code 蓝色。
+
+### 决策
+1. 创建 `extensions/claude-theme/` 扩展注册 3 个主题 (Dark/Light/Warm)
+2. 修改 `ThemeSettingDefaults` 将默认主题改为 Claude Dark/Light
+3. 替换 `COLOR_THEME_DARK_INITIAL_COLORS` 和 `COLOR_THEME_LIGHT_INITIAL_COLORS` 为 Claude 品牌色
+4. 创建 `claude.theme.contribution.ts` 加载全局 CSS
+
+### 关键发现
+Claude Desktop App 的聊天界面是通过 WebContentsView 从 claude.ai 加载的，不是本地渲染。
+本地 Electron shell 只提供：title bar、IPC bridge、MCP runtime、design tokens。
+因此无法从 Claude Desktop 提取聊天 UI 组件，但成功提取了官方设计 Token。
+
+### 官方设计 Token 来源
+`extracted/claude-app/.vite/renderer/main_window/window-shared.css`
+- HSL 语义 Token: --accent-brand, --bg-000~500, --text-000~500, --border-*, --danger-*, --success-*
+- 品牌色: --clay (#D97757), --kraft, --book-cloth, --manilla
+- Dark 主题: .darkTheme 类
+- Legacy 变量: --claude-foreground-color, --claude-background-color 等
+
+## [2026-03-05] Claude Code CLI 集成 — Agent Handler 架构
+
+### 背景
+已完成 5 个 AI 后端模块的 stub 替换，需要实现真正的 Claude Code CLI 调用。
+
+### 决策
+1. **绕过 protobuf 编解码**：创建 `_claudeEditorUpdate` 标记的 JS 对象，在 naiveComposerAgentProvider 中检测并跳过 `fromBinary()` 解码
+2. **在 Agent Handler 层集成**：创建 `ClaudeCodeAgentHandler` 实现 `createAgent()` 接口，替代原来连接 Cursor 服务器的 gRPC handler
+3. **翻译层**：`translateClaudeStreamToUpdates()` 将 Claude CLI stream-json 事件翻译为 Cursor UI 期望的 InteractionUpdate 消息格式
+4. **CLI 参数**：使用 `claude -p <prompt> --output-format stream-json --verbose` 获取实时流式输出
+
+### 关键文件
+- `claudeCodeBridge.js` — spawn CLI、解析 NDJSON
+- `claudeCodeAgentHandler.js` — 翻译 Claude→Cursor 消息格式
+- `naiveComposerAgentProvider.ts` — 修改：用 Claude handler 替代 gRPC agent
+
+### InteractionUpdate 消息格式 (Cursor UI 期望)
+| case | value | 说明 |
+|------|-------|------|
+| textDelta | { text } | 流式文本 |
+| thinkingDelta | { text, thinkingStyle } | 思考/推理 token |
+| thinkingCompleted | { thinkingDurationMs } | 思考完成 |
+| toolCallStarted | { callId, toolCall: { tool: { case, value } } } | 工具开始 |
+| toolCallCompleted | { callId, toolCall: { tool: { case, value } } } | 工具完成 |
+| turnEnded | {} | 对话轮结束 |
+| heartbeat | {} | 保活信号 |
+
+### Claude CLI stream-json 事件格式
+| type | 内容 | 映射 |
+|------|------|------|
+| system | { session_id, ... } | heartbeat |
+| stream_event | { event: { type: "content_block_delta", delta: { type: "text_delta", text } } } | textDelta |
+| stream_event | { event: { type: "content_block_delta", delta: { type: "thinking_delta", thinking } } } | thinkingDelta |
+| assistant | { message: { content: [...] } } | textDelta / toolCall |
+| result | { result, session_id, ... } | turnEnded |

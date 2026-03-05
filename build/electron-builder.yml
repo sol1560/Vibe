@@ -1,0 +1,85 @@
+# Claude Editor - Electron Builder 配置
+# 注意：Code OSS 使用自己的 gulp 构建系统来打包 Electron 应用
+# 此文件为将来使用 electron-builder 独立打包准备的配置
+
+appId: com.anthropic.claude-editor
+productName: Claude Editor
+copyright: Copyright © 2024-2026 Anthropic, PBC
+
+directories:
+  buildResources: resources
+  output: dist
+
+files:
+  - out/**/*
+  - extensions/**/*
+  - resources/**/*
+  - product.json
+  - package.json
+  - node_modules/**/*
+
+mac:
+  category: public.app-category.developer-tools
+  icon: resources/darwin/claude-editor.icns
+  target:
+    - target: dmg
+      arch:
+        - arm64
+        - x64
+    - target: zip
+      arch:
+        - arm64
+        - x64
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  entitlements: resources/darwin/entitlements.plist
+  entitlementsInherit: resources/darwin/entitlements.plist
+
+dmg:
+  artifactName: "Claude-Editor-${version}-${arch}.dmg"
+  contents:
+    - x: 130
+      y: 220
+    - x: 410
+      y: 220
+      type: link
+      path: /Applications
+
+win:
+  icon: resources/win32/claude-editor.ico
+  target:
+    - target: nsis
+      arch:
+        - x64
+        - arm64
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  artifactName: "Claude-Editor-Setup-${version}-${arch}.exe"
+
+linux:
+  icon: resources/linux/claude-editor.png
+  category: Development
+  target:
+    - target: deb
+      arch:
+        - x64
+        - arm64
+    - target: rpm
+      arch:
+        - x64
+        - arm64
+    - target: AppImage
+      arch:
+        - x64
+        - arm64
+  desktop:
+    Name: Claude Editor
+    Comment: AI-First Code Editor powered by Claude
+    Categories: Development;IDE;TextEditor
+    Keywords: claude;editor;code;ide;ai
+    MimeType: text/plain;inode/directory
+
+publish: null

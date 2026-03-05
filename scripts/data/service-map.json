@@ -1,0 +1,2238 @@
+{
+  "un": {
+    "serviceName": "instantiationService",
+    "interfaceName": "IInstantiationService"
+  },
+  "gl": {
+    "serviceName": "codeEditorService",
+    "interfaceName": "ICodeEditorService"
+  },
+  "Il": {
+    "serviceName": "modelService",
+    "interfaceName": "IModelService"
+  },
+  "xl": {
+    "serviceName": "textModelService",
+    "interfaceName": "ITextModelService"
+  },
+  "br": {
+    "serviceName": "commandService",
+    "interfaceName": "ICommandService"
+  },
+  "Ci": {
+    "serviceName": "contextKeyService",
+    "interfaceName": "IContextKeyService"
+  },
+  "xd": {
+    "serviceName": "menuService",
+    "interfaceName": "IMenuService"
+  },
+  "Zo": {
+    "serviceName": "telemetryService",
+    "interfaceName": "ITelemetryService"
+  },
+  "XSc": {
+    "serviceName": "customEndpointTelemetryService",
+    "interfaceName": "ICustomEndpointTelemetryService"
+  },
+  "siA": {
+    "serviceName": "mainProcessPerformanceTelemetryService",
+    "interfaceName": "IMainProcessPerformanceTelemetryService"
+  },
+  "Ir": {
+    "serviceName": "logService",
+    "interfaceName": "ILogService"
+  },
+  "jP": {
+    "serviceName": "loggerService",
+    "interfaceName": "ILoggerService"
+  },
+  "On": {
+    "serviceName": "configurationService",
+    "interfaceName": "IConfigurationService"
+  },
+  "Wl": {
+    "serviceName": "languageService",
+    "interfaceName": "ILanguageService"
+  },
+  "HS": {
+    "serviceName": "languageConfigurationService",
+    "interfaceName": "ILanguageConfigurationService"
+  },
+  "Ef": {
+    "serviceName": "accessibilityService",
+    "interfaceName": "IAccessibilityService"
+  },
+  "ms": {
+    "serviceName": "notificationService",
+    "interfaceName": "INotificationService"
+  },
+  "bo": {
+    "serviceName": "themeService",
+    "interfaceName": "IThemeService"
+  },
+  "ug": {
+    "serviceName": "environmentService",
+    "interfaceName": "IEnvironmentService"
+  },
+  "Jr": {
+    "serviceName": "fileService",
+    "interfaceName": "IFileService"
+  },
+  "Rr": {
+    "serviceName": "contextService",
+    "interfaceName": "IContextService"
+  },
+  "Dl": {
+    "serviceName": "IUriIdentityService",
+    "interfaceName": "IUriIdentityService"
+  },
+  "MA": {
+    "serviceName": "IUserDataProfilesService",
+    "interfaceName": "IUserDataProfilesService"
+  },
+  "Ji": {
+    "serviceName": "storageService",
+    "interfaceName": "IStorageService"
+  },
+  "MY": {
+    "serviceName": "tooltipService",
+    "interfaceName": "ITooltipService"
+  },
+  "rOo": {
+    "serviceName": "treeSitterTokenizationStoreService",
+    "interfaceName": "ITreeSitterTokenizationStoreService"
+  },
+  "qB": {
+    "serviceName": "undoRedoService",
+    "interfaceName": "IUndoRedoService"
+  },
+  "Uu": {
+    "serviceName": "ILanguageFeaturesService",
+    "interfaceName": "ILanguageFeaturesService"
+  },
+  "qft": {
+    "serviceName": "markerDecorationsService",
+    "interfaceName": "IMarkerDecorationsService"
+  },
+  "po": {
+    "serviceName": "keybindingService",
+    "interfaceName": "IKeybindingService"
+  },
+  "wS": {
+    "serviceName": "accessibilitySignalService",
+    "interfaceName": "IAccessibilitySignalService"
+  },
+  "Tb": {
+    "serviceName": "progressService",
+    "interfaceName": "IProgressService"
+  },
+  "h2": {
+    "serviceName": "editorProgressService",
+    "interfaceName": "IEditorProgressService"
+  },
+  "c_": {
+    "serviceName": "editorWorkerService",
+    "interfaceName": "IEditorWorkerService"
+  },
+  "Z3o": {
+    "serviceName": "diffProviderFactoryService",
+    "interfaceName": "IDiffProviderFactoryService"
+  },
+  "Km": {
+    "serviceName": "clipboardService",
+    "interfaceName": "IClipboardService"
+  },
+  "ay": {
+    "serviceName": "contextViewService",
+    "interfaceName": "IContextViewService"
+  },
+  "wc": {
+    "serviceName": "contextMenuService",
+    "interfaceName": "IContextMenuService"
+  },
+  "U3t": {
+    "serviceName": "IActionViewItemService",
+    "interfaceName": "IActionViewItemService"
+  },
+  "hve": {
+    "serviceName": "actionBadgeService",
+    "interfaceName": "IActionBadgeService"
+  },
+  "zc": {
+    "serviceName": "hoverService",
+    "interfaceName": "IHoverService"
+  },
+  "YD": {
+    "serviceName": "uiOverlayService",
+    "interfaceName": "IUiOverlayService"
+  },
+  "da": {
+    "serviceName": "quickInputService",
+    "interfaceName": "IQuickInputService"
+  },
+  "Ul": {
+    "serviceName": "dialogService",
+    "interfaceName": "IDialogService"
+  },
+  "cy": {
+    "serviceName": "fileDialogService",
+    "interfaceName": "IFileDialogService"
+  },
+  "qa": {
+    "serviceName": "openerService",
+    "interfaceName": "IOpenerService"
+  },
+  "eL": {
+    "serviceName": "IWorkspaceEditService",
+    "interfaceName": "IWorkspaceEditService"
+  },
+  "L5o": {
+    "serviceName": "IEditorCancelService",
+    "interfaceName": "IEditorCancelService"
+  },
+  "QS": {
+    "serviceName": "layoutService",
+    "interfaceName": "ILayoutService"
+  },
+  "TRe": {
+    "serviceName": "actionWidgetService",
+    "interfaceName": "IActionWidgetService"
+  },
+  "fk": {
+    "serviceName": "markerService",
+    "interfaceName": "IMarkerService"
+  },
+  "xu": {
+    "serviceName": "reactiveStorageService",
+    "interfaceName": "IReactiveStorageService"
+  },
+  "rne": {
+    "serviceName": "ILanguageFeatureDebounceService",
+    "interfaceName": "ILanguageFeatureDebounceService"
+  },
+  "og": {
+    "serviceName": "composerService",
+    "interfaceName": "IComposerService"
+  },
+  "Qhg": {
+    "serviceName": "backgroundEditService",
+    "interfaceName": "IBackgroundEditService"
+  },
+  "Jne": {
+    "serviceName": "telemService",
+    "interfaceName": "ITelemService"
+  },
+  "mh": {
+    "serviceName": "analyticsService",
+    "interfaceName": "IAnalyticsService"
+  },
+  "dM": {
+    "serviceName": "cppService",
+    "interfaceName": "ICppService"
+  },
+  "Cet": {
+    "serviceName": "cursorPredictionService",
+    "interfaceName": "ICursorPredictionService"
+  },
+  "Y0t": {
+    "serviceName": "importPredictionService",
+    "interfaceName": "IImportPredictionService"
+  },
+  "zaa": {
+    "serviceName": "reactiveContextKeyService",
+    "interfaceName": "IReactiveContextKeyService"
+  },
+  "jhg": {
+    "serviceName": "cppSuggestionService",
+    "interfaceName": "ICppSuggestionService"
+  },
+  "jz": {
+    "serviceName": "aiCodeTrackingService",
+    "interfaceName": "IAiCodeTrackingService"
+  },
+  "Vaa": {
+    "serviceName": "humanEditTrackerService",
+    "interfaceName": "IHumanEditTrackerService"
+  },
+  "qUe": {
+    "serviceName": "voiceInputService",
+    "interfaceName": "IVoiceInputService"
+  },
+  "Eun": {
+    "serviceName": "IPeekViewService",
+    "interfaceName": "IPeekViewService"
+  },
+  "Ph": {
+    "serviceName": "listService",
+    "interfaceName": "IListService"
+  },
+  "Fl": {
+    "serviceName": "labelService",
+    "interfaceName": "ILabelService"
+  },
+  "zne": {
+    "serviceName": "IOutlineModelService",
+    "interfaceName": "IOutlineModelService"
+  },
+  "Rpi": {
+    "serviceName": "notebookDocumentService",
+    "interfaceName": "INotebookDocumentService"
+  },
+  "hE": {
+    "serviceName": "INotebookExecutionStateService",
+    "interfaceName": "INotebookExecutionStateService"
+  },
+  "hWl": {
+    "serviceName": "INotebookOutlineEntryFactory",
+    "interfaceName": "INotebookOutlineEntryFactory"
+  },
+  "ha": {
+    "serviceName": "editorGroupsService",
+    "interfaceName": "IEditorGroupsService"
+  },
+  "_i": {
+    "serviceName": "editorService",
+    "interfaceName": "IEditorService"
+  },
+  "zpi": {
+    "serviceName": "ISymbolNavigationService",
+    "interfaceName": "ISymbolNavigationService"
+  },
+  "ZE": {
+    "serviceName": "metricsService",
+    "interfaceName": "IMetricsService"
+  },
+  "BWl": {
+    "serviceName": "IInlayHintsCache",
+    "interfaceName": "IInlayHintsCache"
+  },
+  "Xun": {
+    "serviceName": "treeViewsDndService",
+    "interfaceName": "ITreeViewsDndService"
+  },
+  "Jvg": {
+    "serviceName": "IBuiltinExtensionsScannerService",
+    "interfaceName": "IBuiltinExtensionsScannerService"
+  },
+  "Cgi": {
+    "serviceName": "ISuggestMemories",
+    "interfaceName": "ISuggestMemories"
+  },
+  "Fgi": {
+    "serviceName": "semanticTokensStylingService",
+    "interfaceName": "ISemanticTokensStylingService"
+  },
+  "e": {
+    "serviceName": "secretStorageService",
+    "interfaceName": "ISecretStorageService"
+  },
+  "Ett": {
+    "serviceName": "composerCheckpointStorageService",
+    "interfaceName": "IComposerCheckpointStorageService"
+  },
+  "P1": {
+    "serviceName": "aiServerConfigService",
+    "interfaceName": "IAiServerConfigService"
+  },
+  "gE": {
+    "serviceName": "structuredLogService",
+    "interfaceName": "IStructuredLogService"
+  },
+  "ec": {
+    "serviceName": "productService",
+    "interfaceName": "IProductService"
+  },
+  "sie": {
+    "serviceName": "clientDebugLogService",
+    "interfaceName": "IClientDebugLogService"
+  },
+  "Rl": {
+    "serviceName": "experimentService",
+    "interfaceName": "IExperimentService"
+  },
+  "tt": {
+    "serviceName": "composerMessageStorageService",
+    "interfaceName": "IComposerMessageStorageService"
+  },
+  "tx": {
+    "serviceName": "modelConfigService",
+    "interfaceName": "IModelConfigService"
+  },
+  "Yk": {
+    "serviceName": "backgroundComposerDataService",
+    "interfaceName": "IBackgroundComposerDataService"
+  },
+  "ag": {
+    "serviceName": "authenticationService",
+    "interfaceName": "IAuthenticationService"
+  },
+  "X9": {
+    "serviceName": "adminSettingsService",
+    "interfaceName": "IAdminSettingsService"
+  },
+  "bye": {
+    "serviceName": "devConsoleService",
+    "interfaceName": "IDevConsoleService"
+  },
+  "bp": {
+    "serviceName": "viewDescriptorService",
+    "interfaceName": "IViewDescriptorService"
+  },
+  "up": {
+    "serviceName": "lifecycleService",
+    "interfaceName": "ILifecycleService"
+  },
+  "hn": {
+    "serviceName": "cursorExtensionIsolationService",
+    "interfaceName": "ICursorExtensionIsolationService"
+  },
+  "fE": {
+    "serviceName": "gitContextService",
+    "interfaceName": "IGitContextService"
+  },
+  "snu": {
+    "serviceName": "editorPaneService",
+    "interfaceName": "IEditorPaneService"
+  },
+  "Jtt": {
+    "serviceName": "patchGraphService",
+    "interfaceName": "IPatchGraphService"
+  },
+  "Hbi": {
+    "serviceName": "nonAgentChangeTrackerService",
+    "interfaceName": "INonAgentChangeTrackerService"
+  },
+  "Hhn": {
+    "serviceName": "patchGraphStorageService",
+    "interfaceName": "IPatchGraphStorageService"
+  },
+  "A0": {
+    "serviceName": "paneCompositePartService",
+    "interfaceName": "IPaneCompositePartService"
+  },
+  "yu": {
+    "serviceName": "viewsService",
+    "interfaceName": "IViewsService"
+  },
+  "nx": {
+    "serviceName": "backgroundComposerService",
+    "interfaceName": "IBackgroundComposerService"
+  },
+  "Wtt": {
+    "serviceName": "asyncOperationRegistry",
+    "interfaceName": "IAsyncOperationRegistry"
+  },
+  "gEe": {
+    "serviceName": "composerAgentService",
+    "interfaceName": "IComposerAgentService"
+  },
+  "bM": {
+    "serviceName": "composerChatService",
+    "interfaceName": "IComposerChatService"
+  },
+  "Sga": {
+    "serviceName": "composerCodeBlockPartialInlineDiffFatesStorageService",
+    "interfaceName": "IComposerCodeBlockPartialInlineDiffFatesStorageService"
+  },
+  "RA": {
+    "serviceName": "composerEventService",
+    "interfaceName": "IComposerEventService"
+  },
+  "Wg": {
+    "serviceName": "textFileService",
+    "interfaceName": "ITextFileService"
+  },
+  "Bq": {
+    "serviceName": "INotebookModelResolverService",
+    "interfaceName": "INotebookModelResolverService"
+  },
+  "KZ": {
+    "serviceName": "composerFileService",
+    "interfaceName": "IComposerFileService"
+  },
+  "Whn": {
+    "serviceName": "composerMessageRequestContextStorageService",
+    "interfaceName": "IComposerMessageRequestContextStorageService"
+  },
+  "aie": {
+    "serviceName": "composerTextModelService",
+    "interfaceName": "IComposerTextModelService"
+  },
+  "Fa": {
+    "serviceName": "composerDataService",
+    "interfaceName": "IComposerDataService"
+  },
+  "smn": {
+    "serviceName": "usageDataService",
+    "interfaceName": "IUsageDataService"
+  },
+  "hL": {
+    "serviceName": "agentLayoutService",
+    "interfaceName": "IAgentLayoutService"
+  },
+  "sw": {
+    "serviceName": "composerViewsService",
+    "interfaceName": "IComposerViewsService"
+  },
+  "vU": {
+    "serviceName": "AISettingsService",
+    "interfaceName": "IAISettingsService"
+  },
+  "AU": {
+    "serviceName": "diffChangeSourceRegistry",
+    "interfaceName": "IDiffChangeSourceRegistry"
+  },
+  "lmn": {
+    "serviceName": "aiConnectRequestService",
+    "interfaceName": "IAiConnectRequestService"
+  },
+  "lce": {
+    "serviceName": "cppEventLoggerService",
+    "interfaceName": "ICppEventLoggerService"
+  },
+  "Zp": {
+    "serviceName": "remoteAgentService",
+    "interfaceName": "IRemoteAgentService"
+  },
+  "Rp": {
+    "serviceName": "pathService",
+    "interfaceName": "IPathService"
+  },
+  "GA": {
+    "serviceName": "notebookService",
+    "interfaceName": "INotebookService"
+  },
+  "Jv": {
+    "serviceName": "aiService",
+    "interfaceName": "IAiService"
+  },
+  "I2": {
+    "serviceName": "cmdKStateService",
+    "interfaceName": "ICmdKStateService"
+  },
+  "wEe": {
+    "serviceName": "diffDecorationVisibilityService",
+    "interfaceName": "IDiffDecorationVisibilityService"
+  },
+  "mL": {
+    "serviceName": "inlineDiffService",
+    "interfaceName": "IInlineDiffService"
+  },
+  "hy": {
+    "serviceName": "textResourceConfigurationService",
+    "interfaceName": "ITextResourceConfigurationService"
+  },
+  "ent": {
+    "serviceName": "textResourcePropertiesService",
+    "interfaceName": "ITextResourcePropertiesService"
+  },
+  "yU": {
+    "serviceName": "everythingProviderService",
+    "interfaceName": "IEverythingProviderService"
+  },
+  "bE": {
+    "serviceName": "extensionGalleryService",
+    "interfaceName": "IExtensionGalleryService"
+  },
+  "ES": {
+    "serviceName": "extensionManagementService",
+    "interfaceName": "IExtensionManagementService"
+  },
+  "HSt": {
+    "serviceName": "IGlobalExtensionEnablementService",
+    "interfaceName": "IGlobalExtensionEnablementService"
+  },
+  "kfa": {
+    "serviceName": "IExtensionTipsService",
+    "interfaceName": "IExtensionTipsService"
+  },
+  "wU": {
+    "serviceName": "IAllowedExtensionsService",
+    "interfaceName": "IAllowedExtensionsService"
+  },
+  "fmn": {
+    "serviceName": "systemNotificationRendererService",
+    "interfaceName": "ISystemNotificationRendererService"
+  },
+  "D2": {
+    "serviceName": "tunnelService",
+    "interfaceName": "ITunnelService"
+  },
+  "g2A": {
+    "serviceName": "sharedTunnelsService",
+    "interfaceName": "ISharedTunnelsService"
+  },
+  "pce": {
+    "serviceName": "urlService",
+    "interfaceName": "IUrlService"
+  },
+  "AM": {
+    "serviceName": "workspacesService",
+    "interfaceName": "IWorkspacesService"
+  },
+  "Py": {
+    "serviceName": "IUserDataProfileService",
+    "interfaceName": "IUserDataProfileService"
+  },
+  "Sye": {
+    "serviceName": "IUserDataProfileManagementService",
+    "interfaceName": "IUserDataProfileManagementService"
+  },
+  "kmn": {
+    "serviceName": "IUserDataProfileImportExportService",
+    "interfaceName": "IUserDataProfileImportExportService"
+  },
+  "dnt": {
+    "serviceName": "keybindingEditingService",
+    "interfaceName": "IKeybindingEditingService"
+  },
+  "xmn": {
+    "serviceName": "debugServerService",
+    "interfaceName": "IDebugServerService"
+  },
+  "lie": {
+    "serviceName": "workbenchCommandRegistry",
+    "interfaceName": "IWorkbenchCommandRegistry"
+  },
+  "cV": {
+    "serviceName": "composerContextService",
+    "interfaceName": "IComposerContextService"
+  },
+  "SJ": {
+    "serviceName": "composerCodeBlockService",
+    "interfaceName": "IComposerCodeBlockService"
+  },
+  "bce": {
+    "serviceName": "reviewChangesService",
+    "interfaceName": "IReviewChangesService"
+  },
+  "AAi": {
+    "serviceName": "planStorageService",
+    "interfaceName": "IPlanStorageService"
+  },
+  "DC": {
+    "serviceName": "filesConfigurationService",
+    "interfaceName": "IFilesConfigurationService"
+  },
+  "gnt": {
+    "serviceName": "aiFileInfoService",
+    "interfaceName": "IAiFileInfoService"
+  },
+  "iO": {
+    "serviceName": "prettyDialogService",
+    "interfaceName": "IPrettyDialogService"
+  },
+  "Ace": {
+    "serviceName": "pluginsProviderService",
+    "interfaceName": "IPluginsProviderService"
+  },
+  "Hba": {
+    "serviceName": "encryptionService",
+    "interfaceName": "IEncryptionService"
+  },
+  "m5A": {
+    "serviceName": "encryptionMainService",
+    "interfaceName": "IEncryptionMainService"
+  },
+  "Cce": {
+    "serviceName": "agentRepositoryService",
+    "interfaceName": "IAgentRepositoryService"
+  },
+  "fQ": {
+    "serviceName": "searchService",
+    "interfaceName": "ISearchService"
+  },
+  "cB": {
+    "serviceName": "workingCopyService",
+    "interfaceName": "IWorkingCopyService"
+  },
+  "ek": {
+    "serviceName": "historyService",
+    "interfaceName": "IHistoryService"
+  },
+  "ukt": {
+    "serviceName": "IOutlineService",
+    "interfaceName": "IOutlineService"
+  },
+  "xEe": {
+    "serviceName": "speechService",
+    "interfaceName": "ISpeechService"
+  },
+  "kd": {
+    "serviceName": "hostService",
+    "interfaceName": "IHostService"
+  },
+  "km": {
+    "serviceName": "extensionsWorkbenchService",
+    "interfaceName": "IExtensionsWorkbenchService"
+  },
+  "Zou": {
+    "serviceName": "extensionMonitorWorkbenchService",
+    "interfaceName": "IExtensionMonitorWorkbenchService"
+  },
+  "a8": {
+    "serviceName": "requestService",
+    "interfaceName": "IRequestService"
+  },
+  "WF": {
+    "serviceName": "IAuthenticationService",
+    "interfaceName": "IAuthenticationService"
+  },
+  "ZAi": {
+    "serviceName": "IAuthenticationExtensionsService",
+    "interfaceName": "IAuthenticationExtensionsService"
+  },
+  "oP": {
+    "serviceName": "extensionManagementServerService",
+    "interfaceName": "IExtensionManagementServerService"
+  },
+  "sS": {
+    "serviceName": "extensionEnablementService",
+    "interfaceName": "IExtensionEnablementService"
+  },
+  "j5A": {
+    "serviceName": "IWebExtensionsScannerService",
+    "interfaceName": "IWebExtensionsScannerService"
+  },
+  "eyi": {
+    "serviceName": "chatEntitlementService",
+    "interfaceName": "IChatEntitlementService"
+  },
+  "TT": {
+    "serviceName": "chatAgentService",
+    "interfaceName": "IChatAgentService"
+  },
+  "opn": {
+    "serviceName": "chatAgentNameService",
+    "interfaceName": "IChatAgentNameService"
+  },
+  "yQ": {
+    "serviceName": "chatEditingService",
+    "interfaceName": "IChatEditingService"
+  },
+  "BC": {
+    "serviceName": "IChatService",
+    "interfaceName": "IChatService"
+  },
+  "Lau": {
+    "serviceName": "IChatWidgetHistoryService",
+    "interfaceName": "IChatWidgetHistoryService"
+  },
+  "Fme": {
+    "serviceName": "IExtensionFeaturesManagementService",
+    "interfaceName": "IExtensionFeaturesManagementService"
+  },
+  "Fau": {
+    "serviceName": "ILanguageModelStatsService",
+    "interfaceName": "ILanguageModelStatsService"
+  },
+  "sX": {
+    "serviceName": "ILanguageModelToolsService",
+    "interfaceName": "ILanguageModelToolsService"
+  },
+  "F1": {
+    "serviceName": "chatWidgetService",
+    "interfaceName": "IChatWidgetService"
+  },
+  "Qva": {
+    "serviceName": "quickChatService",
+    "interfaceName": "IQuickChatService"
+  },
+  "au": {
+    "serviceName": "chatAccessibilityService",
+    "interfaceName": "IChatAccessibilityService"
+  },
+  "jva": {
+    "serviceName": "chatCodeBlockContextProviderService",
+    "interfaceName": "IChatCodeBlockContextProviderService"
+  },
+  "yie": {
+    "serviceName": "ICustomEditorLabelService",
+    "interfaceName": "ICustomEditorLabelService"
+  },
+  "Uye": {
+    "serviceName": "selectedContextService",
+    "interfaceName": "ISelectedContextService"
+  },
+  "V0": {
+    "serviceName": "statusbarService",
+    "interfaceName": "IStatusbarService"
+  },
+  "NJ": {
+    "serviceName": "cursorCredsService",
+    "interfaceName": "ICursorCredsService"
+  },
+  "aX": {
+    "serviceName": "repositoryService",
+    "interfaceName": "IRepositoryService"
+  },
+  "oS": {
+    "serviceName": "outputService",
+    "interfaceName": "IOutputService"
+  },
+  "r5": {
+    "serviceName": "cursorIgnoreService",
+    "interfaceName": "ICursorIgnoreService"
+  },
+  "CM": {
+    "serviceName": "appLayoutService",
+    "interfaceName": "IAppLayoutService"
+  },
+  "MJ": {
+    "serviceName": "cursorRulesService",
+    "interfaceName": "ICursorRulesService"
+  },
+  "bpn": {
+    "serviceName": "workspaceCollectionService",
+    "interfaceName": "IWorkspaceCollectionService"
+  },
+  "Vb": {
+    "serviceName": "terminalService",
+    "interfaceName": "ITerminalService"
+  },
+  "Wq": {
+    "serviceName": "terminalConfigurationService",
+    "interfaceName": "ITerminalConfigurationService"
+  },
+  "cMe": {
+    "serviceName": "terminalEditorService",
+    "interfaceName": "ITerminalEditorService"
+  },
+  "SM": {
+    "serviceName": "terminalGroupService",
+    "interfaceName": "ITerminalGroupService"
+  },
+  "_Q": {
+    "serviceName": "terminalInstanceService",
+    "interfaceName": "ITerminalInstanceService"
+  },
+  "uMe": {
+    "serviceName": "cursorCommandsService",
+    "interfaceName": "ICursorCommandsService"
+  },
+  "xkt": {
+    "serviceName": "subagentsService",
+    "interfaceName": "ISubagentsService"
+  },
+  "DU": {
+    "serviceName": "mcpService",
+    "interfaceName": "IMcpService"
+  },
+  "Hcu": {
+    "serviceName": "cacheStorageService",
+    "interfaceName": "ICacheStorageService"
+  },
+  "dqe": {
+    "serviceName": "glassActiveAgentService",
+    "interfaceName": "IGlassActiveAgentService"
+  },
+  "Eyi": {
+    "serviceName": "agentPrewarmService",
+    "interfaceName": "IAgentPrewarmService"
+  },
+  "_Aa": {
+    "serviceName": "agentProviderService",
+    "interfaceName": "IAgentProviderService"
+  },
+  "gwi": {
+    "serviceName": "cloudAgentStorageService",
+    "interfaceName": "ICloudAgentStorageService"
+  },
+  "eu": {
+    "serviceName": "extensionService",
+    "interfaceName": "IExtensionService"
+  },
+  "Hkt": {
+    "serviceName": "browserAutomationService",
+    "interfaceName": "IBrowserAutomationService"
+  },
+  "CQ": {
+    "serviceName": "configurationResolverService",
+    "interfaceName": "IConfigurationResolverService"
+  },
+  "Wkt": {
+    "serviceName": "aggregatingMetricsService",
+    "interfaceName": "IAggregatingMetricsService"
+  },
+  "S_a": {
+    "serviceName": "mcpProviderService",
+    "interfaceName": "IMcpProviderService"
+  },
+  "x_a": {
+    "serviceName": "mcpInstallationService",
+    "interfaceName": "IMcpInstallationService"
+  },
+  "B_a": {
+    "serviceName": "mcpWellKnownDetectionService",
+    "interfaceName": "IMcpWellKnownDetectionService"
+  },
+  "_wi": {
+    "serviceName": "usageLimitPolicyStatusService",
+    "interfaceName": "IUsageLimitPolicyStatusService"
+  },
+  "Qkt": {
+    "serviceName": "aiErrorService",
+    "interfaceName": "IAiErrorService"
+  },
+  "uX": {
+    "serviceName": "cursorHooksService",
+    "interfaceName": "ICursorHooksService"
+  },
+  "Swi": {
+    "serviceName": "aiClientService",
+    "interfaceName": "IAiClientService"
+  },
+  "jkt": {
+    "serviceName": "knowledgeBaseService",
+    "interfaceName": "IKnowledgeBaseService"
+  },
+  "dX": {
+    "serviceName": "workspaceEditingService",
+    "interfaceName": "IWorkspaceEditingService"
+  },
+  "Rhu": {
+    "serviceName": "powerMainService",
+    "interfaceName": "IPowerMainService"
+  },
+  "zkt": {
+    "serviceName": "backgroundComposerEventService",
+    "interfaceName": "IBackgroundComposerEventService"
+  },
+  "Xnt": {
+    "serviceName": "terminalExecutionService",
+    "interfaceName": "ITerminalExecutionService"
+  },
+  "Ypn": {
+    "serviceName": "pendingApprovalRegistry",
+    "interfaceName": "IPendingApprovalRegistry"
+  },
+  "Kkt": {
+    "serviceName": "composerDecisionsService",
+    "interfaceName": "IComposerDecisionsService"
+  },
+  "nit": {
+    "serviceName": "composerFileChangeHandlerService",
+    "interfaceName": "IComposerFileChangeHandlerService"
+  },
+  "Zpn": {
+    "serviceName": "patchGraphAdapterService",
+    "interfaceName": "IPatchGraphAdapterService"
+  },
+  "fMe": {
+    "serviceName": "composerCheckpointService",
+    "interfaceName": "IComposerCheckpointService"
+  },
+  "Zkt": {
+    "serviceName": "composerStorageService",
+    "interfaceName": "IComposerStorageService"
+  },
+  "ign": {
+    "serviceName": "backgroundWorkService",
+    "interfaceName": "IBackgroundWorkService"
+  },
+  "Fwi": {
+    "serviceName": "subagentComposerService",
+    "interfaceName": "ISubagentComposerService"
+  },
+  "JSf": {
+    "serviceName": "agentClientService",
+    "interfaceName": "IAgentClientService"
+  },
+  "jhu": {
+    "serviceName": "blobUploadService",
+    "interfaceName": "IBlobUploadService"
+  },
+  "kM": {
+    "serviceName": "composerUtilsService",
+    "interfaceName": "IComposerUtilsService"
+  },
+  "VSf": {
+    "serviceName": "composerPlanService",
+    "interfaceName": "IComposerPlanService"
+  },
+  "CV": {
+    "serviceName": "composerPlanService",
+    "interfaceName": "IComposerPlanService"
+  },
+  "JEe": {
+    "serviceName": "toolCallHumanReviewService",
+    "interfaceName": "IToolCallHumanReviewService"
+  },
+  "DT": {
+    "serviceName": "composerModesService",
+    "interfaceName": "IComposerModesService"
+  },
+  "Khu": {
+    "serviceName": "artifactCacheService",
+    "interfaceName": "IArtifactCacheService"
+  },
+  "Qty": {
+    "serviceName": "ptyService",
+    "interfaceName": "IPtyService"
+  },
+  "Yhu": {
+    "serviceName": "localPtyService",
+    "interfaceName": "ILocalPtyService"
+  },
+  "PU": {
+    "serviceName": "terminalLogService",
+    "interfaceName": "ITerminalLogService"
+  },
+  "hO": {
+    "serviceName": "INotebookEditorWidgetService",
+    "interfaceName": "INotebookEditorWidgetService"
+  },
+  "L2": {
+    "serviceName": "accessibleViewService",
+    "interfaceName": "IAccessibleViewService"
+  },
+  "h1t": {
+    "serviceName": "chatSlashCommandService",
+    "interfaceName": "IChatSlashCommandService"
+  },
+  "pit": {
+    "serviceName": "IChatVariablesService",
+    "interfaceName": "IChatVariablesService"
+  },
+  "cpu": {
+    "serviceName": "IWebContentExtractorService",
+    "interfaceName": "IWebContentExtractorService"
+  },
+  "Z0a": {
+    "serviceName": "ISharedWebContentExtractorService",
+    "interfaceName": "ISharedWebContentExtractorService"
+  },
+  "Pie": {
+    "serviceName": "IFileDecorationsService",
+    "interfaceName": "IFileDecorationsService"
+  },
+  "RMe": {
+    "serviceName": "WorkbenchAssignmentService",
+    "interfaceName": "IWorkbenchAssignmentService"
+  },
+  "Vye": {
+    "serviceName": "snippetService",
+    "interfaceName": "ISnippetService"
+  },
+  "Wme": {
+    "serviceName": "IExtensionGalleryManifestService",
+    "interfaceName": "IExtensionGalleryManifestService"
+  },
+  "LMe": {
+    "serviceName": "extensionResourceLoaderService",
+    "interfaceName": "IExtensionResourceLoaderService"
+  },
+  "Dgn": {
+    "serviceName": "ILanguageModelsService",
+    "interfaceName": "ILanguageModelsService"
+  },
+  "VEe": {
+    "serviceName": "IInlineChatSessionService",
+    "interfaceName": "IInlineChatSessionService"
+  },
+  "Xye": {
+    "serviceName": "IMcpService",
+    "interfaceName": "IMcpService"
+  },
+  "jme": {
+    "serviceName": "mcpRegistry",
+    "interfaceName": "IMcpRegistry"
+  },
+  "vX": {
+    "serviceName": "jsonEditingService",
+    "interfaceName": "IJsonEditingService"
+  },
+  "Kme": {
+    "serviceName": "ILanguageDetectionService",
+    "interfaceName": "ILanguageDetectionService"
+  },
+  "nb": {
+    "serviceName": "preferencesService",
+    "interfaceName": "IPreferencesService"
+  },
+  "vD": {
+    "serviceName": "editorResolverService",
+    "interfaceName": "IEditorResolverService"
+  },
+  "Yq": {
+    "serviceName": "workingCopyBackupService",
+    "interfaceName": "IWorkingCopyBackupService"
+  },
+  "Rit": {
+    "serviceName": "untitledTextEditorService",
+    "interfaceName": "IUntitledTextEditorService"
+  },
+  "Zq": {
+    "serviceName": "workingCopyFileService",
+    "interfaceName": "IWorkingCopyFileService"
+  },
+  "RC": {
+    "serviceName": "explorerService",
+    "interfaceName": "IExplorerService"
+  },
+  "yX": {
+    "serviceName": "terminalProfileResolverService",
+    "interfaceName": "ITerminalProfileResolverService"
+  },
+  "Uie": {
+    "serviceName": "terminalProfileService",
+    "interfaceName": "ITerminalProfileService"
+  },
+  "o7e": {
+    "serviceName": "workspaceTrustEnablementService",
+    "interfaceName": "IWorkspaceTrustEnablementService"
+  },
+  "Jx": {
+    "serviceName": "workspaceTrustManagementService",
+    "interfaceName": "IWorkspaceTrustManagementService"
+  },
+  "wX": {
+    "serviceName": "workspaceTrustRequestService",
+    "interfaceName": "IWorkspaceTrustRequestService"
+  },
+  "ixe": {
+    "serviceName": "IEditorBreadcrumbsService",
+    "interfaceName": "IEditorBreadcrumbsService"
+  },
+  "LC": {
+    "serviceName": "browserViewStore",
+    "interfaceName": "IBrowserViewStore"
+  },
+  "vCi": {
+    "serviceName": "languageModelIgnoredFilesService",
+    "interfaceName": "ILanguageModelIgnoredFilesService"
+  },
+  "Hfn": {
+    "serviceName": "issueFormService",
+    "interfaceName": "IIssueFormService"
+  },
+  "YMe": {
+    "serviceName": "workbenchIssueService",
+    "interfaceName": "IWorkbenchIssueService"
+  },
+  "pEa": {
+    "serviceName": "workbenchProcessService",
+    "interfaceName": "IWorkbenchProcessService"
+  },
+  "ZMe": {
+    "serviceName": "extensionRecommendationsService",
+    "interfaceName": "IExtensionRecommendationsService"
+  },
+  "dxe": {
+    "serviceName": "IExtensionIgnoredRecommendationsService",
+    "interfaceName": "IExtensionIgnoredRecommendationsService"
+  },
+  "nrt": {
+    "serviceName": "IWorkspaceExtensionsConfigService",
+    "interfaceName": "IWorkspaceExtensionsConfigService"
+  },
+  "irt": {
+    "serviceName": "IUserDataSyncStoreManagementService",
+    "interfaceName": "IUserDataSyncStoreManagementService"
+  },
+  "rrt": {
+    "serviceName": "IUserDataSyncStoreService",
+    "interfaceName": "IUserDataSyncStoreService"
+  },
+  "Gfn": {
+    "serviceName": "IUserDataSyncLocalStoreService",
+    "interfaceName": "IUserDataSyncLocalStoreService"
+  },
+  "TM": {
+    "serviceName": "IUserDataSyncEnablementService",
+    "interfaceName": "IUserDataSyncEnablementService"
+  },
+  "jce": {
+    "serviceName": "IUserDataSyncService",
+    "interfaceName": "IUserDataSyncService"
+  },
+  "kCi": {
+    "serviceName": "IUserDataSyncResourceProviderService",
+    "interfaceName": "IUserDataSyncResourceProviderService"
+  },
+  "t2e": {
+    "serviceName": "IUserDataAutoSyncService",
+    "interfaceName": "IUserDataAutoSyncService"
+  },
+  "ECi": {
+    "serviceName": "IUserDataSyncUtilService",
+    "interfaceName": "IUserDataSyncUtilService"
+  },
+  "zce": {
+    "serviceName": "IUserDataSyncLogService",
+    "interfaceName": "IUserDataSyncLogService"
+  },
+  "pO": {
+    "serviceName": "remoteAuthorityResolverService",
+    "interfaceName": "IRemoteAuthorityResolverService"
+  },
+  "d5": {
+    "serviceName": "extensionManifestPropertiesService",
+    "interfaceName": "IExtensionManifestPropertiesService"
+  },
+  "Qfn": {
+    "serviceName": "languagePackService",
+    "interfaceName": "ILanguagePackService"
+  },
+  "eEt": {
+    "serviceName": "localizationService",
+    "interfaceName": "ILocalizationService"
+  },
+  "Au": {
+    "serviceName": "activeLanguageService",
+    "interfaceName": "IActiveLanguageService"
+  },
+  "U": {
+    "serviceName": "updateService",
+    "interfaceName": "IUpdateService"
+  },
+  "b7e": {
+    "serviceName": "IAuthenticationUsageService",
+    "interfaceName": "IAuthenticationUsageService"
+  },
+  "gEt": {
+    "serviceName": "chatMarkdownAnchorService",
+    "interfaceName": "IChatMarkdownAnchorService"
+  },
+  "ibn": {
+    "serviceName": "textMateTokenizationFeature",
+    "interfaceName": "ITextMateTokenizationFeature"
+  },
+  "Art": {
+    "serviceName": "treeSitterParserService",
+    "interfaceName": "ITreeSitterParserService"
+  },
+  "bSi": {
+    "serviceName": "treeSitterImporter",
+    "interfaceName": "ITreeSitterImporter"
+  },
+  "wyu": {
+    "serviceName": "ICodeCompareModelService",
+    "interfaceName": "ICodeCompareModelService"
+  },
+  "sbn": {
+    "serviceName": "ITrustedDomainService",
+    "interfaceName": "ITrustedDomainService"
+  },
+  "dwe": {
+    "serviceName": "INotebookLoggingService",
+    "interfaceName": "INotebookLoggingService"
+  },
+  "Jie": {
+    "serviceName": "webviewService",
+    "interfaceName": "IWebviewService"
+  },
+  "V": {
+    "serviceName": "commentService",
+    "interfaceName": "ICommentService"
+  },
+  "BM": {
+    "serviceName": "INotebookKernelService",
+    "interfaceName": "INotebookKernelService"
+  },
+  "C7e": {
+    "serviceName": "INotebookKernelHistoryService",
+    "interfaceName": "INotebookKernelHistoryService"
+  },
+  "hki": {
+    "serviceName": "INotebookExecutionService",
+    "interfaceName": "INotebookExecutionService"
+  },
+  "MTa": {
+    "serviceName": "INotebookRendererMessagingService",
+    "interfaceName": "INotebookRendererMessagingService"
+  },
+  "HTa": {
+    "serviceName": "INotebookCellOutlineDataSourceFactory",
+    "interfaceName": "INotebookCellOutlineDataSourceFactory"
+  },
+  "Ubn": {
+    "serviceName": "multiDiffSourceResolverService",
+    "interfaceName": "IMultiDiffSourceResolverService"
+  },
+  "qbn": {
+    "serviceName": "quickDiff",
+    "interfaceName": "IQuickDiff"
+  },
+  "b_u": {
+    "serviceName": "INotebookOriginalCellModelFactory",
+    "interfaceName": "INotebookOriginalCellModelFactory"
+  },
+  "K8f": {
+    "serviceName": "INotebookOriginalModelReferenceFactory",
+    "interfaceName": "INotebookOriginalModelReferenceFactory"
+  },
+  "jbn": {
+    "serviceName": "diffingService",
+    "interfaceName": "IDiffingService"
+  },
+  "vxe": {
+    "serviceName": "fastContextService",
+    "interfaceName": "IFastContextService"
+  },
+  "T_u": {
+    "serviceName": "IFastSemSearchService",
+    "interfaceName": "IFastSemSearchService"
+  },
+  "xX": {
+    "serviceName": "githubPRService",
+    "interfaceName": "IGithubPRService"
+  },
+  "R_u": {
+    "serviceName": "githubPRAuthDetectionService",
+    "interfaceName": "IGithubPRAuthDetectionService"
+  },
+  "mhy": {
+    "serviceName": "modalService",
+    "interfaceName": "IModalService"
+  },
+  "P_u": {
+    "serviceName": "aiDocsService",
+    "interfaceName": "IAiDocsService"
+  },
+  "phy": {
+    "serviceName": "multiEditService",
+    "interfaceName": "IMultiEditService"
+  },
+  "N_u": {
+    "serviceName": "networkAccessNotificationService",
+    "interfaceName": "INetworkAccessNotificationService"
+  },
+  "M_u": {
+    "serviceName": "simpleTestService",
+    "interfaceName": "ISimpleTestService"
+  },
+  "MIa": {
+    "serviceName": "cmdKService",
+    "interfaceName": "ICmdKService"
+  },
+  "Frt": {
+    "serviceName": "cmdKService2",
+    "interfaceName": "ICmdKService2"
+  },
+  "PEt": {
+    "serviceName": "aiContextSessionService",
+    "interfaceName": "IAiContextSessionService"
+  },
+  "_u": {
+    "serviceName": "composerProjectService",
+    "interfaceName": "IComposerProjectService"
+  },
+  "UIa": {
+    "serviceName": "gitIgnoreService",
+    "interfaceName": "IGitIgnoreService"
+  },
+  "H_u": {
+    "serviceName": "lexicalReducerService",
+    "interfaceName": "ILexicalReducerService"
+  },
+  "G_u": {
+    "serviceName": "magicLinkService",
+    "interfaceName": "IMagicLinkService"
+  },
+  "ki": {
+    "serviceName": "updateNotificationService",
+    "interfaceName": "IUpdateNotificationService"
+  },
+  "Q_u": {
+    "serviceName": "aiApplyToFileActionsService",
+    "interfaceName": "IAiApplyToFileActionsService"
+  },
+  "GIa": {
+    "serviceName": "backgroundComposerCachedDetailsStorageService",
+    "interfaceName": "IBackgroundComposerCachedDetailsStorageService"
+  },
+  "j_u": {
+    "serviceName": "worktreeComposerDataService",
+    "interfaceName": "IWorktreeComposerDataService"
+  },
+  "n0u": {
+    "serviceName": "tokenStreamingDiffService",
+    "interfaceName": "ITokenStreamingDiffService"
+  },
+  "Wki": {
+    "serviceName": "aiCodeEventTrackingService",
+    "interfaceName": "IAiCodeEventTrackingService"
+  },
+  "LEt": {
+    "serviceName": "agentLayoutEventService",
+    "interfaceName": "IAgentLayoutEventService"
+  },
+  "jki": {
+    "serviceName": "browserScreenshotService",
+    "interfaceName": "IBrowserScreenshotService"
+  },
+  "XIa": {
+    "serviceName": "composerExtensibilityService",
+    "interfaceName": "IComposerExtensibilityService"
+  },
+  "nvn": {
+    "serviceName": "composerTerminalService",
+    "interfaceName": "IComposerTerminalService"
+  },
+  "zki": {
+    "serviceName": "quickAgentService",
+    "interfaceName": "IQuickAgentService"
+  },
+  "rvn": {
+    "serviceName": "markdownEditorModeService",
+    "interfaceName": "IMarkdownEditorModeService"
+  },
+  "Yki": {
+    "serviceName": "planEditorModeService",
+    "interfaceName": "IPlanEditorModeService"
+  },
+  "r0u": {
+    "serviceName": "recentFilesTrackerService",
+    "interfaceName": "IRecentFilesTrackerService"
+  },
+  "dDa": {
+    "serviceName": "urlOpenToastService",
+    "interfaceName": "IUrlOpenToastService"
+  },
+  "mDa": {
+    "serviceName": "openBrowserUrlsService",
+    "interfaceName": "IOpenBrowserUrlsService"
+  },
+  "gDa": {
+    "serviceName": "semanticReviewService",
+    "interfaceName": "ISemanticReviewService"
+  },
+  "vN": {
+    "serviceName": "scm",
+    "interfaceName": "IScm"
+  },
+  "r7": {
+    "serviceName": "scmView",
+    "interfaceName": "IScmView"
+  },
+  "A2e": {
+    "serviceName": "agentAnalyticsOperationsService",
+    "interfaceName": "IAgentAnalyticsOperationsService"
+  },
+  "Jjf": {
+    "serviceName": "ICodeLensCache",
+    "interfaceName": "ICodeLensCache"
+  },
+  "Gku": {
+    "serviceName": "IMarkerNavigationService",
+    "interfaceName": "IMarkerNavigationService"
+  },
+  "Qie": {
+    "serviceName": "bugbotResultsService",
+    "interfaceName": "IBugbotResultsService"
+  },
+  "ust": {
+    "serviceName": "timerService",
+    "interfaceName": "ITimerService"
+  },
+  "sEi": {
+    "serviceName": "environmentVariableService",
+    "interfaceName": "IEnvironmentVariableService"
+  },
+  "rTu": {
+    "serviceName": "IExtensionStatusBarItemService",
+    "interfaceName": "IExtensionStatusBarItemService"
+  },
+  "Cxt": {
+    "serviceName": "IAuthenticationAccessService",
+    "interfaceName": "IAuthenticationAccessService"
+  },
+  "JPa": {
+    "serviceName": "codeMapperService",
+    "interfaceName": "ICodeMapperService"
+  },
+  "Mtb": {
+    "serviceName": "embeddingsService",
+    "interfaceName": "IEmbeddingsService"
+  },
+  "gh": {
+    "serviceName": "debugService",
+    "interfaceName": "IDebugService"
+  },
+  "aLa": {
+    "serviceName": "debugVisualizerService",
+    "interfaceName": "IDebugVisualizerService"
+  },
+  "Rst": {
+    "serviceName": "IQuickDiffModelService",
+    "interfaceName": "IQuickDiffModelService"
+  },
+  "lLa": {
+    "serviceName": "customEditorService",
+    "interfaceName": "ICustomEditorService"
+  },
+  "Pst": {
+    "serviceName": "webviewEditorService",
+    "interfaceName": "IWebviewEditorService"
+  },
+  "XTu": {
+    "serviceName": "IInteractiveDocumentService",
+    "interfaceName": "IInteractiveDocumentService"
+  },
+  "Lst": {
+    "serviceName": "IInteractiveHistoryService",
+    "interfaceName": "IInteractiveHistoryService"
+  },
+  "yLa": {
+    "serviceName": "remoteConnectionProgressService",
+    "interfaceName": "IRemoteConnectionProgressService"
+  },
+  "vIu": {
+    "serviceName": "fileWatchRecordingService",
+    "interfaceName": "IFileWatchRecordingService"
+  },
+  "HAn": {
+    "serviceName": "ILanguageStatusService",
+    "interfaceName": "ILanguageStatusService"
+  },
+  "XEi": {
+    "serviceName": "remoteSocketFactoryService",
+    "interfaceName": "IRemoteSocketFactoryService"
+  },
+  "exi": {
+    "serviceName": "editSessionIdentityService",
+    "interfaceName": "IEditSessionIdentityService"
+  },
+  "sxi": {
+    "serviceName": "IExtensionStorageService",
+    "interfaceName": "IExtensionStorageService"
+  },
+  "wDu": {
+    "serviceName": "terminalLinkProviderService",
+    "interfaceName": "ITerminalLinkProviderService"
+  },
+  "_Du": {
+    "serviceName": "terminalQuickFixService",
+    "interfaceName": "ITerminalQuickFixService"
+  },
+  "oNa": {
+    "serviceName": "terminalCompletionService",
+    "interfaceName": "ITerminalCompletionService"
+  },
+  "KAn": {
+    "serviceName": "downloadService",
+    "interfaceName": "IDownloadService"
+  },
+  "qsb": {
+    "serviceName": "extensionUrlHandler",
+    "interfaceName": "IExtensionUrlHandler"
+  },
+  "aNa": {
+    "serviceName": "externalUriOpenerService",
+    "interfaceName": "IExternalUriOpenerService"
+  },
+  "cNa": {
+    "serviceName": "IUserActivityService",
+    "interfaceName": "IUserActivityService"
+  },
+  "UDu": {
+    "serviceName": "webviewViewService",
+    "interfaceName": "IWebviewViewService"
+  },
+  "Ksb": {
+    "serviceName": "canonicalUriIdentityService",
+    "interfaceName": "ICanonicalUriIdentityService"
+  },
+  "bNa": {
+    "serviceName": "notebookCellStatusBarService",
+    "interfaceName": "INotebookCellStatusBarService"
+  },
+  "M2e": {
+    "serviceName": "taskService",
+    "interfaceName": "ITaskService"
+  },
+  "a4y": {
+    "serviceName": "IExtHostRpcService",
+    "interfaceName": "IExtHostRpcService"
+  },
+  "iW_": {
+    "serviceName": "IExtHostTunnelService",
+    "interfaceName": "IExtHostTunnelService"
+  },
+  "pP": {
+    "serviceName": "remoteExplorerService",
+    "interfaceName": "IRemoteExplorerService"
+  },
+  "BBu": {
+    "serviceName": "abuseService",
+    "interfaceName": "IAbuseService"
+  },
+  "Kxt": {
+    "serviceName": "tracingService",
+    "interfaceName": "ITracingService"
+  },
+  "RBu": {
+    "serviceName": "traceSpanService",
+    "interfaceName": "ITraceSpanService"
+  },
+  "Yxt": {
+    "serviceName": "agentExecProviderService",
+    "interfaceName": "IAgentExecProviderService"
+  },
+  "OBu": {
+    "serviceName": "connectionTokenProviderService",
+    "interfaceName": "IConnectionTokenProviderService"
+  },
+  "xcb": {
+    "serviceName": "agentSkillsService",
+    "interfaceName": "IAgentSkillsService"
+  },
+  "Tcb": {
+    "serviceName": "editHistoryService",
+    "interfaceName": "IEditHistoryService"
+  },
+  "Icb": {
+    "serviceName": "IShadowWorkspaceServerService",
+    "interfaceName": "IShadowWorkspaceServerService"
+  },
+  "UBu": {
+    "serviceName": "IShadowWorkspaceService",
+    "interfaceName": "IShadowWorkspaceService"
+  },
+  "XF": {
+    "serviceName": "testProfileService",
+    "interfaceName": "ITestProfileService"
+  },
+  "Wcb": {
+    "serviceName": "ITestResultStorage",
+    "interfaceName": "ITestResultStorage"
+  },
+  "CO": {
+    "serviceName": "testResultService",
+    "interfaceName": "ITestResultService"
+  },
+  "hC": {
+    "serviceName": "testService",
+    "interfaceName": "ITestService"
+  },
+  "XNa": {
+    "serviceName": "shareService",
+    "interfaceName": "IShareService"
+  },
+  "tTi": {
+    "serviceName": "IAiRelatedInformationService",
+    "interfaceName": "IAiRelatedInformationService"
+  },
+  "Xcb": {
+    "serviceName": "IAiEmbeddingVectorService",
+    "interfaceName": "IAiEmbeddingVectorService"
+  },
+  "nlb": {
+    "serviceName": "IChatStatusItemService",
+    "interfaceName": "IChatStatusItemService"
+  },
+  "nTi": {
+    "serviceName": "shellExecService",
+    "interfaceName": "IShellExecService"
+  },
+  "iRu": {
+    "serviceName": "socketProviderService",
+    "interfaceName": "ISocketProviderService"
+  },
+  "H2e": {
+    "serviceName": "embeddedAuxBarEditorPartService",
+    "interfaceName": "IEmbeddedAuxBarEditorPartService"
+  },
+  "gmb": {
+    "serviceName": "uiBestOfNJudgeService",
+    "interfaceName": "IUiBestOfNJudgeService"
+  },
+  "Z2e": {
+    "serviceName": "chatEditorGroupService",
+    "interfaceName": "IChatEditorGroupService"
+  },
+  "ybb": {
+    "serviceName": "symbolContextService",
+    "interfaceName": "ISymbolContextService"
+  },
+  "bot": {
+    "serviceName": "textEditorService",
+    "interfaceName": "ITextEditorService"
+  },
+  "oIi": {
+    "serviceName": "AIFeedbackOpenService",
+    "interfaceName": "IAIFeedbackOpenService"
+  },
+  "XNu": {
+    "serviceName": "autoSelectService",
+    "interfaceName": "IAutoSelectService"
+  },
+  "e4": {
+    "serviceName": "activityService",
+    "interfaceName": "IActivityService"
+  },
+  "BMu": {
+    "serviceName": "accessibleViewInformationService",
+    "interfaceName": "IAccessibleViewInformationService"
+  },
+  "Ppe": {
+    "serviceName": "workingCopyEditorService",
+    "interfaceName": "IWorkingCopyEditorService"
+  },
+  "yFa": {
+    "serviceName": "mockAgentStreamService",
+    "interfaceName": "IMockAgentStreamService"
+  },
+  "kTt": {
+    "serviceName": "auxiliaryWindowService",
+    "interfaceName": "IAuxiliaryWindowService"
+  },
+  "Kyn": {
+    "serviceName": "titleService",
+    "interfaceName": "ITitleService"
+  },
+  "THe": {
+    "serviceName": "bannerService",
+    "interfaceName": "IBannerService"
+  },
+  "Xyb": {
+    "serviceName": "keyboardLayoutService",
+    "interfaceName": "IKeyboardLayoutService"
+  },
+  "xFu": {
+    "serviceName": "hostColorSchemeService",
+    "interfaceName": "IHostColorSchemeService"
+  },
+  "JIi": {
+    "serviceName": "IUserDataInitializationService",
+    "interfaceName": "IUserDataInitializationService"
+  },
+  "jFu": {
+    "serviceName": "IUserDataSyncAccountService",
+    "interfaceName": "IUserDataSyncAccountService"
+  },
+  "OTt": {
+    "serviceName": "IExtensionBisectService",
+    "interfaceName": "IExtensionBisectService"
+  },
+  "Pot": {
+    "serviceName": "IUserDataProfileStorageService",
+    "interfaceName": "IUserDataProfileStorageService"
+  },
+  "A4a": {
+    "serviceName": "IRemoteUserDataProfilesService",
+    "interfaceName": "IRemoteUserDataProfilesService"
+  },
+  "sDi": {
+    "serviceName": "IRemoteExtensionsScannerService",
+    "interfaceName": "IRemoteExtensionsScannerService"
+  },
+  "c_b": {
+    "serviceName": "embedderTerminalService",
+    "interfaceName": "IEmbedderTerminalService"
+  },
+  "b_b": {
+    "serviceName": "quickInputService2",
+    "interfaceName": "IQuickInputService2"
+  },
+  "Npe": {
+    "serviceName": "IUserDataSyncWorkbenchService",
+    "interfaceName": "IUserDataSyncWorkbenchService"
+  },
+  "dDi": {
+    "serviceName": "IUserDataSyncMachinesService",
+    "interfaceName": "IUserDataSyncMachinesService"
+  },
+  "T4a": {
+    "serviceName": "defaultAccountService",
+    "interfaceName": "IDefaultAccountService"
+  },
+  "a0b": {
+    "serviceName": "aiUtilsService",
+    "interfaceName": "IAiUtilsService"
+  },
+  "bOu": {
+    "serviceName": "aiGenerationRegistryService",
+    "interfaceName": "IAiGenerationRegistryService"
+  },
+  "l0b": {
+    "serviceName": "branchMetadataService",
+    "interfaceName": "IBranchMetadataService"
+  },
+  "jTt": {
+    "serviceName": "workspaceMetadataService",
+    "interfaceName": "IWorkspaceMetadataService"
+  },
+  "u0b": {
+    "serviceName": "workspaceMetadataProviderService",
+    "interfaceName": "IWorkspaceMetadataProviderService"
+  },
+  "p0b": {
+    "serviceName": "projectPreferenceService",
+    "interfaceName": "IProjectPreferenceService"
+  },
+  "b0b": {
+    "serviceName": "onboardingConfigService",
+    "interfaceName": "IOnboardingConfigService"
+  },
+  "fOa": {
+    "serviceName": "conversationClassificationService",
+    "interfaceName": "IConversationClassificationService"
+  },
+  "cSb": {
+    "serviceName": "fileAppendMainService",
+    "interfaceName": "IFileAppendMainService"
+  },
+  "bOa": {
+    "serviceName": "agentClientService",
+    "interfaceName": "IAgentClientService"
+  },
+  "uSb": {
+    "serviceName": "onlineMetricsService",
+    "interfaceName": "IOnlineMetricsService"
+  },
+  "hSb": {
+    "serviceName": "composerMigrationService",
+    "interfaceName": "IComposerMigrationService"
+  },
+  "mSb": {
+    "serviceName": "oalToolPopulationService",
+    "interfaceName": "IOalToolPopulationService"
+  },
+  "oNw": {
+    "serviceName": "chatGroupPositionManager",
+    "interfaceName": "IChatGroupPositionManager"
+  },
+  "U3u": {
+    "serviceName": "browserOriginAllowlistService",
+    "interfaceName": "IBrowserOriginAllowlistService"
+  },
+  "Lwn": {
+    "serviceName": "cronService",
+    "interfaceName": "ICronService"
+  },
+  "Y3u": {
+    "serviceName": "onboardingService",
+    "interfaceName": "IOnboardingService"
+  },
+  "HSb": {
+    "serviceName": "jsService",
+    "interfaceName": "IJsService"
+  },
+  "KSb": {
+    "serviceName": "treeSitterTokenizationFeature",
+    "interfaceName": "ITreeSitterTokenizationFeature"
+  },
+  "RDi": {
+    "serviceName": "repositoryTrackerService",
+    "interfaceName": "IRepositoryTrackerService"
+  },
+  "MMw": {
+    "serviceName": "packageLocatorService",
+    "interfaceName": "IPackageLocatorService"
+  },
+  "Uwn": {
+    "serviceName": "IIgnoredExtensionsManagementService",
+    "interfaceName": "IIgnoredExtensionsManagementService"
+  },
+  "C2w": {
+    "serviceName": "fileSyncService",
+    "interfaceName": "IFileSyncService"
+  },
+  "V5u": {
+    "serviceName": "cursorfsManagerService",
+    "interfaceName": "ICursorfsManagerService"
+  },
+  "g1b": {
+    "serviceName": "preferencesSearchService",
+    "interfaceName": "IPreferencesSearchService"
+  },
+  "lIt": {
+    "serviceName": "experimentRefreshService",
+    "interfaceName": "IExperimentRefreshService"
+  },
+  "Vwn": {
+    "serviceName": "elevatedFileService",
+    "interfaceName": "IElevatedFileService"
+  },
+  "eUu": {
+    "serviceName": "privateBreakpointWidgetService",
+    "interfaceName": "IPrivateBreakpointWidgetService"
+  },
+  "Z8w": {
+    "serviceName": "notebookKeymapService",
+    "interfaceName": "INotebookKeymapService"
+  },
+  "MTb": {
+    "serviceName": "chatTransferService",
+    "interfaceName": "IChatTransferService"
+  },
+  "wBi": {
+    "serviceName": "IPromptsService",
+    "interfaceName": "IPromptsService"
+  },
+  "VTb": {
+    "serviceName": "voiceChatService",
+    "interfaceName": "IVoiceChatService"
+  },
+  "GUw": {
+    "serviceName": "IMcpConfigPathsService",
+    "interfaceName": "IMcpConfigPathsService"
+  },
+  "m_e": {
+    "serviceName": "testCoverageService",
+    "interfaceName": "ITestCoverageService"
+  },
+  "fqu": {
+    "serviceName": "testingDecorationService",
+    "interfaceName": "ITestingDecorationService"
+  },
+  "bFe": {
+    "serviceName": "testingPeekOpener",
+    "interfaceName": "ITestingPeekOpener"
+  },
+  "tat": {
+    "serviceName": "testingFilterState",
+    "interfaceName": "ITestingFilterState"
+  },
+  "lTe": {
+    "serviceName": "testingContinuousRunService",
+    "interfaceName": "ITestingContinuousRunService"
+  },
+  "jBi": {
+    "serviceName": "IDefaultLogLevelsService",
+    "interfaceName": "IDefaultLogLevelsService"
+  },
+  "OBb": {
+    "serviceName": "planBreadcrumbManager",
+    "interfaceName": "IPlanBreadcrumbManager"
+  },
+  "GBb": {
+    "serviceName": "markdownBreadcrumbManager",
+    "interfaceName": "IMarkdownBreadcrumbManager"
+  },
+  "g_e": {
+    "serviceName": "replaceService",
+    "interfaceName": "IReplaceService"
+  },
+  "LHu": {
+    "serviceName": "searchViewModelWorkbenchService",
+    "interfaceName": "ISearchViewModelWorkbenchService"
+  },
+  "KRb": {
+    "serviceName": "notebookSearchService",
+    "interfaceName": "INotebookSearchService"
+  },
+  "rJu": {
+    "serviceName": "searchHistoryService",
+    "interfaceName": "ISearchHistoryService"
+  },
+  "aLb": {
+    "serviceName": "bugbotAutoRunService",
+    "interfaceName": "IBugbotAutoRunService"
+  },
+  "CRi": {
+    "serviceName": "extensionHostDebugService",
+    "interfaceName": "IExtensionHostDebugService"
+  },
+  "PUa": {
+    "serviceName": "IExtensionRecommendationNotificationService",
+    "interfaceName": "IExtensionRecommendationNotificationService"
+  },
+  "sMb": {
+    "serviceName": "terminalContributionsService",
+    "interfaceName": "ITerminalContributionsService"
+  },
+  "XU": {
+    "serviceName": "mainProcessService",
+    "interfaceName": "IMainProcessService"
+  },
+  "EXw": {
+    "serviceName": "externalTerminal",
+    "interfaceName": "IExternalTerminal"
+  },
+  "nDt": {
+    "serviceName": "walkthroughsService",
+    "interfaceName": "IWalkthroughsService"
+  },
+  "vqa": {
+    "serviceName": "simpleChunkingService",
+    "interfaceName": "ISimpleChunkingService"
+  },
+  "CYu": {
+    "serviceName": "workspaceTagsService",
+    "interfaceName": "IWorkspaceTagsService"
+  },
+  "lDt": {
+    "serviceName": "IEditSessionsStorageService",
+    "interfaceName": "IEditSessionsStorageService"
+  },
+  "GYu": {
+    "serviceName": "IEditSessionsLogService",
+    "interfaceName": "IEditSessionsLogService"
+  },
+  "XYu": {
+    "serviceName": "IWorkspaceIdentityService",
+    "interfaceName": "IWorkspaceIdentityService"
+  },
+  "mre": {
+    "serviceName": "workingCopyHistoryService",
+    "interfaceName": "IWorkingCopyHistoryService"
+  },
+  "RPi": {
+    "serviceName": "clientLoggerService",
+    "interfaceName": "IClientLoggerService"
+  },
+  "uXu": {
+    "serviceName": "integrityService",
+    "interfaceName": "IIntegrityService"
+  },
+  "Qp": {
+    "serviceName": "nativeHostService",
+    "interfaceName": "INativeHostService"
+  },
+  "STe": {
+    "serviceName": "sharedProcessService",
+    "interfaceName": "ISharedProcessService"
+  },
+  "pXu": {
+    "serviceName": "utilityProcessWorkerWorkbenchService",
+    "interfaceName": "IUtilityProcessWorkerWorkbenchService"
+  },
+  "zOb": {
+    "serviceName": "INativeShadowWorkspaceManager",
+    "interfaceName": "INativeShadowWorkspaceManager"
+  },
+  "VOb": {
+    "serviceName": "onFirstStartupService",
+    "interfaceName": "IOnFirstStartupService"
+  },
+  "KOb": {
+    "serviceName": "trayService",
+    "interfaceName": "ITrayService"
+  },
+  "t3b": {
+    "serviceName": "policy",
+    "interfaceName": "IPolicy"
+  },
+  "m3b": {
+    "serviceName": "nativeKeyboardLayoutService",
+    "interfaceName": "INativeKeyboardLayoutService"
+  },
+  "f3b": {
+    "serviceName": "localAgentStorageService",
+    "interfaceName": "ILocalAgentStorageService"
+  },
+  "GXu": {
+    "serviceName": "githubService",
+    "interfaceName": "IGithubService"
+  },
+  "b3b": {
+    "serviceName": "pullRequestCacheService",
+    "interfaceName": "IPullRequestCacheService"
+  },
+  "v3b": {
+    "serviceName": "pullRequestRepositoryService",
+    "interfaceName": "IPullRequestRepositoryService"
+  },
+  "A3b": {
+    "serviceName": "localAgentPrService",
+    "interfaceName": "ILocalAgentPrService"
+  },
+  "k3b": {
+    "serviceName": "projectService",
+    "interfaceName": "IProjectService"
+  },
+  "tge": {
+    "serviceName": "glassLayoutService",
+    "interfaceName": "IGlassLayoutService"
+  },
+  "W0n": {
+    "serviceName": "glassDiffService",
+    "interfaceName": "IGlassDiffService"
+  },
+  "_ed": {
+    "serviceName": "glassDiffVirtualizationService",
+    "interfaceName": "IGlassDiffVirtualizationService"
+  },
+  "Sed": {
+    "serviceName": "glassEditorService",
+    "interfaceName": "IGlassEditorService"
+  },
+  "vHa": {
+    "serviceName": "glassFileTreeService",
+    "interfaceName": "IGlassFileTreeService"
+  },
+  "R8": {
+    "serviceName": "glassTabPersistenceService",
+    "interfaceName": "IGlassTabPersistenceService"
+  },
+  "Wed": {
+    "serviceName": "cloudEnvironmentTemplateService",
+    "interfaceName": "ICloudEnvironmentTemplateService"
+  },
+  "Ved": {
+    "serviceName": "glassActiveWorkspaceService",
+    "interfaceName": "IGlassActiveWorkspaceService"
+  },
+  "m6b": {
+    "serviceName": "glassPortForwardingGateService",
+    "interfaceName": "IGlassPortForwardingGateService"
+  },
+  "p6b": {
+    "serviceName": "glassPortForwardingService",
+    "interfaceName": "IGlassPortForwardingService"
+  },
+  "UHa": {
+    "serviceName": "glassKeybindingRouterService",
+    "interfaceName": "IGlassKeybindingRouterService"
+  },
+  "otd": {
+    "serviceName": "ISplashStorageService",
+    "interfaceName": "ISplashStorageService"
+  },
+  "X0n": {
+    "serviceName": "glassThemeService",
+    "interfaceName": "IGlassThemeService"
+  },
+  "ltd": {
+    "serviceName": "cloudAgentCacheService",
+    "interfaceName": "ICloudAgentCacheService"
+  },
+  "Q6b": {
+    "serviceName": "glassKeybindingConsumerService",
+    "interfaceName": "IGlassKeybindingConsumerService"
+  },
+  "V6b": {
+    "serviceName": "cursorServerUrlWarmupService",
+    "interfaceName": "ICursorServerUrlWarmupService"
+  },
+  "sUb": {
+    "serviceName": "menubarService",
+    "interfaceName": "IMenubarService"
+  },
+  "nJa": {
+    "serviceName": "shellEnvironmentService",
+    "interfaceName": "IShellEnvironmentService"
+  },
+  "vLi": {
+    "serviceName": "terminalExecutionServiceV3",
+    "interfaceName": "ITerminalExecutionServiceV3"
+  },
+  "oJa": {
+    "serviceName": "terminalExecutionServiceV2",
+    "interfaceName": "ITerminalExecutionServiceV2"
+  },
+  "ALi": {
+    "serviceName": "IExtensionsProfileScannerService",
+    "interfaceName": "IExtensionsProfileScannerService"
+  },
+  "yLi": {
+    "serviceName": "IExtensionsScannerService",
+    "interfaceName": "IExtensionsScannerService"
+  },
+  "BUb": {
+    "serviceName": "extensionHostStarter",
+    "interfaceName": "IExtensionHostStarter"
+  },
+  "MUb": {
+    "serviceName": "checksumService",
+    "interfaceName": "IChecksumService"
+  },
+  "qnd": {
+    "serviceName": "sharedProcessTunnelService",
+    "interfaceName": "ISharedProcessTunnelService"
+  },
+  "FUb": {
+    "serviceName": "processSamplerService",
+    "interfaceName": "IProcessSamplerService"
+  },
+  "OUb": {
+    "serviceName": "IV8InspectProfilingService",
+    "interfaceName": "IV8InspectProfilingService"
+  },
+  "UUb": {
+    "serviceName": "IRemoteTunnelService",
+    "interfaceName": "IRemoteTunnelService"
+  },
+  "Qy_": {
+    "serviceName": "continuousProfilingMainService",
+    "interfaceName": "IContinuousProfilingMainService"
+  },
+  "ELi": {
+    "serviceName": "continuousProfilingService",
+    "interfaceName": "IContinuousProfilingService"
+  },
+  "HUb": {
+    "serviceName": "pathInspectionMainService",
+    "interfaceName": "IPathInspectionMainService"
+  },
+  "b": {
+    "serviceName": "cppSuggestionService",
+    "interfaceName": "ICppSuggestionService"
+  },
+  "Qid": {
+    "serviceName": "cppTypeService",
+    "interfaceName": "ICppTypeService"
+  },
+  "erd": {
+    "serviceName": "aiAssertService",
+    "interfaceName": "IAiAssertService"
+  },
+  "iqb": {
+    "serviceName": "cursorPredictionBadHeuristics",
+    "interfaceName": "ICursorPredictionBadHeuristics"
+  },
+  "yqb": {
+    "serviceName": "quickActionListenerService",
+    "interfaceName": "IQuickActionListenerService"
+  },
+  "Sqb": {
+    "serviceName": "telemStartupService",
+    "interfaceName": "ITelemStartupService"
+  },
+  "Yqb": {
+    "serviceName": "modelMigrationService",
+    "interfaceName": "IModelMigrationService"
+  },
+  "Zqb": {
+    "serviceName": "vscodeProfileService",
+    "interfaceName": "IVscodeProfileService"
+  },
+  "Erd": {
+    "serviceName": "FeedbackService",
+    "interfaceName": "IFeedbackService"
+  },
+  "IDt": {
+    "serviceName": "extensionHostProfileService",
+    "interfaceName": "IExtensionHostProfileService"
+  },
+  "HJa": {
+    "serviceName": "ITroubleshootIssueService",
+    "interfaceName": "ITroubleshootIssueService"
+  },
+  "Tat": {
+    "serviceName": "processService",
+    "interfaceName": "IProcessService"
+  },
+  "b7b": {
+    "serviceName": "extensionMonitorMainService",
+    "interfaceName": "IExtensionMonitorMainService"
+  },
+  "gsd": {
+    "serviceName": "terminalExecutionServiceV1",
+    "interfaceName": "ITerminalExecutionServiceV1"
+  },
+  "I7b": {
+    "serviceName": "IProfileAnalysisWorkerService",
+    "interfaceName": "IProfileAnalysisWorkerService"
+  },
+  "Esd": {
+    "serviceName": "externalTerminal",
+    "interfaceName": "IExternalTerminal"
+  },
+  "FI_": {
+    "serviceName": "smoothnessService",
+    "interfaceName": "ISmoothnessService"
+  },
+  "K7b": {
+    "serviceName": "smoothnessService",
+    "interfaceName": "ISmoothnessService"
+  },
+  "W10": {
+    "serviceName": "INativeMcpDiscoveryHelperService",
+    "interfaceName": "INativeMcpDiscoveryHelperService"
+  }
+}

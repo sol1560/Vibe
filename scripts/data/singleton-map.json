@@ -1,0 +1,2588 @@
+{
+  "qFo": {
+    "interfaceVar": "HS",
+    "interfaceName": "ILanguageConfigurationService",
+    "implClassName": "LanguageConfigurationService",
+    "instantiationType": 1
+  },
+  "x4o": {
+    "interfaceVar": "MY",
+    "interfaceName": "ITooltipService",
+    "implClassName": "TooltipService",
+    "instantiationType": 1
+  },
+  "ogh": {
+    "interfaceVar": "rOo",
+    "interfaceName": "ITreeSitterTokenizationStoreService",
+    "implClassName": "TreeSitterTokenizationStoreService",
+    "instantiationType": 1
+  },
+  "Hyh": {
+    "interfaceVar": "h2",
+    "interfaceName": "IEditorProgressService",
+    "implClassName": "EditorProgressService",
+    "instantiationType": 1
+  },
+  "X3o": {
+    "interfaceVar": "Z3o",
+    "interfaceName": "IDiffProviderFactoryService",
+    "implClassName": "DiffProviderFactoryService",
+    "instantiationType": 1
+  },
+  "eCh": {
+    "interfaceVar": "U3t",
+    "interfaceName": "IActionViewItemService",
+    "implClassName": "ActionViewItemService",
+    "instantiationType": 1
+  },
+  "nCh": {
+    "interfaceVar": "hve",
+    "interfaceName": "IActionBadgeService",
+    "implClassName": "ActionBadgeService",
+    "instantiationType": 0
+  },
+  "RCh": {
+    "interfaceVar": "YD",
+    "interfaceName": "IUiOverlayService",
+    "implClassName": "UiOverlayService",
+    "instantiationType": 0
+  },
+  "xKe": {
+    "interfaceVar": "TRe",
+    "interfaceName": "IActionWidgetService",
+    "implClassName": "ActionWidgetService",
+    "instantiationType": 1
+  },
+  "qUo": {
+    "interfaceVar": "rne",
+    "interfaceName": "ILanguageFeatureDebounceService",
+    "implClassName": "LanguageFeatureDebounceService",
+    "instantiationType": 1
+  },
+  "Cca": {
+    "interfaceVar": "zne",
+    "interfaceName": "IOutlineModelService",
+    "implClassName": "OutlineModelService",
+    "instantiationType": 1
+  },
+  "_gg": {
+    "interfaceVar": "Rpi",
+    "interfaceName": "INotebookDocumentService",
+    "implClassName": "NotebookDocumentService",
+    "instantiationType": 1
+  },
+  "Wca": {
+    "interfaceVar": "zpi",
+    "interfaceName": "ISymbolNavigationService",
+    "implClassName": "SymbolNavigationService",
+    "instantiationType": 1
+  },
+  "ibg": {
+    "interfaceVar": "BWl",
+    "interfaceName": "IInlayHintsCache",
+    "implClassName": "InlayHintsCache",
+    "instantiationType": 1
+  },
+  "dbg": {
+    "interfaceVar": "Xun",
+    "interfaceName": "ITreeViewsDndService",
+    "implClassName": "TreeViewsDndService",
+    "instantiationType": 1
+  },
+  "Sla": {
+    "interfaceVar": "Cgi",
+    "interfaceName": "ISuggestMemories",
+    "implClassName": "SuggestMemories",
+    "instantiationType": 1
+  },
+  "Ttt": {
+    "interfaceVar": "Ett",
+    "interfaceName": "IComposerCheckpointStorageService",
+    "implClassName": "ComposerCheckpointStorageService",
+    "instantiationType": 1
+  },
+  "jpa": {
+    "interfaceVar": "tx",
+    "interfaceName": "IModelConfigService",
+    "implClassName": "ModelConfigService",
+    "instantiationType": 1
+  },
+  "Ypa": {
+    "interfaceVar": "Yk",
+    "interfaceName": "IBackgroundComposerDataService",
+    "implClassName": "BackgroundComposerDataService",
+    "instantiationType": 2
+  },
+  "cga": {
+    "interfaceVar": "X9",
+    "interfaceName": "IAdminSettingsService",
+    "implClassName": "AdminSettingsService",
+    "instantiationType": 0
+  },
+  "lga": {
+    "interfaceVar": "bye",
+    "interfaceName": "IDevConsoleService",
+    "implClassName": "DevConsoleService",
+    "instantiationType": 1
+  },
+  "gga": {
+    "interfaceVar": "fE",
+    "interfaceName": "IGitContextService",
+    "implClassName": "GitContextService",
+    "instantiationType": 1
+  },
+  "bga": {
+    "interfaceVar": "Hbi",
+    "interfaceName": "INonAgentChangeTrackerService",
+    "implClassName": "NonAgentChangeTrackerService",
+    "instantiationType": 1
+  },
+  "Aga": {
+    "interfaceVar": "Hhn",
+    "interfaceName": "IPatchGraphStorageService",
+    "implClassName": "PatchGraphStorageService",
+    "instantiationType": 0
+  },
+  "X2g": {
+    "interfaceVar": "Wtt",
+    "interfaceName": "IAsyncOperationRegistry",
+    "implClassName": "AsyncOperationRegistry",
+    "instantiationType": 1
+  },
+  "lQ": {
+    "interfaceVar": "KZ",
+    "interfaceName": "IComposerFileService",
+    "implClassName": "ComposerFileService",
+    "instantiationType": 1
+  },
+  "xga": {
+    "interfaceVar": "aie",
+    "interfaceName": "IComposerTextModelService",
+    "implClassName": "ComposerTextModelService",
+    "instantiationType": 1
+  },
+  "efa": {
+    "interfaceVar": "smn",
+    "interfaceName": "IUsageDataService",
+    "implClassName": "UsageDataService",
+    "instantiationType": 1
+  },
+  "hfa": {
+    "interfaceVar": "vU",
+    "interfaceName": "IAISettingsService",
+    "implClassName": "AISettingsService",
+    "instantiationType": 1
+  },
+  "vfa": {
+    "interfaceVar": "lce",
+    "interfaceName": "ICppEventLoggerService",
+    "implClassName": "CppEventLoggerService",
+    "instantiationType": 1
+  },
+  "yfa": {
+    "interfaceVar": "I2",
+    "interfaceName": "ICmdKStateService",
+    "implClassName": "CmdKStateService",
+    "instantiationType": 0
+  },
+  "wfa": {
+    "interfaceVar": "wEe",
+    "interfaceName": "IDiffDecorationVisibilityService",
+    "implClassName": "DiffDecorationVisibilityService",
+    "instantiationType": 1
+  },
+  "_fa": {
+    "interfaceVar": "mL",
+    "interfaceName": "IInlineDiffService",
+    "implClassName": "InlineDiffService",
+    "instantiationType": 1
+  },
+  "xHg": {
+    "interfaceVar": "yU",
+    "interfaceName": "IEverythingProviderService",
+    "implClassName": "EverythingProviderService",
+    "instantiationType": 1
+  },
+  "Gfa": {
+    "interfaceVar": "dnt",
+    "interfaceName": "IKeybindingEditingService",
+    "implClassName": "KeybindingEditingService",
+    "instantiationType": 1
+  },
+  "zfa": {
+    "interfaceVar": "xmn",
+    "interfaceName": "IDebugServerService",
+    "implClassName": "DebugServerService",
+    "instantiationType": 1
+  },
+  "yJg": {
+    "interfaceVar": "lie",
+    "interfaceName": "IWorkbenchCommandRegistry",
+    "implClassName": "WorkbenchCommandRegistry",
+    "instantiationType": 1
+  },
+  "rS": {
+    "interfaceVar": "SJ",
+    "interfaceName": "IComposerCodeBlockService",
+    "implClassName": "ComposerCodeBlockService",
+    "instantiationType": 1
+  },
+  "wba": {
+    "interfaceVar": "AAi",
+    "interfaceName": "IPlanStorageService",
+    "implClassName": "PlanStorageService",
+    "instantiationType": 1
+  },
+  "Cba": {
+    "interfaceVar": "DC",
+    "interfaceName": "IFilesConfigurationService",
+    "implClassName": "FilesConfigurationService",
+    "instantiationType": 0
+  },
+  "Eba": {
+    "interfaceVar": "Ace",
+    "interfaceName": "IPluginsProviderService",
+    "implClassName": "PluginsProviderService",
+    "instantiationType": 1
+  },
+  "aXg": {
+    "interfaceVar": "cB",
+    "interfaceName": "IWorkingCopyService",
+    "implClassName": "WorkingCopyService",
+    "instantiationType": 1
+  },
+  "upn": {
+    "interfaceVar": "yie",
+    "interfaceName": "ICustomEditorLabelService",
+    "implClassName": "CustomEditorLabelService",
+    "instantiationType": 1
+  },
+  "rAa": {
+    "interfaceVar": "NJ",
+    "interfaceName": "ICursorCredsService",
+    "implClassName": "CursorCredsService",
+    "instantiationType": 1
+  },
+  "oAa": {
+    "interfaceVar": "aX",
+    "interfaceName": "IRepositoryService",
+    "implClassName": "RepositoryService",
+    "instantiationType": 1
+  },
+  "lAa": {
+    "interfaceVar": "r5",
+    "interfaceName": "ICursorIgnoreService",
+    "implClassName": "CursorIgnoreService",
+    "instantiationType": 1
+  },
+  "gAa": {
+    "interfaceVar": "xkt",
+    "interfaceName": "ISubagentsService",
+    "implClassName": "SubagentsService",
+    "instantiationType": 1
+  },
+  "wAa": {
+    "interfaceVar": "Eyi",
+    "interfaceName": "IAgentPrewarmService",
+    "implClassName": "AgentPrewarmService",
+    "instantiationType": 1
+  },
+  "CAa": {
+    "interfaceVar": "_Aa",
+    "interfaceName": "IAgentProviderService",
+    "implClassName": "AgentProviderService",
+    "instantiationType": 1
+  },
+  "A_a": {
+    "interfaceVar": "gwi",
+    "interfaceName": "ICloudAgentStorageService",
+    "implClassName": "CloudAgentStorageService",
+    "instantiationType": 1
+  },
+  "C_a": {
+    "interfaceVar": "Wkt",
+    "interfaceName": "IAggregatingMetricsService",
+    "implClassName": "AggregatingMetricsService",
+    "instantiationType": 1
+  },
+  "k_a": {
+    "interfaceVar": "S_a",
+    "interfaceName": "IMcpProviderService",
+    "implClassName": "McpProviderService",
+    "instantiationType": 1
+  },
+  "T_a": {
+    "interfaceVar": "x_a",
+    "interfaceName": "IMcpInstallationService",
+    "implClassName": "McpInstallationService",
+    "instantiationType": 1
+  },
+  "R_a": {
+    "interfaceVar": "B_a",
+    "interfaceName": "IMcpWellKnownDetectionService",
+    "implClassName": "McpWellKnownDetectionService",
+    "instantiationType": 1
+  },
+  "M_a": {
+    "interfaceVar": "_wi",
+    "interfaceName": "IUsageLimitPolicyStatusService",
+    "implClassName": "UsageLimitPolicyStatusService",
+    "instantiationType": 1
+  },
+  "F_a": {
+    "interfaceVar": "Qkt",
+    "interfaceName": "IAiErrorService",
+    "implClassName": "AiErrorService",
+    "instantiationType": 1
+  },
+  "U_a": {
+    "interfaceVar": "jkt",
+    "interfaceName": "IKnowledgeBaseService",
+    "implClassName": "KnowledgeBaseService",
+    "instantiationType": 1
+  },
+  "xCf": {
+    "interfaceVar": "zkt",
+    "interfaceName": "IBackgroundComposerEventService",
+    "implClassName": "BackgroundComposerEventService",
+    "instantiationType": 2
+  },
+  "LCf": {
+    "interfaceVar": "Ypn",
+    "interfaceName": "IPendingApprovalRegistry",
+    "implClassName": "PendingApprovalRegistry",
+    "instantiationType": 1
+  },
+  "G_a": {
+    "interfaceVar": "Kkt",
+    "interfaceName": "IComposerDecisionsService",
+    "implClassName": "ComposerDecisionsService",
+    "instantiationType": 1
+  },
+  "Tie": {
+    "interfaceVar": "fMe",
+    "interfaceName": "IComposerCheckpointService",
+    "implClassName": "ComposerCheckpointService",
+    "instantiationType": 1
+  },
+  "W_a": {
+    "interfaceVar": "Zkt",
+    "interfaceName": "IComposerStorageService",
+    "implClassName": "ComposerStorageService",
+    "instantiationType": 0
+  },
+  "bMe": {
+    "interfaceVar": "bM",
+    "interfaceName": "IComposerChatService",
+    "implClassName": "ComposerChatService",
+    "instantiationType": 1
+  },
+  "aSf": {
+    "interfaceVar": "ign",
+    "interfaceName": "IBackgroundWorkService",
+    "implClassName": "BackgroundWorkService",
+    "instantiationType": 1
+  },
+  "X_a": {
+    "interfaceVar": "Fwi",
+    "interfaceName": "ISubagentComposerService",
+    "implClassName": "SubagentComposerService",
+    "instantiationType": 1
+  },
+  "i0a": {
+    "interfaceVar": "jhu",
+    "interfaceName": "IBlobUploadService",
+    "implClassName": "BlobUploadService",
+    "instantiationType": 1
+  },
+  "uO": {
+    "interfaceVar": "kM",
+    "interfaceName": "IComposerUtilsService",
+    "implClassName": "ComposerUtilsService",
+    "instantiationType": 1
+  },
+  "r0a": {
+    "interfaceVar": "CV",
+    "interfaceName": "IComposerPlanService",
+    "implClassName": "ComposerPlanService",
+    "instantiationType": 1
+  },
+  "Jwi": {
+    "interfaceVar": "JEe",
+    "interfaceName": "IToolCallHumanReviewService",
+    "implClassName": "ToolCallHumanReviewService",
+    "instantiationType": 1
+  },
+  "s0a": {
+    "interfaceVar": "DT",
+    "interfaceName": "IComposerModesService",
+    "implClassName": "ComposerModesService",
+    "instantiationType": 1
+  },
+  "o0a": {
+    "interfaceVar": "Khu",
+    "interfaceName": "IArtifactCacheService",
+    "implClassName": "ArtifactCacheService",
+    "instantiationType": 1
+  },
+  "nCa": {
+    "interfaceVar": "RMe",
+    "interfaceName": "IWorkbenchAssignmentService",
+    "implClassName": "WorkbenchAssignmentService",
+    "instantiationType": 1
+  },
+  "dCa": {
+    "interfaceVar": "Wl",
+    "interfaceName": "ILanguageService",
+    "implClassName": "LanguageService",
+    "instantiationType": 0
+  },
+  "MSa": {
+    "interfaceVar": "Rit",
+    "interfaceName": "IUntitledTextEditorService",
+    "implClassName": "UntitledTextEditorService",
+    "instantiationType": 1
+  },
+  "eka": {
+    "interfaceVar": "Zq",
+    "interfaceName": "IWorkingCopyFileService",
+    "implClassName": "WorkingCopyFileService",
+    "instantiationType": 1
+  },
+  "eLf": {
+    "interfaceVar": "ixe",
+    "interfaceName": "IEditorBreadcrumbsService",
+    "implClassName": "EditorBreadcrumbsService",
+    "instantiationType": 1
+  },
+  "gEa": {
+    "interfaceVar": "nrt",
+    "interfaceName": "IWorkspaceExtensionsConfigService",
+    "implClassName": "WorkspaceExtensionsConfigService",
+    "instantiationType": 1
+  },
+  "wEa": {
+    "interfaceVar": "wX",
+    "interfaceName": "IWorkspaceTrustRequestService",
+    "implClassName": "WorkspaceTrustRequestService",
+    "instantiationType": 1
+  },
+  "CEa": {
+    "interfaceVar": "d5",
+    "interfaceName": "IExtensionManifestPropertiesService",
+    "implClassName": "ExtensionManifestPropertiesService",
+    "instantiationType": 1
+  },
+  "SEa": {
+    "interfaceVar": "b7e",
+    "interfaceName": "IAuthenticationUsageService",
+    "implClassName": "AuthenticationUsageService",
+    "instantiationType": 1
+  },
+  "pxa": {
+    "interfaceVar": "wyu",
+    "interfaceName": "ICodeCompareModelService",
+    "implClassName": "CodeCompareModelService",
+    "instantiationType": 1
+  },
+  "gIa": {
+    "interfaceVar": "K8f",
+    "interfaceName": "INotebookOriginalModelReferenceFactory",
+    "implClassName": "NotebookOriginalModelReferenceFactory",
+    "instantiationType": 2
+  },
+  "dIa": {
+    "interfaceVar": "b_u",
+    "interfaceName": "INotebookOriginalCellModelFactory",
+    "implClassName": "NotebookOriginalCellModelFactory",
+    "instantiationType": 2
+  },
+  "Qbn": {
+    "interfaceVar": "gnt",
+    "interfaceName": "IAiFileInfoService",
+    "implClassName": "AiFileInfoService",
+    "instantiationType": 1
+  },
+  "o6f": {
+    "interfaceVar": "jbn",
+    "interfaceName": "IDiffingService",
+    "implClassName": "DiffingService",
+    "instantiationType": 1
+  },
+  "xIa": {
+    "interfaceVar": "T_u",
+    "interfaceName": "IFastSemSearchService",
+    "implClassName": "FastSemSearchService",
+    "instantiationType": 1
+  },
+  "BIa": {
+    "interfaceVar": "xX",
+    "interfaceName": "IGithubPRService",
+    "implClassName": "GithubPRService",
+    "instantiationType": 1
+  },
+  "RIa": {
+    "interfaceVar": "R_u",
+    "interfaceName": "IGithubPRAuthDetectionService",
+    "implClassName": "GithubPRAuthDetectionService",
+    "instantiationType": 1
+  },
+  "LIa": {
+    "interfaceVar": "N_u",
+    "interfaceName": "INetworkAccessNotificationService",
+    "implClassName": "NetworkAccessNotificationService",
+    "instantiationType": 1
+  },
+  "NIa": {
+    "interfaceVar": "M_u",
+    "interfaceName": "ISimpleTestService",
+    "implClassName": "SimpleTestService",
+    "instantiationType": 1
+  },
+  "qIa": {
+    "interfaceVar": "G_u",
+    "interfaceName": "IMagicLinkService",
+    "implClassName": "MagicLinkService",
+    "instantiationType": 1
+  },
+  "JIa": {
+    "interfaceVar": "Q_u",
+    "interfaceName": "IAiApplyToFileActionsService",
+    "implClassName": "AiApplyToFileActionsService",
+    "instantiationType": 1
+  },
+  "Ort": {
+    "interfaceVar": "GIa",
+    "interfaceName": "IBackgroundComposerCachedDetailsStorageService",
+    "implClassName": "BackgroundComposerCachedDetailsStorageService",
+    "instantiationType": 2
+  },
+  "WIa": {
+    "interfaceVar": "j_u",
+    "interfaceName": "IWorktreeComposerDataService",
+    "implClassName": "WorktreeComposerDataService",
+    "instantiationType": 2
+  },
+  "VIa": {
+    "interfaceVar": "n0u",
+    "interfaceName": "ITokenStreamingDiffService",
+    "implClassName": "TokenStreamingDiffService",
+    "instantiationType": 1
+  },
+  "YIa": {
+    "interfaceVar": "Wki",
+    "interfaceName": "IAiCodeEventTrackingService",
+    "implClassName": "AiCodeEventTrackingService",
+    "instantiationType": 0
+  },
+  "gUf": {
+    "interfaceVar": "LEt",
+    "interfaceName": "IAgentLayoutEventService",
+    "implClassName": "AgentLayoutEventService",
+    "instantiationType": 1
+  },
+  "eDa": {
+    "interfaceVar": "XIa",
+    "interfaceName": "IComposerExtensibilityService",
+    "implClassName": "ComposerExtensibilityService",
+    "instantiationType": 1
+  },
+  "nDa": {
+    "interfaceVar": "nvn",
+    "interfaceName": "IComposerTerminalService",
+    "implClassName": "ComposerTerminalService",
+    "instantiationType": 2
+  },
+  "rDa": {
+    "interfaceVar": "zki",
+    "interfaceName": "IQuickAgentService",
+    "implClassName": "QuickAgentService",
+    "instantiationType": 1
+  },
+  "aDa": {
+    "interfaceVar": "rvn",
+    "interfaceName": "IMarkdownEditorModeService",
+    "implClassName": "MarkdownEditorModeService",
+    "instantiationType": 1
+  },
+  "cDa": {
+    "interfaceVar": "Yki",
+    "interfaceName": "IPlanEditorModeService",
+    "implClassName": "PlanEditorModeService",
+    "instantiationType": 1
+  },
+  "uDa": {
+    "interfaceVar": "r0u",
+    "interfaceName": "IRecentFilesTrackerService",
+    "implClassName": "RecentFilesTrackerService",
+    "instantiationType": 1
+  },
+  "hDa": {
+    "interfaceVar": "dDa",
+    "interfaceName": "IUrlOpenToastService",
+    "implClassName": "UrlOpenToastService",
+    "instantiationType": 1
+  },
+  "pDa": {
+    "interfaceVar": "mDa",
+    "interfaceName": "IOpenBrowserUrlsService",
+    "implClassName": "OpenBrowserUrlsService",
+    "instantiationType": 1
+  },
+  "bDa": {
+    "interfaceVar": "AU",
+    "interfaceName": "IDiffChangeSourceRegistry",
+    "implClassName": "DiffChangeSourceRegistry",
+    "instantiationType": 1
+  },
+  "Eku": {
+    "interfaceVar": "Jjf",
+    "interfaceName": "ICodeLensCache",
+    "implClassName": "CodeLensCache",
+    "instantiationType": 1
+  },
+  "Wku": {
+    "interfaceVar": "Gku",
+    "interfaceName": "IMarkerNavigationService",
+    "implClassName": "MarkerNavigationService",
+    "instantiationType": 1
+  },
+  "Vku": {
+    "interfaceVar": "Qie",
+    "interfaceName": "IBugbotResultsService",
+    "implClassName": "BugbotResultsService",
+    "instantiationType": 1
+  },
+  "sTu": {
+    "interfaceVar": "rTu",
+    "interfaceName": "IExtensionStatusBarItemService",
+    "implClassName": "ExtensionStatusBarItemService",
+    "instantiationType": 1
+  },
+  "aTu": {
+    "interfaceVar": "Cxt",
+    "interfaceName": "IAuthenticationAccessService",
+    "implClassName": "AuthenticationAccessService",
+    "instantiationType": 1
+  },
+  "QNy": {
+    "interfaceVar": "Mtb",
+    "interfaceName": "IEmbeddingsService",
+    "implClassName": "EmbeddingsService",
+    "instantiationType": 1
+  },
+  "dib": {
+    "interfaceVar": "yLa",
+    "interfaceName": "IRemoteConnectionProgressService",
+    "implClassName": "RemoteConnectionProgressService",
+    "instantiationType": 1
+  },
+  "y2y": {
+    "interfaceVar": "HAn",
+    "interfaceName": "ILanguageStatusService",
+    "implClassName": "LanguageStatusService",
+    "instantiationType": 1
+  },
+  "TDu": {
+    "interfaceVar": "qsb",
+    "interfaceName": "IExtensionUrlHandler",
+    "implClassName": "ExtensionUrlHandler",
+    "instantiationType": 0
+  },
+  "LDu": {
+    "interfaceVar": "cNa",
+    "interfaceName": "IUserActivityService",
+    "implClassName": "UserActivityService",
+    "instantiationType": 1
+  },
+  "hBu": {
+    "interfaceVar": "pP",
+    "interfaceName": "IRemoteExplorerService",
+    "implClassName": "RemoteExplorerService",
+    "instantiationType": 1
+  },
+  "pBu": {
+    "interfaceVar": "WF",
+    "interfaceName": "IAuthenticationService",
+    "implClassName": "AuthenticationService",
+    "instantiationType": 1
+  },
+  "FBu": {
+    "interfaceVar": "Yxt",
+    "interfaceName": "IAgentExecProviderService",
+    "implClassName": "AgentExecProviderService",
+    "instantiationType": 1
+  },
+  "MHy": {
+    "interfaceVar": "Tcb",
+    "interfaceName": "IEditHistoryService",
+    "implClassName": "EditHistoryService",
+    "instantiationType": 1
+  },
+  "tRu": {
+    "interfaceVar": "Xcb",
+    "interfaceName": "IAiEmbeddingVectorService",
+    "implClassName": "AiEmbeddingVectorService",
+    "instantiationType": 1
+  },
+  "sJy": {
+    "interfaceVar": "nlb",
+    "interfaceName": "IChatStatusItemService",
+    "implClassName": "ChatStatusItemService",
+    "instantiationType": 1
+  },
+  "nRu": {
+    "interfaceVar": "nTi",
+    "interfaceName": "IShellExecService",
+    "implClassName": "ShellExecService",
+    "instantiationType": 0
+  },
+  "wRu": {
+    "interfaceVar": "H2e",
+    "interfaceName": "IEmbeddedAuxBarEditorPartService",
+    "implClassName": "EmbeddedAuxBarEditorPartService",
+    "instantiationType": 0
+  },
+  "iLu": {
+    "interfaceVar": "gmb",
+    "interfaceName": "IUiBestOfNJudgeService",
+    "implClassName": "UiBestOfNJudgeService",
+    "instantiationType": 1
+  },
+  "zNu": {
+    "interfaceVar": "Z2e",
+    "interfaceName": "IChatEditorGroupService",
+    "implClassName": "ChatEditorGroupService",
+    "instantiationType": 0
+  },
+  "VNu": {
+    "interfaceVar": "ybb",
+    "interfaceName": "ISymbolContextService",
+    "implClassName": "SymbolContextService",
+    "instantiationType": 1
+  },
+  "YNu": {
+    "interfaceVar": "bot",
+    "interfaceName": "ITextEditorService",
+    "implClassName": "TextEditorService",
+    "instantiationType": 0
+  },
+  "ZNu": {
+    "interfaceVar": "oIi",
+    "interfaceName": "IAIFeedbackOpenService",
+    "implClassName": "AIFeedbackOpenService",
+    "instantiationType": 1
+  },
+  "eMu": {
+    "interfaceVar": "XNu",
+    "interfaceName": "IAutoSelectService",
+    "implClassName": "AutoSelectService",
+    "instantiationType": 1
+  },
+  "s2u": {
+    "interfaceVar": "Ppe",
+    "interfaceName": "IWorkingCopyEditorService",
+    "implClassName": "WorkingCopyEditorService",
+    "instantiationType": 1
+  },
+  "u2u": {
+    "interfaceVar": "nit",
+    "interfaceName": "IComposerFileChangeHandlerService",
+    "implClassName": "ComposerFileChangeHandlerService",
+    "instantiationType": 1
+  },
+  "h2u": {
+    "interfaceVar": "yFa",
+    "interfaceName": "IMockAgentStreamService",
+    "implClassName": "MockAgentStreamService",
+    "instantiationType": 1
+  },
+  "CFa": {
+    "interfaceVar": "kTt",
+    "interfaceName": "IAuxiliaryWindowService",
+    "implClassName": "AuxiliaryWindowService",
+    "instantiationType": 1
+  },
+  "f2u": {
+    "interfaceVar": "ha",
+    "interfaceName": "IEditorGroupsService",
+    "implClassName": "EditorGroupsService",
+    "instantiationType": 0
+  },
+  "D2u": {
+    "interfaceVar": "yu",
+    "interfaceName": "IViewsService",
+    "implClassName": "ViewsService",
+    "instantiationType": 0
+  },
+  "P2u": {
+    "interfaceVar": "A0",
+    "interfaceName": "IPaneCompositePartService",
+    "implClassName": "PaneCompositePartService",
+    "instantiationType": 2
+  },
+  "L2u": {
+    "interfaceVar": "THe",
+    "interfaceName": "IBannerService",
+    "implClassName": "BannerService",
+    "instantiationType": 0
+  },
+  "h5o": {
+    "interfaceVar": "xd",
+    "interfaceName": "IMenuService",
+    "implClassName": "MenuService",
+    "instantiationType": 1
+  },
+  "J2u": {
+    "interfaceVar": "qB",
+    "interfaceName": "IUndoRedoService",
+    "implClassName": "UndoRedoService",
+    "instantiationType": 1
+  },
+  "G2u": {
+    "interfaceVar": "exi",
+    "interfaceName": "IEditSessionIdentityService",
+    "implClassName": "EditSessionIdentityService",
+    "instantiationType": 1
+  },
+  "nCw": {
+    "interfaceVar": "Ksb",
+    "interfaceName": "ICanonicalUriIdentityService",
+    "implClassName": "CanonicalUriIdentityService",
+    "instantiationType": 1
+  },
+  "W2u": {
+    "interfaceVar": "Pie",
+    "interfaceName": "IFileDecorationsService",
+    "implClassName": "FileDecorationsService",
+    "instantiationType": 1
+  },
+  "Q2u": {
+    "interfaceVar": "Ul",
+    "interfaceName": "IDialogService",
+    "implClassName": "DialogService",
+    "instantiationType": 1
+  },
+  "j2u": {
+    "interfaceVar": "Tb",
+    "interfaceName": "IProgressService",
+    "implClassName": "ProgressService",
+    "instantiationType": 1
+  },
+  "K2u": {
+    "interfaceVar": "gl",
+    "interfaceName": "ICodeEditorService",
+    "implClassName": "CodeEditorService",
+    "instantiationType": 1
+  },
+  "sFu": {
+    "interfaceVar": "nb",
+    "interfaceName": "IPreferencesService",
+    "implClassName": "PreferencesService",
+    "instantiationType": 1
+  },
+  "oFu": {
+    "interfaceVar": "vX",
+    "interfaceName": "IJsonEditingService",
+    "implClassName": "JsonEditingService",
+    "instantiationType": 1
+  },
+  "lFu": {
+    "interfaceVar": "xl",
+    "interfaceName": "ITextModelService",
+    "implClassName": "TextModelService",
+    "instantiationType": 1
+  },
+  "uFu": {
+    "interfaceVar": "vD",
+    "interfaceName": "IEditorResolverService",
+    "implClassName": "EditorResolverService",
+    "instantiationType": 0
+  },
+  "hFu": {
+    "interfaceVar": "tTi",
+    "interfaceName": "IAiRelatedInformationService",
+    "implClassName": "AiRelatedInformationService",
+    "instantiationType": 1
+  },
+  "mFu": {
+    "interfaceVar": "ek",
+    "interfaceName": "IHistoryService",
+    "implClassName": "HistoryService",
+    "instantiationType": 0
+  },
+  "gFu": {
+    "interfaceVar": "e4",
+    "interfaceName": "IActivityService",
+    "implClassName": "ActivityService",
+    "instantiationType": 1
+  },
+  "fFu": {
+    "interfaceVar": "po",
+    "interfaceName": "IKeybindingService",
+    "implClassName": "KeybindingService",
+    "instantiationType": 0
+  },
+  "AFu": {
+    "interfaceVar": "ent",
+    "interfaceName": "ITextResourcePropertiesService",
+    "implClassName": "TextResourcePropertiesService",
+    "instantiationType": 1
+  },
+  "yFu": {
+    "interfaceVar": "Il",
+    "interfaceName": "IModelService",
+    "implClassName": "ModelService",
+    "instantiationType": 1
+  },
+  "wFu": {
+    "interfaceVar": "br",
+    "interfaceName": "ICommandService",
+    "implClassName": "CommandService",
+    "instantiationType": 1
+  },
+  "RFu": {
+    "interfaceVar": "Fl",
+    "interfaceName": "ILabelService",
+    "implClassName": "LabelService",
+    "instantiationType": 1
+  },
+  "QFu": {
+    "interfaceVar": "bE",
+    "interfaceName": "IExtensionGalleryService",
+    "implClassName": "ExtensionGalleryService",
+    "instantiationType": 1
+  },
+  "KFu": {
+    "interfaceVar": "OTt",
+    "interfaceName": "IExtensionBisectService",
+    "implClassName": "ExtensionBisectService",
+    "instantiationType": 1
+  },
+  "ZFu": {
+    "interfaceVar": "sS",
+    "interfaceName": "IExtensionEnablementService",
+    "implClassName": "ExtensionEnablementService",
+    "instantiationType": 1
+  },
+  "e4u": {
+    "interfaceVar": "Jvg",
+    "interfaceName": "IBuiltinExtensionsScannerService",
+    "implClassName": "BuiltinExtensionsScannerService",
+    "instantiationType": 1
+  },
+  "n4u": {
+    "interfaceVar": "dxe",
+    "interfaceName": "IExtensionIgnoredRecommendationsService",
+    "implClassName": "ExtensionIgnoredRecommendationsService",
+    "instantiationType": 1
+  },
+  "r4u": {
+    "interfaceVar": "Fme",
+    "interfaceName": "IExtensionFeaturesManagementService",
+    "implClassName": "ExtensionFeaturesManagementService",
+    "instantiationType": 1
+  },
+  "s4u": {
+    "interfaceVar": "ms",
+    "interfaceName": "INotificationService",
+    "implClassName": "NotificationService",
+    "instantiationType": 1
+  },
+  "o4u": {
+    "interfaceVar": "ECi",
+    "interfaceName": "IUserDataSyncUtilService",
+    "implClassName": "UserDataSyncUtilService",
+    "instantiationType": 1
+  },
+  "g4u": {
+    "interfaceVar": "kmn",
+    "interfaceName": "IUserDataProfileImportExportService",
+    "implClassName": "UserDataProfileImportExportService",
+    "instantiationType": 1
+  },
+  "v4u": {
+    "interfaceVar": "Sye",
+    "interfaceName": "IUserDataProfileManagementService",
+    "implClassName": "UserDataProfileManagementService",
+    "instantiationType": 0
+  },
+  "w4u": {
+    "interfaceVar": "A4a",
+    "interfaceName": "IRemoteUserDataProfilesService",
+    "implClassName": "RemoteUserDataProfilesService",
+    "instantiationType": 1
+  },
+  "_4u": {
+    "interfaceVar": "sDi",
+    "interfaceName": "IRemoteExtensionsScannerService",
+    "implClassName": "RemoteExtensionsScannerService",
+    "instantiationType": 1
+  },
+  "Tkw": {
+    "interfaceVar": "c_b",
+    "interfaceName": "IEmbedderTerminalService",
+    "implClassName": "EmbedderTerminalService",
+    "instantiationType": 1
+  },
+  "k4u": {
+    "interfaceVar": "bp",
+    "interfaceName": "IViewDescriptorService",
+    "implClassName": "ViewDescriptorService",
+    "instantiationType": 1
+  },
+  "P4u": {
+    "interfaceVar": "da",
+    "interfaceName": "IQuickInputService",
+    "implClassName": "QuickInputService",
+    "instantiationType": 1
+  },
+  "G4u": {
+    "interfaceVar": "Npe",
+    "interfaceName": "IUserDataSyncWorkbenchService",
+    "implClassName": "UserDataSyncWorkbenchService",
+    "instantiationType": 0
+  },
+  "W4u": {
+    "interfaceVar": "ZAi",
+    "interfaceName": "IAuthenticationExtensionsService",
+    "implClassName": "AuthenticationExtensionsService",
+    "instantiationType": 1
+  },
+  "V4u": {
+    "interfaceVar": "zc",
+    "interfaceName": "IHoverService",
+    "implClassName": "HoverService",
+    "instantiationType": 1
+  },
+  "Xkw": {
+    "interfaceVar": "ukt",
+    "interfaceName": "IOutlineService",
+    "implClassName": "OutlineService",
+    "instantiationType": 1
+  },
+  "tOu": {
+    "interfaceVar": "Kme",
+    "interfaceName": "ILanguageDetectionService",
+    "implClassName": "LanguageDetectionService",
+    "instantiationType": 0
+  },
+  "c1w": {
+    "interfaceVar": "Uu",
+    "interfaceName": "ILanguageFeaturesService",
+    "implClassName": "LanguageFeaturesService",
+    "instantiationType": 1
+  },
+  "nOu": {
+    "interfaceVar": "Fgi",
+    "interfaceName": "ISemanticTokensStylingService",
+    "implClassName": "SemanticTokensStylingService",
+    "instantiationType": 1
+  },
+  "sOu": {
+    "interfaceVar": "ibn",
+    "interfaceName": "ITextMateTokenizationFeature",
+    "implClassName": "TextMateTokenizationFeature",
+    "instantiationType": 0
+  },
+  "lOu": {
+    "interfaceVar": "ZE",
+    "interfaceName": "IMetricsService",
+    "implClassName": "MetricsService",
+    "instantiationType": 1
+  },
+  "dOu": {
+    "interfaceVar": "Jtt",
+    "interfaceName": "IPatchGraphService",
+    "implClassName": "PatchGraphService",
+    "instantiationType": 1
+  },
+  "hOu": {
+    "interfaceVar": "Zpn",
+    "interfaceName": "IPatchGraphAdapterService",
+    "implClassName": "PatchGraphAdapterService",
+    "instantiationType": 1
+  },
+  "mOu": {
+    "interfaceVar": "gE",
+    "interfaceName": "IStructuredLogService",
+    "implClassName": "StructuredLogService",
+    "instantiationType": 1
+  },
+  "Awn": {
+    "interfaceVar": "a0b",
+    "interfaceName": "IAiUtilsService",
+    "implClassName": "AiUtilsService",
+    "instantiationType": 1
+  },
+  "pOu": {
+    "interfaceVar": "DU",
+    "interfaceName": "IMcpService",
+    "implClassName": "McpService",
+    "instantiationType": 1
+  },
+  "fOu": {
+    "interfaceVar": "MJ",
+    "interfaceName": "ICursorRulesService",
+    "implClassName": "CursorRulesService",
+    "instantiationType": 1
+  },
+  "AOu": {
+    "interfaceVar": "Jv",
+    "interfaceName": "IAiService",
+    "implClassName": "AiService",
+    "instantiationType": 1
+  },
+  "yOu": {
+    "interfaceVar": "Swi",
+    "interfaceName": "IAiClientService",
+    "implClassName": "AiClientService",
+    "instantiationType": 1
+  },
+  "wOu": {
+    "interfaceVar": "vxe",
+    "interfaceName": "IFastContextService",
+    "implClassName": "FastContextService",
+    "instantiationType": 1
+  },
+  "kOu": {
+    "interfaceVar": "u0b",
+    "interfaceName": "IWorkspaceMetadataProviderService",
+    "implClassName": "WorkspaceMetadataProviderService",
+    "instantiationType": 0
+  },
+  "EOu": {
+    "interfaceVar": "p0b",
+    "interfaceName": "IProjectPreferenceService",
+    "implClassName": "ProjectPreferenceService",
+    "instantiationType": 2
+  },
+  "xOu": {
+    "interfaceVar": "sie",
+    "interfaceName": "IClientDebugLogService",
+    "implClassName": "ClientDebugLogService",
+    "instantiationType": 1
+  },
+  "TOu": {
+    "interfaceVar": "b0b",
+    "interfaceName": "IOnboardingConfigService",
+    "implClassName": "OnboardingConfigService",
+    "instantiationType": 2
+  },
+  "IOu": {
+    "interfaceVar": "CM",
+    "interfaceName": "IAppLayoutService",
+    "implClassName": "AppLayoutService",
+    "instantiationType": 1
+  },
+  "e3u": {
+    "interfaceVar": "hL",
+    "interfaceName": "IAgentLayoutService",
+    "implClassName": "AgentLayoutService",
+    "instantiationType": 1
+  },
+  "FQ": {
+    "interfaceVar": "bce",
+    "interfaceName": "IReviewChangesService",
+    "implClassName": "ReviewChangesService",
+    "instantiationType": 1
+  },
+  "n3u": {
+    "interfaceVar": "gDa",
+    "interfaceName": "ISemanticReviewService",
+    "implClassName": "SemanticReviewService",
+    "instantiationType": 1
+  },
+  "pLw": {
+    "interfaceVar": "H_u",
+    "interfaceName": "ILexicalReducerService",
+    "implClassName": "LexicalReducerService",
+    "instantiationType": 1
+  },
+  "f3u": {
+    "interfaceVar": "fOa",
+    "interfaceName": "IConversationClassificationService",
+    "implClassName": "ConversationClassificationService",
+    "instantiationType": 0
+  },
+  "b3u": {
+    "interfaceVar": "bOa",
+    "interfaceName": "IAgentClientService",
+    "implClassName": "AgentClientService",
+    "instantiationType": 1
+  },
+  "S3u": {
+    "interfaceVar": "cV",
+    "interfaceName": "IComposerContextService",
+    "implClassName": "ComposerContextService",
+    "instantiationType": 1
+  },
+  "k3u": {
+    "interfaceVar": "hSb",
+    "interfaceName": "IComposerMigrationService",
+    "implClassName": "ComposerMigrationService",
+    "instantiationType": 0
+  },
+  "E3u": {
+    "interfaceVar": "mSb",
+    "interfaceName": "IOalToolPopulationService",
+    "implClassName": "OalToolPopulationService",
+    "instantiationType": 1
+  },
+  "SE": {
+    "interfaceVar": "og",
+    "interfaceName": "IComposerService",
+    "implClassName": "ComposerService",
+    "instantiationType": 1
+  },
+  "I3u": {
+    "interfaceVar": "gEe",
+    "interfaceName": "IComposerAgentService",
+    "implClassName": "ComposerAgentService",
+    "instantiationType": 1
+  },
+  "P3u": {
+    "interfaceVar": "sw",
+    "interfaceName": "IComposerViewsService",
+    "implClassName": "ComposerViewsService",
+    "instantiationType": 0
+  },
+  "L3u": {
+    "interfaceVar": "oNw",
+    "interfaceName": "IChatGroupPositionManager",
+    "implClassName": "ChatGroupPositionManager",
+    "instantiationType": 0
+  },
+  "F3u": {
+    "interfaceVar": "qUe",
+    "interfaceName": "IVoiceInputService",
+    "implClassName": "VoiceInputService",
+    "instantiationType": 1
+  },
+  "q3u": {
+    "interfaceVar": "mh",
+    "interfaceName": "IAnalyticsService",
+    "implClassName": "AnalyticsService",
+    "instantiationType": 0
+  },
+  "W3u": {
+    "interfaceVar": "jz",
+    "interfaceName": "IAiCodeTrackingService",
+    "implClassName": "AiCodeTrackingService",
+    "instantiationType": 0
+  },
+  "Q3u": {
+    "interfaceVar": "Vaa",
+    "interfaceName": "IHumanEditTrackerService",
+    "implClassName": "HumanEditTrackerService",
+    "instantiationType": 0
+  },
+  "V3u": {
+    "interfaceVar": "Uye",
+    "interfaceName": "ISelectedContextService",
+    "implClassName": "SelectedContextService",
+    "instantiationType": 1
+  },
+  "Z3u": {
+    "interfaceVar": "MIa",
+    "interfaceName": "ICmdKService",
+    "implClassName": "CmdKService",
+    "instantiationType": 1
+  },
+  "X3u": {
+    "interfaceVar": "Frt",
+    "interfaceName": "ICmdKService2",
+    "implClassName": "CmdKService2",
+    "instantiationType": 1
+  },
+  "t5u": {
+    "interfaceVar": "HSb",
+    "interfaceName": "IJsService",
+    "implClassName": "JsService",
+    "instantiationType": 0
+  },
+  "s5u": {
+    "interfaceVar": "KSb",
+    "interfaceName": "ITreeSitterTokenizationFeature",
+    "implClassName": "TreeSitterTokenizationFeature",
+    "instantiationType": 0
+  },
+  "t5f": {
+    "interfaceVar": "bSi",
+    "interfaceName": "ITreeSitterImporter",
+    "implClassName": "TreeSitterImporter",
+    "instantiationType": 0
+  },
+  "i5u": {
+    "interfaceVar": "Art",
+    "interfaceName": "ITreeSitterParserService",
+    "implClassName": "TreeSitterParserService",
+    "instantiationType": 0
+  },
+  "NMw": {
+    "interfaceVar": "snu",
+    "interfaceName": "IEditorPaneService",
+    "implClassName": "EditorPaneService",
+    "instantiationType": 1
+  },
+  "l5u": {
+    "interfaceVar": "RDi",
+    "interfaceName": "IRepositoryTrackerService",
+    "implClassName": "RepositoryTrackerService",
+    "instantiationType": 1
+  },
+  "u5u": {
+    "interfaceVar": "MMw",
+    "interfaceName": "IPackageLocatorService",
+    "implClassName": "PackageLocatorService",
+    "instantiationType": 1
+  },
+  "d5u": {
+    "interfaceVar": "Lwn",
+    "interfaceName": "ICronService",
+    "implClassName": "CronService",
+    "instantiationType": 1
+  },
+  "g5u": {
+    "interfaceVar": "RBu",
+    "interfaceName": "ITraceSpanService",
+    "implClassName": "TraceSpanService",
+    "instantiationType": 1
+  },
+  "f5u": {
+    "interfaceVar": "vIu",
+    "interfaceName": "IFileWatchRecordingService",
+    "implClassName": "FileWatchRecordingService",
+    "instantiationType": 1
+  },
+  "z5u": {
+    "interfaceVar": "uX",
+    "interfaceName": "ICursorHooksService",
+    "implClassName": "CursorHooksService",
+    "instantiationType": 1
+  },
+  "Y5u": {
+    "interfaceVar": "V5u",
+    "interfaceName": "ICursorfsManagerService",
+    "implClassName": "CursorfsManagerService",
+    "instantiationType": 1
+  },
+  "pFw": {
+    "interfaceVar": "xcb",
+    "interfaceName": "IAgentSkillsService",
+    "implClassName": "AgentSkillsService",
+    "instantiationType": 1
+  },
+  "J9u": {
+    "interfaceVar": "g1b",
+    "interfaceName": "IPreferencesSearchService",
+    "implClassName": "PreferencesSearchService",
+    "instantiationType": 1
+  },
+  "X9u": {
+    "interfaceVar": "lIt",
+    "interfaceName": "IExperimentRefreshService",
+    "implClassName": "ExperimentRefreshService",
+    "instantiationType": 0
+  },
+  "l8u": {
+    "interfaceVar": "GA",
+    "interfaceName": "INotebookService",
+    "implClassName": "NotebookService",
+    "instantiationType": 1
+  },
+  "u8u": {
+    "interfaceVar": "TEt",
+    "interfaceName": "TEt",
+    "implClassName": null,
+    "instantiationType": 1
+  },
+  "b8u": {
+    "interfaceVar": "Bq",
+    "interfaceName": "INotebookModelResolverService",
+    "implClassName": "NotebookModelResolverService",
+    "instantiationType": 1
+  },
+  "e3w": {
+    "interfaceVar": "bNa",
+    "interfaceName": "INotebookCellStatusBarService",
+    "implClassName": "NotebookCellStatusBarService",
+    "instantiationType": 1
+  },
+  "d8u": {
+    "interfaceVar": "hO",
+    "interfaceName": "INotebookEditorWidgetService",
+    "implClassName": "NotebookEditorWidgetService",
+    "instantiationType": 1
+  },
+  "v8u": {
+    "interfaceVar": "BM",
+    "interfaceName": "INotebookKernelService",
+    "implClassName": "NotebookKernelService",
+    "instantiationType": 1
+  },
+  "yUu": {
+    "interfaceVar": "C7e",
+    "interfaceName": "INotebookKernelHistoryService",
+    "implClassName": "NotebookKernelHistoryService",
+    "instantiationType": 1
+  },
+  "bUu": {
+    "interfaceVar": "hki",
+    "interfaceName": "INotebookExecutionService",
+    "implClassName": "NotebookExecutionService",
+    "instantiationType": 1
+  },
+  "hUu": {
+    "interfaceVar": "hE",
+    "interfaceName": "INotebookExecutionStateService",
+    "implClassName": "NotebookExecutionStateService",
+    "instantiationType": 1
+  },
+  "A8u": {
+    "interfaceVar": "MTa",
+    "interfaceName": "INotebookRendererMessagingService",
+    "implClassName": "NotebookRendererMessagingService",
+    "instantiationType": 1
+  },
+  "AUu": {
+    "interfaceVar": "Z8w",
+    "interfaceName": "INotebookKeymapService",
+    "implClassName": "NotebookKeymapService",
+    "instantiationType": 1
+  },
+  "wUu": {
+    "interfaceVar": "dwe",
+    "interfaceName": "INotebookLoggingService",
+    "implClassName": "NotebookLoggingService",
+    "instantiationType": 1
+  },
+  "JTa": {
+    "interfaceVar": "HTa",
+    "interfaceName": "INotebookCellOutlineDataSourceFactory",
+    "implClassName": "NotebookCellOutlineDataSourceFactory",
+    "instantiationType": 1
+  },
+  "Rca": {
+    "interfaceVar": "hWl",
+    "interfaceName": "INotebookOutlineEntryFactory",
+    "implClassName": "NotebookOutlineEntryFactory",
+    "instantiationType": 1
+  },
+  "IUu": {
+    "interfaceVar": "xEe",
+    "interfaceName": "ISpeechService",
+    "implClassName": "SpeechService",
+    "instantiationType": 0
+  },
+  "yBi": {
+    "interfaceVar": "BC",
+    "interfaceName": "IChatService",
+    "implClassName": "ChatService",
+    "instantiationType": 1
+  },
+  "T5f": {
+    "interfaceVar": "F1",
+    "interfaceName": "IChatWidgetService",
+    "implClassName": "ChatWidgetService",
+    "instantiationType": 1
+  },
+  "Jva": {
+    "interfaceVar": "Lau",
+    "interfaceName": "IChatWidgetHistoryService",
+    "implClassName": "ChatWidgetHistoryService",
+    "instantiationType": 1
+  },
+  "wCa": {
+    "interfaceVar": "Dgn",
+    "interfaceName": "ILanguageModelsService",
+    "implClassName": "LanguageModelsService",
+    "instantiationType": 1
+  },
+  "Gva": {
+    "interfaceVar": "Fau",
+    "interfaceName": "ILanguageModelStatsService",
+    "implClassName": "LanguageModelStatsService",
+    "instantiationType": 1
+  },
+  "j0a": {
+    "interfaceVar": "h1t",
+    "interfaceName": "IChatSlashCommandService",
+    "implClassName": "ChatSlashCommandService",
+    "instantiationType": 1
+  },
+  "Lva": {
+    "interfaceVar": "TT",
+    "interfaceName": "IChatAgentService",
+    "implClassName": "ChatAgentService",
+    "instantiationType": 1
+  },
+  "Nva": {
+    "interfaceVar": "opn",
+    "interfaceName": "IChatAgentNameService",
+    "implClassName": "ChatAgentNameService",
+    "instantiationType": 1
+  },
+  "jUu": {
+    "interfaceVar": "VTb",
+    "interfaceName": "IVoiceChatService",
+    "implClassName": "VoiceChatService",
+    "instantiationType": 1
+  },
+  "yUw": {
+    "interfaceVar": "jva",
+    "interfaceName": "IChatCodeBlockContextProviderService",
+    "implClassName": "ChatCodeBlockContextProviderService",
+    "instantiationType": 1
+  },
+  "WNy": {
+    "interfaceVar": "JPa",
+    "interfaceName": "ICodeMapperService",
+    "implClassName": "CodeMapperService",
+    "instantiationType": 1
+  },
+  "g3f": {
+    "interfaceVar": "gEt",
+    "interfaceName": "IChatMarkdownAnchorService",
+    "implClassName": "ChatMarkdownAnchorService",
+    "instantiationType": 1
+  },
+  "fOf": {
+    "interfaceVar": "vCi",
+    "interfaceName": "ILanguageModelIgnoredFilesService",
+    "implClassName": "LanguageModelIgnoredFilesService",
+    "instantiationType": 1
+  },
+  "Bva": {
+    "interfaceVar": "eyi",
+    "interfaceName": "IChatEntitlementService",
+    "implClassName": "ChatEntitlementService",
+    "instantiationType": 1
+  },
+  "JUu": {
+    "interfaceVar": "wBi",
+    "interfaceName": "IPromptsService",
+    "implClassName": "PromptsService",
+    "instantiationType": 1
+  },
+  "PUu": {
+    "interfaceVar": "MTb",
+    "interfaceName": "IChatTransferService",
+    "implClassName": "ChatTransferService",
+    "instantiationType": 1
+  },
+  "P8u": {
+    "interfaceVar": "VEe",
+    "interfaceName": "IInlineChatSessionService",
+    "implClassName": "InlineChatSessionService",
+    "instantiationType": 1
+  },
+  "JMy": {
+    "interfaceVar": "Lst",
+    "interfaceName": "IInteractiveHistoryService",
+    "implClassName": "InteractiveHistoryService",
+    "instantiationType": 1
+  },
+  "HMy": {
+    "interfaceVar": "XTu",
+    "interfaceName": "IInteractiveDocumentService",
+    "implClassName": "InteractiveDocumentService",
+    "instantiationType": 1
+  },
+  "p7u": {
+    "interfaceVar": "hC",
+    "interfaceName": "ITestService",
+    "implClassName": "TestService",
+    "instantiationType": 1
+  },
+  "ZBu": {
+    "interfaceVar": "Wcb",
+    "interfaceName": "ITestResultStorage",
+    "implClassName": "TestResultStorage",
+    "instantiationType": 1
+  },
+  "GBu": {
+    "interfaceVar": "XF",
+    "interfaceName": "ITestProfileService",
+    "implClassName": "TestProfileService",
+    "instantiationType": 1
+  },
+  "Jqu": {
+    "interfaceVar": "lTe",
+    "interfaceName": "ITestingContinuousRunService",
+    "implClassName": "TestingContinuousRunService",
+    "instantiationType": 1
+  },
+  "XBu": {
+    "interfaceVar": "CO",
+    "interfaceName": "ITestResultService",
+    "implClassName": "TestResultService",
+    "instantiationType": 1
+  },
+  "xqu": {
+    "interfaceVar": "tat",
+    "interfaceName": "ITestingFilterState",
+    "implClassName": "TestingFilterState",
+    "instantiationType": 1
+  },
+  "c8a": {
+    "interfaceVar": "bFe",
+    "interfaceName": "ITestingPeekOpener",
+    "implClassName": "TestingPeekOpener",
+    "instantiationType": 1
+  },
+  "Uqu": {
+    "interfaceVar": "fqu",
+    "interfaceName": "ITestingDecorationService",
+    "implClassName": "TestingDecorationService",
+    "instantiationType": 1
+  },
+  "f7u": {
+    "interfaceVar": "jBi",
+    "interfaceName": "IDefaultLogLevelsService",
+    "implClassName": "DefaultLogLevelsService",
+    "instantiationType": 1
+  },
+  "w7u": {
+    "interfaceVar": "OBb",
+    "interfaceName": "IPlanBreadcrumbManager",
+    "implClassName": "PlanBreadcrumbManager",
+    "instantiationType": 1
+  },
+  "C7u": {
+    "interfaceVar": "GBb",
+    "interfaceName": "IMarkdownBreadcrumbManager",
+    "implClassName": "MarkdownBreadcrumbManager",
+    "instantiationType": 1
+  },
+  "lHu": {
+    "interfaceVar": "RC",
+    "interfaceName": "IExplorerService",
+    "implClassName": "ExplorerService",
+    "instantiationType": 1
+  },
+  "wHu": {
+    "interfaceVar": "eL",
+    "interfaceName": "IWorkspaceEditService",
+    "implClassName": "WorkspaceEditService",
+    "instantiationType": 1
+  },
+  "JHu": {
+    "interfaceVar": "KRb",
+    "interfaceName": "INotebookSearchService",
+    "implClassName": "NotebookSearchService",
+    "instantiationType": 1
+  },
+  "yJu": {
+    "interfaceVar": "LHu",
+    "interfaceName": "ISearchViewModelWorkbenchService",
+    "implClassName": "SearchViewModelWorkbenchService",
+    "instantiationType": 1
+  },
+  "u6a": {
+    "interfaceVar": "rJu",
+    "interfaceName": "ISearchHistoryService",
+    "implClassName": "SearchHistoryService",
+    "instantiationType": 1
+  },
+  "vGu": {
+    "interfaceVar": "aLb",
+    "interfaceName": "IBugbotAutoRunService",
+    "implClassName": "BugbotAutoRunService",
+    "instantiationType": 0
+  },
+  "FJu": {
+    "interfaceVar": "vN",
+    "interfaceName": "IScm",
+    "implClassName": "Scm",
+    "instantiationType": 1
+  },
+  "C6a": {
+    "interfaceVar": "r7",
+    "interfaceName": "IScmView",
+    "implClassName": "ScmView",
+    "instantiationType": 1
+  },
+  "sGu": {
+    "interfaceVar": "qbn",
+    "interfaceName": "IQuickDiff",
+    "implClassName": "QuickDiff",
+    "instantiationType": 1
+  },
+  "HTu": {
+    "interfaceVar": "Rst",
+    "interfaceName": "IQuickDiffModelService",
+    "implClassName": "QuickDiffModelService",
+    "instantiationType": 1
+  },
+  "tWu": {
+    "interfaceVar": "gh",
+    "interfaceName": "IDebugService",
+    "implClassName": "DebugService",
+    "instantiationType": 1
+  },
+  "UTu": {
+    "interfaceVar": "aLa",
+    "interfaceName": "IDebugVisualizerService",
+    "implClassName": "DebugVisualizerService",
+    "instantiationType": 1
+  },
+  "q8f": {
+    "interfaceVar": "Ubn",
+    "interfaceName": "IMultiDiffSourceResolverService",
+    "implClassName": "MultiDiffSourceResolverService",
+    "instantiationType": 1
+  },
+  "wxa": {
+    "interfaceVar": "sbn",
+    "interfaceName": "ITrustedDomainService",
+    "implClassName": "TrustedDomainService",
+    "instantiationType": 1
+  },
+  "ZTu": {
+    "interfaceVar": "Pst",
+    "interfaceName": "IWebviewEditorService",
+    "implClassName": "WebviewEditorService",
+    "instantiationType": 1
+  },
+  "wFy": {
+    "interfaceVar": "UDu",
+    "interfaceName": "IWebviewViewService",
+    "implClassName": "WebviewViewService",
+    "instantiationType": 1
+  },
+  "VWu": {
+    "interfaceVar": "lLa",
+    "interfaceName": "ICustomEditorService",
+    "implClassName": "CustomEditorService",
+    "instantiationType": 1
+  },
+  "PDu": {
+    "interfaceVar": "aNa",
+    "interfaceName": "IExternalUriOpenerService",
+    "implClassName": "ExternalUriOpenerService",
+    "instantiationType": 1
+  },
+  "HQu": {
+    "interfaceVar": "km",
+    "interfaceName": "IExtensionsWorkbenchService",
+    "implClassName": "ExtensionsWorkbenchService",
+    "instantiationType": 0
+  },
+  "JQu": {
+    "interfaceVar": "PUa",
+    "interfaceName": "IExtensionRecommendationNotificationService",
+    "implClassName": "ExtensionRecommendationNotificationService",
+    "instantiationType": 1
+  },
+  "OQu": {
+    "interfaceVar": "ZMe",
+    "interfaceName": "IExtensionRecommendationsService",
+    "implClassName": "ExtensionRecommendationsService",
+    "instantiationType": 0
+  },
+  "dju": {
+    "interfaceVar": "oS",
+    "interfaceName": "IOutputService",
+    "implClassName": "OutputService",
+    "instantiationType": 1
+  },
+  "jUa": {
+    "interfaceVar": "_Q",
+    "interfaceName": "ITerminalInstanceService",
+    "implClassName": "TerminalInstanceService",
+    "instantiationType": 1
+  },
+  "gju": {
+    "interfaceVar": "PU",
+    "interfaceName": "ITerminalLogService",
+    "implClassName": "TerminalLogService",
+    "instantiationType": 1
+  },
+  "yju": {
+    "interfaceVar": "Wq",
+    "interfaceName": "ITerminalConfigurationService",
+    "implClassName": "TerminalConfigurationService",
+    "instantiationType": 1
+  },
+  "RX": {
+    "interfaceVar": "Vb",
+    "interfaceName": "ITerminalService",
+    "implClassName": "TerminalService",
+    "instantiationType": 1
+  },
+  "Sju": {
+    "interfaceVar": "cMe",
+    "interfaceName": "ITerminalEditorService",
+    "implClassName": "TerminalEditorService",
+    "instantiationType": 1
+  },
+  "Eju": {
+    "interfaceVar": "SM",
+    "interfaceName": "ITerminalGroupService",
+    "implClassName": "TerminalGroupService",
+    "instantiationType": 1
+  },
+  "VUa": {
+    "interfaceVar": "Uie",
+    "interfaceName": "ITerminalProfileService",
+    "implClassName": "TerminalProfileService",
+    "instantiationType": 1
+  },
+  "FRi": {
+    "interfaceVar": "sEi",
+    "interfaceName": "IEnvironmentVariableService",
+    "implClassName": "EnvironmentVariableService",
+    "instantiationType": 1
+  },
+  "oYw": {
+    "interfaceVar": "sMb",
+    "interfaceName": "ITerminalContributionsService",
+    "implClassName": "TerminalContributionsService",
+    "instantiationType": 1
+  },
+  "cZw": {
+    "interfaceVar": "wDu",
+    "interfaceName": "ITerminalLinkProviderService",
+    "implClassName": "TerminalLinkProviderService",
+    "instantiationType": 1
+  },
+  "yzu": {
+    "interfaceVar": "_Du",
+    "interfaceName": "ITerminalQuickFixService",
+    "implClassName": "TerminalQuickFixService",
+    "instantiationType": 1
+  },
+  "SDu": {
+    "interfaceVar": "oNa",
+    "interfaceName": "ITerminalCompletionService",
+    "implClassName": "TerminalCompletionService",
+    "instantiationType": 1
+  },
+  "xVu": {
+    "interfaceVar": "nDt",
+    "interfaceName": "IWalkthroughsService",
+    "implClassName": "WalkthroughsService",
+    "instantiationType": 2
+  },
+  "ACa": {
+    "interfaceVar": "Vye",
+    "interfaceName": "ISnippetService",
+    "implClassName": "SnippetService",
+    "instantiationType": 1
+  },
+  "LKu": {
+    "interfaceVar": "P_u",
+    "interfaceName": "IAiDocsService",
+    "implClassName": "AiDocsService",
+    "instantiationType": 1
+  },
+  "NKu": {
+    "interfaceVar": "b_b",
+    "interfaceName": "IQuickInputService2",
+    "implClassName": "QuickInputService2",
+    "instantiationType": 0
+  },
+  "MKu": {
+    "interfaceVar": "vqa",
+    "interfaceName": "ISimpleChunkingService",
+    "implClassName": "SimpleChunkingService",
+    "instantiationType": 1
+  },
+  "VKu": {
+    "interfaceVar": "PEt",
+    "interfaceName": "IAiContextSessionService",
+    "implClassName": "AiContextSessionService",
+    "instantiationType": 1
+  },
+  "eZu": {
+    "interfaceVar": "XYu",
+    "interfaceName": "IWorkspaceIdentityService",
+    "implClassName": "WorkspaceIdentityService",
+    "instantiationType": 1
+  },
+  "VYu": {
+    "interfaceVar": "GYu",
+    "interfaceName": "IEditSessionsLogService",
+    "implClassName": "EditSessionsLogService",
+    "instantiationType": 1
+  },
+  "zYu": {
+    "interfaceVar": "lDt",
+    "interfaceName": "IEditSessionsStorageService",
+    "implClassName": "EditSessionsStorageService",
+    "instantiationType": 1
+  },
+  "lZu": {
+    "interfaceVar": "iyn",
+    "interfaceName": "iyn",
+    "implClassName": null,
+    "instantiationType": 1
+  },
+  "r3o": {
+    "interfaceVar": "wS",
+    "interfaceName": "IAccessibilitySignalService",
+    "implClassName": "AccessibilitySignalService",
+    "instantiationType": 1
+  },
+  "UZu": {
+    "interfaceVar": "L2",
+    "interfaceName": "IAccessibleViewService",
+    "implClassName": "AccessibleViewService",
+    "instantiationType": 1
+  },
+  "RMu": {
+    "interfaceVar": "BMu",
+    "interfaceName": "IAccessibleViewInformationService",
+    "implClassName": "AccessibleViewInformationService",
+    "instantiationType": 1
+  },
+  "HZu": {
+    "interfaceVar": "XNa",
+    "interfaceName": "IShareService",
+    "implClassName": "ShareService",
+    "instantiationType": 1
+  },
+  "F5u": {
+    "interfaceVar": "zce",
+    "interfaceName": "IUserDataSyncLogService",
+    "implClassName": "UserDataSyncLogService",
+    "instantiationType": 1
+  },
+  "O5u": {
+    "interfaceVar": "C2w",
+    "interfaceName": "IFileSyncService",
+    "implClassName": "FileSyncService",
+    "instantiationType": 1
+  },
+  "QZu": {
+    "interfaceVar": "wU",
+    "interfaceName": "IAllowedExtensionsService",
+    "implClassName": "AllowedExtensionsService",
+    "instantiationType": 1
+  },
+  "M5u": {
+    "interfaceVar": "Uwn",
+    "interfaceName": "IIgnoredExtensionsManagementService",
+    "implClassName": "IgnoredExtensionsManagementService",
+    "instantiationType": 1
+  },
+  "KIi": {
+    "interfaceVar": "HSt",
+    "interfaceName": "IGlobalExtensionEnablementService",
+    "implClassName": "GlobalExtensionEnablementService",
+    "instantiationType": 1
+  },
+  "oxi": {
+    "interfaceVar": "sxi",
+    "interfaceName": "IExtensionStorageService",
+    "implClassName": "ExtensionStorageService",
+    "instantiationType": 1
+  },
+  "Kkw": {
+    "interfaceVar": "ay",
+    "interfaceName": "IContextViewService",
+    "implClassName": "ContextViewService",
+    "instantiationType": 1
+  },
+  "Jpg": {
+    "interfaceVar": "Ph",
+    "interfaceName": "IListService",
+    "implClassName": "ListService",
+    "instantiationType": 1
+  },
+  "E5u": {
+    "interfaceVar": "c_",
+    "interfaceName": "IEditorWorkerService",
+    "implClassName": "EditorWorkerService",
+    "instantiationType": 0
+  },
+  "x5u": {
+    "interfaceVar": "qft",
+    "interfaceName": "IMarkerDecorationsService",
+    "implClassName": "MarkerDecorationsService",
+    "instantiationType": 1
+  },
+  "m2w": {
+    "interfaceVar": "fk",
+    "interfaceName": "IMarkerService",
+    "implClassName": "MarkerService",
+    "instantiationType": 1
+  },
+  "D5u": {
+    "interfaceVar": "Ci",
+    "interfaceName": "IContextKeyService",
+    "implClassName": "ContextKeyService",
+    "instantiationType": 1
+  },
+  "B5u": {
+    "interfaceVar": "hy",
+    "interfaceName": "ITextResourceConfigurationService",
+    "implClassName": "TextResourceConfigurationService",
+    "instantiationType": 1
+  },
+  "R5u": {
+    "interfaceVar": "KAn",
+    "interfaceName": "IDownloadService",
+    "implClassName": "DownloadService",
+    "instantiationType": 1
+  },
+  "N5u": {
+    "interfaceVar": "qa",
+    "interfaceName": "IOpenerService",
+    "implClassName": "OpenerService",
+    "instantiationType": 1
+  },
+  "FDi": {
+    "interfaceVar": "xu",
+    "interfaceName": "IReactiveStorageService",
+    "implClassName": "ReactiveStorageService",
+    "instantiationType": 1
+  },
+  "VZu": {
+    "interfaceVar": "RPi",
+    "interfaceName": "IClientLoggerService",
+    "implClassName": "ClientLoggerService",
+    "instantiationType": 1
+  },
+  "gXu": {
+    "interfaceVar": "zOb",
+    "interfaceName": "INativeShadowWorkspaceManager",
+    "implClassName": "NativeShadowWorkspaceManager",
+    "instantiationType": 1
+  },
+  "fXu": {
+    "interfaceVar": "VOb",
+    "interfaceName": "IOnFirstStartupService",
+    "implClassName": "OnFirstStartupService",
+    "instantiationType": 0
+  },
+  "J7a": {
+    "interfaceVar": "Dl",
+    "interfaceName": "IUriIdentityService",
+    "implClassName": "UriIdentityService",
+    "instantiationType": 1
+  },
+  "ac_": {
+    "interfaceVar": "b3b",
+    "interfaceName": "IPullRequestCacheService",
+    "implClassName": "PullRequestCacheService",
+    "instantiationType": 1
+  },
+  "Y7a": {
+    "interfaceVar": "up",
+    "interfaceName": "ILifecycleService",
+    "implClassName": "LifecycleService",
+    "instantiationType": 0
+  },
+  "Aed": {
+    "interfaceVar": "W0n",
+    "interfaceName": "IGlassDiffService",
+    "implClassName": "GlassDiffService",
+    "instantiationType": 1
+  },
+  "nd_": {
+    "interfaceVar": "_ed",
+    "interfaceName": "IGlassDiffVirtualizationService",
+    "implClassName": "GlassDiffVirtualizationService",
+    "instantiationType": 1
+  },
+  "ked": {
+    "interfaceVar": "Sed",
+    "interfaceName": "IGlassEditorService",
+    "implClassName": "GlassEditorService",
+    "instantiationType": 1
+  },
+  "Eed": {
+    "interfaceVar": "vHa",
+    "interfaceName": "IGlassFileTreeService",
+    "implClassName": "GlassFileTreeService",
+    "instantiationType": 1
+  },
+  "Ded": {
+    "interfaceVar": "R8",
+    "interfaceName": "IGlassTabPersistenceService",
+    "implClassName": "GlassTabPersistenceService",
+    "instantiationType": 1
+  },
+  "Qed": {
+    "interfaceVar": "Wed",
+    "interfaceName": "ICloudEnvironmentTemplateService",
+    "implClassName": "CloudEnvironmentTemplateService",
+    "instantiationType": 1
+  },
+  "Ked": {
+    "interfaceVar": "m6b",
+    "interfaceName": "IGlassPortForwardingGateService",
+    "implClassName": "GlassPortForwardingGateService",
+    "instantiationType": 1
+  },
+  "Yed": {
+    "interfaceVar": "p6b",
+    "interfaceName": "IGlassPortForwardingService",
+    "implClassName": "GlassPortForwardingService",
+    "instantiationType": 0
+  },
+  "cv_": {
+    "interfaceVar": "ltd",
+    "interfaceName": "ICloudAgentCacheService",
+    "implClassName": "CloudAgentCacheService",
+    "instantiationType": 1
+  },
+  "dtd": {
+    "interfaceVar": "Q6b",
+    "interfaceName": "IGlassKeybindingConsumerService",
+    "implClassName": "GlassKeybindingConsumerService",
+    "instantiationType": 0
+  },
+  "ptd": {
+    "interfaceVar": "V6b",
+    "interfaceName": "ICursorServerUrlWarmupService",
+    "implClassName": "CursorServerUrlWarmupService",
+    "instantiationType": 1
+  },
+  "ktd": {
+    "interfaceVar": "Wg",
+    "interfaceName": "ITextFileService",
+    "implClassName": "TextFileService",
+    "instantiationType": 0
+  },
+  "Ttd": {
+    "interfaceVar": "cy",
+    "interfaceName": "IFileDialogService",
+    "implClassName": "FileDialogService",
+    "instantiationType": 1
+  },
+  "Itd": {
+    "interfaceVar": "AM",
+    "interfaceName": "IWorkspacesService",
+    "implClassName": "WorkspacesService",
+    "instantiationType": 1
+  },
+  "Btd": {
+    "interfaceVar": "pce",
+    "interfaceName": "IUrlService",
+    "implClassName": "UrlService",
+    "instantiationType": 0
+  },
+  "zA_": {
+    "interfaceVar": "Kyn",
+    "interfaceName": "ITitleService",
+    "implClassName": "TitleService",
+    "instantiationType": 0
+  },
+  "ZHa": {
+    "interfaceVar": "kd",
+    "interfaceName": "IHostService",
+    "implClassName": "HostService",
+    "instantiationType": 1
+  },
+  "Qtd": {
+    "interfaceVar": "Qp",
+    "interfaceName": "INativeHostService",
+    "implClassName": "NativeHostService",
+    "instantiationType": 1
+  },
+  "jtd": {
+    "interfaceVar": "a8",
+    "interfaceName": "IRequestService",
+    "implClassName": "RequestService",
+    "instantiationType": 1
+  },
+  "ztd": {
+    "interfaceVar": "Km",
+    "interfaceName": "IClipboardService",
+    "implClassName": "ClipboardService",
+    "instantiationType": 1
+  },
+  "Ktd": {
+    "interfaceVar": "wc",
+    "interfaceName": "IContextMenuService",
+    "implClassName": "ContextMenuService",
+    "instantiationType": 1
+  },
+  "Xtd": {
+    "interfaceVar": "dX",
+    "interfaceName": "IWorkspaceEditingService",
+    "implClassName": "WorkspaceEditingService",
+    "instantiationType": 1
+  },
+  "cy_": {
+    "interfaceVar": "nJa",
+    "interfaceName": "IShellEnvironmentService",
+    "implClassName": "ShellEnvironmentService",
+    "instantiationType": 1
+  },
+  "end": {
+    "interfaceVar": "CQ",
+    "interfaceName": "IConfigurationResolverService",
+    "implClassName": "ConfigurationResolverService",
+    "instantiationType": 1
+  },
+  "nnd": {
+    "interfaceVar": "Ef",
+    "interfaceName": "IAccessibilityService",
+    "implClassName": "AccessibilityService",
+    "instantiationType": 1
+  },
+  "snd": {
+    "interfaceVar": "Xyb",
+    "interfaceName": "IKeyboardLayoutService",
+    "implClassName": "KeyboardLayoutService",
+    "instantiationType": 1
+  },
+  "ond": {
+    "interfaceVar": "Rp",
+    "interfaceName": "IPathService",
+    "implClassName": "PathService",
+    "instantiationType": 1
+  },
+  "and": {
+    "interfaceVar": "xFu",
+    "interfaceName": "IHostColorSchemeService",
+    "implClassName": "HostColorSchemeService",
+    "instantiationType": 1
+  },
+  "cnd": {
+    "interfaceVar": "vLi",
+    "interfaceName": "ITerminalExecutionServiceV3",
+    "implClassName": "TerminalExecutionServiceV3",
+    "instantiationType": 0
+  },
+  "und": {
+    "interfaceVar": "oJa",
+    "interfaceName": "ITerminalExecutionServiceV2",
+    "implClassName": "TerminalExecutionServiceV2",
+    "instantiationType": 0
+  },
+  "dnd": {
+    "interfaceVar": "Icb",
+    "interfaceName": "IShadowWorkspaceServerService",
+    "implClassName": "ShadowWorkspaceServerService",
+    "instantiationType": 1
+  },
+  "vnd": {
+    "interfaceVar": "c8",
+    "interfaceName": "c8",
+    "implClassName": null,
+    "instantiationType": 1
+  },
+  "wnd": {
+    "interfaceVar": "Zo",
+    "interfaceName": "ITelemetryService",
+    "implClassName": "TelemetryService",
+    "instantiationType": 1
+  },
+  "_nd": {
+    "interfaceVar": "LMe",
+    "interfaceName": "IExtensionResourceLoaderService",
+    "implClassName": "ExtensionResourceLoaderService",
+    "instantiationType": 1
+  },
+  "Cnd": {
+    "interfaceVar": "eEt",
+    "interfaceName": "ILocalizationService",
+    "implClassName": "LocalizationService",
+    "instantiationType": 1
+  },
+  "knd": {
+    "interfaceVar": "yLi",
+    "interfaceName": "IExtensionsScannerService",
+    "implClassName": "ExtensionsScannerService",
+    "instantiationType": 1
+  },
+  "Dnd": {
+    "interfaceVar": "oP",
+    "interfaceName": "IExtensionManagementServerService",
+    "implClassName": "ExtensionManagementServerService",
+    "instantiationType": 1
+  },
+  "Rnd": {
+    "interfaceVar": "Wme",
+    "interfaceName": "IExtensionGalleryManifestService",
+    "implClassName": "ExtensionGalleryManifestService",
+    "instantiationType": 0
+  },
+  "Lnd": {
+    "interfaceVar": "kfa",
+    "interfaceName": "IExtensionTipsService",
+    "implClassName": "ExtensionTipsService",
+    "instantiationType": 1
+  },
+  "Fnd": {
+    "interfaceVar": "t2e",
+    "interfaceName": "IUserDataAutoSyncService",
+    "implClassName": "UserDataAutoSyncService",
+    "instantiationType": 1
+  },
+  "Ond": {
+    "interfaceVar": "ust",
+    "interfaceName": "ITimerService",
+    "implClassName": "TimerService",
+    "instantiationType": 1
+  },
+  "Und": {
+    "interfaceVar": "uXu",
+    "interfaceName": "IIntegrityService",
+    "implClassName": "IntegrityService",
+    "instantiationType": 1
+  },
+  "Jnd": {
+    "interfaceVar": "D2",
+    "interfaceName": "ITunnelService",
+    "implClassName": "TunnelService",
+    "instantiationType": 1
+  },
+  "Gnd": {
+    "interfaceVar": "FUb",
+    "interfaceName": "IProcessSamplerService",
+    "implClassName": "ProcessSamplerService",
+    "instantiationType": 1
+  },
+  "jnd": {
+    "interfaceVar": "Vwn",
+    "interfaceName": "IElevatedFileService",
+    "implClassName": "ElevatedFileService",
+    "instantiationType": 1
+  },
+  "znd": {
+    "interfaceVar": "fQ",
+    "interfaceName": "ISearchService",
+    "implClassName": "SearchService",
+    "instantiationType": 1
+  },
+  "Znd": {
+    "interfaceVar": "mre",
+    "interfaceName": "IWorkingCopyHistoryService",
+    "implClassName": "WorkingCopyHistoryService",
+    "instantiationType": 1
+  },
+  "zy_": {
+    "interfaceVar": "TM",
+    "interfaceName": "IUserDataSyncEnablementService",
+    "implClassName": "UserDataSyncEnablementService",
+    "instantiationType": 1
+  },
+  "pid": {
+    "interfaceVar": "eu",
+    "interfaceName": "IExtensionService",
+    "implClassName": "ExtensionService",
+    "instantiationType": 0
+  },
+  "bid": {
+    "interfaceVar": "Pot",
+    "interfaceName": "IUserDataProfileStorageService",
+    "implClassName": "UserDataProfileStorageService",
+    "instantiationType": 1
+  },
+  "yid": {
+    "interfaceVar": "kTt",
+    "interfaceName": "IAuxiliaryWindowService",
+    "implClassName": "AuxiliaryWindowService",
+    "instantiationType": 1
+  },
+  "wid": {
+    "interfaceVar": "ALi",
+    "interfaceName": "IExtensionsProfileScannerService",
+    "implClassName": "ExtensionsProfileScannerService",
+    "instantiationType": 1
+  },
+  "_id": {
+    "interfaceVar": "A2e",
+    "interfaceName": "IAgentAnalyticsOperationsService",
+    "implClassName": "AgentAnalyticsOperationsService",
+    "instantiationType": 1
+  },
+  "kid": {
+    "interfaceVar": "uMe",
+    "interfaceName": "ICursorCommandsService",
+    "implClassName": "CursorCommandsService",
+    "instantiationType": 1
+  },
+  "Fid": {
+    "interfaceVar": "Y3u",
+    "interfaceName": "IOnboardingService",
+    "implClassName": "OnboardingService",
+    "instantiationType": 1
+  },
+  "Hid": {
+    "interfaceVar": "nx",
+    "interfaceName": "IBackgroundComposerService",
+    "implClassName": "BackgroundComposerService",
+    "instantiationType": 2
+  },
+  "Jid": {
+    "interfaceVar": "uSb",
+    "interfaceName": "IOnlineMetricsService",
+    "implClassName": "OnlineMetricsService",
+    "instantiationType": 1
+  },
+  "jid": {
+    "interfaceVar": "Qid",
+    "interfaceName": "ICppTypeService",
+    "implClassName": "CppTypeService",
+    "instantiationType": 1
+  },
+  "trd": {
+    "interfaceVar": "erd",
+    "interfaceName": "IAiAssertService",
+    "implClassName": "AiAssertService",
+    "instantiationType": 1
+  },
+  "ord": {
+    "interfaceVar": "dM",
+    "interfaceName": "ICppService",
+    "implClassName": "CppService",
+    "instantiationType": 2
+  },
+  "DC_": {
+    "interfaceVar": "iqb",
+    "interfaceName": "ICursorPredictionBadHeuristics",
+    "implClassName": "CursorPredictionBadHeuristics",
+    "instantiationType": 1
+  },
+  "lrd": {
+    "interfaceVar": "Cet",
+    "interfaceName": "ICursorPredictionService",
+    "implClassName": "CursorPredictionService",
+    "instantiationType": 1
+  },
+  "hrd": {
+    "interfaceVar": "Y0t",
+    "interfaceName": "IImportPredictionService",
+    "implClassName": "ImportPredictionService",
+    "instantiationType": 1
+  },
+  "grd": {
+    "interfaceVar": "Jne",
+    "interfaceName": "ITelemService",
+    "implClassName": "TelemService",
+    "instantiationType": 1
+  },
+  "frd": {
+    "interfaceVar": "yqb",
+    "interfaceName": "IQuickActionListenerService",
+    "implClassName": "QuickActionListenerService",
+    "instantiationType": 1
+  },
+  "brd": {
+    "interfaceVar": "Sqb",
+    "interfaceName": "ITelemStartupService",
+    "implClassName": "TelemStartupService",
+    "instantiationType": 1
+  },
+  "_rd": {
+    "interfaceVar": "Yqb",
+    "interfaceName": "IModelMigrationService",
+    "implClassName": "ModelMigrationService",
+    "instantiationType": 1
+  },
+  "Crd": {
+    "interfaceVar": "Zqb",
+    "interfaceName": "IVscodeProfileService",
+    "implClassName": "VscodeProfileService",
+    "instantiationType": 1
+  },
+  "xrd": {
+    "interfaceVar": "Erd",
+    "interfaceName": "IFeedbackService",
+    "implClassName": "FeedbackService",
+    "instantiationType": 1
+  },
+  "Jrd": {
+    "interfaceVar": "IDt",
+    "interfaceName": "IExtensionHostProfileService",
+    "implClassName": "ExtensionHostProfileService",
+    "instantiationType": 1
+  },
+  "GJa": {
+    "interfaceVar": "HJa",
+    "interfaceName": "ITroubleshootIssueService",
+    "implClassName": "TroubleshootIssueService",
+    "instantiationType": 1
+  },
+  "WJa": {
+    "interfaceVar": "YMe",
+    "interfaceName": "IWorkbenchIssueService",
+    "implClassName": "WorkbenchIssueService",
+    "instantiationType": 1
+  },
+  "rsd": {
+    "interfaceVar": "Hfn",
+    "interfaceName": "IIssueFormService",
+    "implClassName": "IssueFormService",
+    "instantiationType": 1
+  },
+  "osd": {
+    "interfaceVar": "pEa",
+    "interfaceName": "IWorkbenchProcessService",
+    "implClassName": "WorkbenchProcessService",
+    "instantiationType": 1
+  },
+  "asd": {
+    "interfaceVar": "Zou",
+    "interfaceName": "IExtensionMonitorWorkbenchService",
+    "implClassName": "ExtensionMonitorWorkbenchService",
+    "instantiationType": 1
+  },
+  "psd": {
+    "interfaceVar": "gsd",
+    "interfaceName": "ITerminalExecutionServiceV1",
+    "implClassName": "TerminalExecutionServiceV1",
+    "instantiationType": 0
+  },
+  "fsd": {
+    "interfaceVar": "Xnt",
+    "interfaceName": "ITerminalExecutionService",
+    "implClassName": "TerminalExecutionService",
+    "instantiationType": 0
+  },
+  "msd": {
+    "interfaceVar": "yX",
+    "interfaceName": "ITerminalProfileResolverService",
+    "implClassName": "TerminalProfileResolverService",
+    "instantiationType": 1
+  },
+  "ysd": {
+    "interfaceVar": "CYu",
+    "interfaceName": "IWorkspaceTagsService",
+    "implClassName": "WorkspaceTagsService",
+    "instantiationType": 1
+  },
+  "Csd": {
+    "interfaceVar": "I7b",
+    "interfaceName": "IProfileAnalysisWorkerService",
+    "implClassName": "ProfileAnalysisWorkerService",
+    "instantiationType": 1
+  },
+  "ksd": {
+    "interfaceVar": "M2e",
+    "interfaceName": "ITaskService",
+    "implClassName": "TaskService",
+    "instantiationType": 1
+  },
+  "lI_": {
+    "interfaceVar": "Jie",
+    "interfaceName": "IWebviewService",
+    "implClassName": "WebviewService",
+    "instantiationType": 1
+  },
+  "Lsd": {
+    "interfaceVar": "otd",
+    "interfaceName": "ISplashStorageService",
+    "implClassName": "SplashStorageService",
+    "instantiationType": 1
+  },
+  "Vsd": {
+    "interfaceVar": "ELi",
+    "interfaceName": "IContinuousProfilingService",
+    "implClassName": "ContinuousProfilingService",
+    "instantiationType": 1
+  },
+  "Xsd": {
+    "interfaceVar": "FI_",
+    "interfaceName": "ISmoothnessService",
+    "implClassName": "SmoothnessService",
+    "instantiationType": 1
+  }
+}

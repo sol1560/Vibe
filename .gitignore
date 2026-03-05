@@ -7,3 +7,9 @@ out/
 .vscode-test/
 src/vscode/
 staging/
+.fmt-tmp-*
+build/*.app
+build/*.app/
+build/workbench.desktop.main.js
+build/workbench.desktop.main.js.backup-v1
+src/ClaudeEditor-darwin-arm64/

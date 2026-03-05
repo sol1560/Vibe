@@ -1,0 +1,12 @@
+{
+  "totalFiles": 2763,
+  "modifiedFiles": 1092,
+  "skippedFiles": 1671,
+  "totalRenames": 7996,
+  "totalReplacements": 31174,
+  "byStrategy": {
+    "di": 706,
+    "constructor": 2923,
+    "classNames": 4367
+  }
+}
